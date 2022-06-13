@@ -1,0 +1,102 @@
+# --------------------
+# OSX Files
+# --------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# --------------------
+# IntelliJ Files
+# --------------------
+*.iml
+*.ipr
+*.iws
+.idea/
+*.angular
+
+# --------------------
+# Netbeans Files
+# --------------------
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# --------------------
+# Node Files
+# --------------------
+
+
+# --------------------
+# SASS Files
+# --------------------
+.sass-cache/
+
+# --------------------
+# Bower Files
+# --------------------
+.bower-*/
+bower_components
+
+# --------------------
+# App Files
+# --------------------
+
+
+.nodemonignore
+npm-debug.log
+
+yarn.lock
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+
+# dependencies
+/node_modules
+/bower_components
+
+# IDEs and editors
+/.idea
+/.vscode
+.project
+.classpath
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+yarn.loc
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+/.firebase/*

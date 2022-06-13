@@ -1,0 +1,37 @@
+{
+  "hosting": [
+    {
+        "target" : "hotel-dementia",
+        "public": "dist/hotel-dementia",
+        "ignore": [
+          "firebase.json",
+          "**/.*",
+          "**/node_modules/**"
+        ],
+        "rewrites": [
+          {
+            "source": "**",
+            "destination": "/index.html"
+          }
+        ]
+      
+    },
+    {
+      "target" : "hotel-dementia-test",
+      "public": "dist/hotel-dementia",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    
+  }
+
+  ]
+}
