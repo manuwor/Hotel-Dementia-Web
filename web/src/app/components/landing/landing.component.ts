@@ -19,10 +19,13 @@ export class LandingComponent implements OnInit {
   ngOnInit(): void {
     this.$gaService.pageView('/', 'Landing')
   }
-
+  clickMintNow(){
+    this.$gaService.event('click', 'Button', 'Litepaper');
+    window.open("https://mint.hoteldementia.io", "_blank");
+  }
   clickLitePaper(){
     this.$gaService.event('click', 'Button', 'Litepaper');
-    window.open("https://7d400753.flowpaper.com/litepaperV20/", "_blank");
+    window.open("https://bit.ly/HDM-LitePaperV2-0", "_blank");
   }
 
 

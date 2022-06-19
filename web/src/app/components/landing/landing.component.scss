@@ -476,6 +476,18 @@ app-landing {
                 font-size: 34px;
             }
         }
+        .text-live-now {
+            font-size: 68px;
+            font-weight: 700;
+            color: $red;
+            font-family: "Copper-Bold";
+            text-align: center;
+            text-shadow: 0px 0px 40px #e04b36;
+        
+            @include media-breakpoint-down(md){
+                font-size: 45px;
+            }
+        }
     }
 
     .section-6-control {
