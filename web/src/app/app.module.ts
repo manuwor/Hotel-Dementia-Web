@@ -80,6 +80,8 @@ import { CountdownModule } from 'ngx-countdown';
 import { CountDownTimerComponent } from './components/count-down-timer/count-down-timer.component';
 import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
+import { NovelComponent } from './components/novel/novel.component';
+import { StartNovelComponent } from './components/start-novel/start-novel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -154,6 +156,8 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon.compon
     LandingComponent,
     CountDownTimerComponent,
     ComingSoonComponent,
+    NovelComponent,
+    StartNovelComponent,
   ],
   imports: [
     BrowserModule,

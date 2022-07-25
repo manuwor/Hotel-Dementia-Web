@@ -1,0 +1,27 @@
+<div class="container-fluid container-div d-flex">
+
+    <div class="frame-control d-flex">
+        <img src="./assets/img/novel/start.jpg" class="img-frame"/>
+        <div class="d-flex flex-column element-control">
+            <div class="div-element-control">
+                <img src="./assets/img/novel/welcome.png" class="text-welcome-1"
+                [class.text-welcome-1-anim]="!isLanguage"   [class.text-welcome-1-anim-cont]="isLanguage"/>
+
+                <img src="./assets/img/novel/welcome-2.png" *ngIf="isWelcome2"  class="text-welcome-2"
+                [class.text-welcome-2-anim]="isWelcome2 && !isLanguage"   [class.text-welcome-2-anim-cont]="isWelcome2 && isLanguage"
+                />
+            </div>
+
+            <div class="language-control" *ngIf="isLanguage">
+                <img src="./assets/img/novel/language.png" class="lang-img">
+                <div class="button-lng-control">
+                    <img src="./assets/img/novel/th-button.png" class="button-img"/>
+                    <img src="./assets/img/novel/en-button.png" class="button-img"/>
+                </div>
+              
+            </div>
+
+        </div>
+        <div class="opacity-frame"></div>
+    </div>
+</div>

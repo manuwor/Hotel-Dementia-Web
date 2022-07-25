@@ -10,7 +10,6 @@
     "e2e": "ng e2e",
     "deploy:test": "ng build --prod && firebase use hotel-dementia && firebase target:clear hosting hotel-dementia-test && firebase target:apply hosting hotel-dementia-test hotel-dementia-test && firebase deploy --only hosting:hotel-dementia-test",
     "deploy:prod": "ng build --prod && firebase use hotel-dementia && firebase target:clear hosting hotel-dementia && firebase target:apply hosting hotel-dementia hotel-dementia && firebase deploy --only hosting:hotel-dementia"
-
   },
   "private": true,
   "dependencies": {
@@ -32,6 +31,7 @@
     "ngx-owl-carousel": "^2.0.7",
     "popper.js": "^1.16.1",
     "rxjs": "~6.5.4",
+    "source-map-support": "^0.5.21",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.4"
   },

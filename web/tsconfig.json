@@ -8,8 +8,10 @@
     "downlevelIteration": true,
     "experimentalDecorators": true,
     "module": "es2020",
+    "esModuleInterop": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "resolveJsonModule": true,
     "target": "es2015",
     "lib": [
       "es2018",

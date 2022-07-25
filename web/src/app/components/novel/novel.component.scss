@@ -1,0 +1,93 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+app-novel {
+    @include media-breakpoint-down(lg){
+        transform: rotate(90deg);
+        padding-bottom: 0px;
+       }
+
+    .container-div {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+           @include media-breakpoint-down(lg){
+            transform: rotate(90deg);
+            padding-bottom: 0px;
+           }
+    }
+    .frame-control {
+        position: relative;
+       
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-breakpoint-up(xl){
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include media-breakpoint-down(lg){
+            margin-right: auto;
+            margin-left: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 80vh;
+        }
+    }
+    .img-frame {
+       width: 100%;
+        height: auto;
+        object-fit: cover;
+
+        @include media-breakpoint-down(lg){
+            width: 100%;
+        }
+    }
+
+    .quote-speak {
+        position: absolute;
+        bottom: 0;
+        width: 80%;
+        left: 0;
+        padding: 24px;
+        right: 0;
+        margin-bottom: 30px;
+        min-height: 180px;
+        margin-left: auto;
+        margin-right: auto;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        @include media-breakpoint-down(lg){
+           margin-top: auto;
+           margin-bottom: auto;
+        }
+    }
+
+    .text-in-img {
+        color: white;
+        font-size: 16px;
+        margin-left: 24px;
+        font-family: "novel-regular-italic";
+        margin-bottom: 24px;
+        
+    }
+
+    .button-next {
+        position: absolute;
+        bottom: 0;
+        cursor: pointer;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        margin-right: 24px;
+        margin-bottom: 24px;
+       
+    }
+}

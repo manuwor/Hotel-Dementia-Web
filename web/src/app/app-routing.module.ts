@@ -32,9 +32,13 @@ import { TournamentsDetailsPageComponent } from './components/pages/tournaments-
 import { StreamSchedulePageComponent } from './components/pages/stream-schedule-page/stream-schedule-page.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
+import { NovelComponent } from './components/novel/novel.component';
+import { StartNovelComponent } from './components/start-novel/start-novel.component';
 
 const routes: Routes = [
     {path: '', component: LandingComponent},
+    {path: 'novel-ep-1', component: NovelComponent},
+    {path: 'novel', component: StartNovelComponent},
     {path: 'esports', component: EsportsHomeComponent},
     {path: 'bosting', component: BostingHomeComponent},
     {path: 'magazine', component: MagazineHomeComponent},
