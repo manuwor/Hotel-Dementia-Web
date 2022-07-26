@@ -18,7 +18,10 @@ export class NovelComponent implements OnInit {
   isClick = false;
   private readIndex = 0;
   currentBG = "";
+  isCharactor = false;
+  characterName = "";
   isChippy = false;
+  isNoSubtitle = false;
   private isStop = false;
   constructor() { }
 
@@ -41,6 +44,8 @@ export class NovelComponent implements OnInit {
       setTimeout(() => {
         this.isChippy = ep1JSON[0].desc[this.subtitleIndex].is_chippy;
         this.text = this.text + this.fullText[this.readIndex]
+        this.isCharactor = ep1JSON[0].desc[this.subtitleIndex].isCharactor;
+        this.characterName = ep1JSON[0].desc[this.subtitleIndex].charactor;
         this.readIndex += 1
         console.log(this.text);
         this.startEvent();
@@ -53,6 +58,10 @@ export class NovelComponent implements OnInit {
       this.readIndex = 0;
       this.isShowNext = true;
 
+      // setTimeout(() => {
+      //   this.nextClick();
+      // }, 500)
+      
     }
 
   }
@@ -64,6 +73,20 @@ export class NovelComponent implements OnInit {
       this.text = "";
       this.subtitleIndex += 1;
       this.fullText = ep1JSON[0].desc[this.subtitleIndex].subtitle
+      if (this.fullText.length === 0) {
+        this.isNoSubtitle = true;
+        setTimeout(() => {
+          console.log("Done");
+          this.lastindex += 1;
+          this.isStop = true;
+          this.readIndex = 0;
+          this.isShowNext = true;
+          this.nextClick();
+        }, 1000)
+      } else {
+        this.isNoSubtitle = false;
+        
+      }
       this.currentBG = ep1JSON[0].prefix_url + ep1JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
       this.startEvent();
     }

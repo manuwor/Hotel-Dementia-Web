@@ -74,13 +74,16 @@ app-novel {
         color: white;
         font-size: 16px;
         margin-left: 24px;
+        line-height: 1.5em;
         font-family: "novel-regular-italic";
         margin-bottom: 24px;
         
     }
 
     .text-in-yellow{
+        font-weight: bold !important;
         color: #F4BD50 !important;
+        margin-bottom: 12px !important;
     }
 
     .button-next {

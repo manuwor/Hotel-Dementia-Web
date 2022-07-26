@@ -4,11 +4,15 @@
         <img src={{currentBG}} class="img-frame"/>
 
 
-        <div class="quote-speak">
+        <div class="quote-speak" *ngIf="!isNoSubtitle">
             <h1 class="text-in-img text-in-yellow" *ngIf="isChippy" [class.text-in-yellow]="isChippy">
-                ชิปปี้
+                Chippy
+            </h1>
+            <h1 class="text-in-img text-in-yellow" *ngIf="isCharactor" [class.text-in-yellow]="isCharactor">
+                {{characterName}}
             </h1>
             <h1 class="text-in-img" innerHtml="{{text}}"></h1>
+            <h1 class="text-in-img">...</h1>
             <img src="./assets/img/novel/next-img.png" *ngIf="isShowNext" class="button-next" (click)="nextClick()">
         </div>
       
