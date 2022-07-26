@@ -1,0 +1,157 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+app-choose-ep {
+    .container-div {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        @include media-breakpoint-down(lg) {
+            transform: rotate(90deg);
+            padding-bottom: 0px;
+        }
+    }
+    .frame-control {
+        position: relative;
+
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include media-breakpoint-up(xl) {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @include media-breakpoint-down(lg) {
+            margin-right: auto;
+            margin-left: 0;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 80vh;
+        }
+    }
+
+    .opacity-frame {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: #00000060;
+    }
+    .img-frame {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+        @include media-breakpoint-down(lg) {
+            width: 100%;
+        }
+    }
+    .element-control {
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .ep-text{
+        width: auto;
+        height: 30px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+  
+    .ep-control{
+        text-align: center;
+        left:0;
+        right:0;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .ep-grid-control{
+            left:0;
+            right:0;
+            margin-bottom: auto;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            height: 100px;
+            grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+        }
+        
+
+        .ep-img{
+            width: 108px;
+            height: 108px;
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: contain;
+        }
+
+        .ep-empty{
+            width: 108px;
+            height: 108px;
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: contain;
+        }
+
+        
+        .ep-empty-2{
+            width: 79px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            height: 9px;
+            object-fit: contain;
+        }
+
+       
+        .connect-2-control{
+            width: 100%;
+        }
+
+        .connect-2-border{
+            width: 108px;
+            height: 108px;
+            margin-left: auto;
+        }
+
+        .connect-img{
+            width: 79px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            height: 9px;
+            object-fit: contain;
+        }
+        .connect-img-2{
+            width: 9px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            height: 79px;
+            object-fit: contain;
+        }
+
+}

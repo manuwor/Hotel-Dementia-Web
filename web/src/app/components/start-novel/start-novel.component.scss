@@ -17,7 +17,6 @@ app-start-novel {
         }
     }
     .frame-control {
-       
         position: relative;
 
         width: 100%;
@@ -38,7 +37,7 @@ app-start-novel {
         }
     }
 
-    .opacity-frame{
+    .opacity-frame {
         position: absolute;
         width: 100%;
         height: 100%;
@@ -80,13 +79,12 @@ app-start-novel {
         animation: welcome_1 3s;
     }
 
-    .text-welcome-1-anim{
+    .text-welcome-1-anim {
         animation: welcome_1 3s;
     }
 
-    .text-welcome-1-anim-cont{
+    .text-welcome-1-anim-cont {
         animation: welcome_1_fade_out 1s forwards;
-        
     }
     .text-welcome-2 {
         position: absolute;
@@ -98,17 +96,15 @@ app-start-novel {
         object-fit: contain;
         height: 200px;
         bottom: 40%;
-
-       
     }
-    .text-welcome-2-anim{
+    .text-welcome-2-anim {
         animation: welcome_2 4s forwards;
     }
 
-    .text-welcome-2-anim-cont{
+    .text-welcome-2-anim-cont {
         animation: welcome_2_cont 4s forwards;
     }
-    .language-control{
+    .language-control {
         position: absolute;
         margin-top: auto;
         margin-bottom: auto;
@@ -117,19 +113,19 @@ app-start-novel {
         display: flex;
         flex-direction: column;
         animation: language_anim 4s forwards;
-        .lang-img{
+        .lang-img {
             width: auto;
             height: 20px;
             margin-bottom: 40px;
             object-fit: contain;
         }
-        .button-lng-control{
+        .button-lng-control {
             display: flex;
             margin-left: auto;
             margin-right: auto;
         }
 
-        .button-img{
+        .button-img {
             margin-left: 8px;
             margin-right: 8px;
             width: auto;
@@ -138,8 +134,31 @@ app-start-novel {
         }
     }
 
+    .language-control-out{
+        animation: language_anim_out 2s forwards;
+    }
+
+    .start-control {
+        position: absolute;
+        margin-top: auto;
+        margin-bottom: auto;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        animation: language_anim 4s forwards;
+
+        .start-img{
+            width: auto;
+            height: 60px;
+            object-fit: contain;
+        }
+
+    }
+
     @keyframes welcome_1 {
-        0% {  opacity: 0;
+        0% {
+            opacity: 0;
             transform: translateY(100px);
             -webkit-transform: translateY(100px);
             -o-transform: translateY(100px);
@@ -154,8 +173,8 @@ app-start-novel {
     }
 
     @keyframes welcome_1_fade_out {
-        0% {  opacity: 1;
-           
+        0% {
+            opacity: 1;
         }
 
         100% {
@@ -189,12 +208,25 @@ app-start-novel {
     }
 
     @keyframes language_anim {
-        0% {  opacity: 0;
+        0% {
+            opacity: 0;
             bottom: 10%;
         }
 
         100% {
             opacity: 1;
+            bottom: 35%;
+        }
+    }
+
+    @keyframes language_anim_out {
+        0% {
+            opacity: 1;
+            bottom: 35%;
+        }
+
+        100% {
+            opacity: 0;
             bottom: 35%;
         }
     }

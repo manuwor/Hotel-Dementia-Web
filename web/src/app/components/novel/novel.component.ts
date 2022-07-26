@@ -15,8 +15,10 @@ export class NovelComponent implements OnInit {
   isShowNext = false;
   private lastindex = 0;
   fullText = "";
+  isClick = false;
   private readIndex = 0;
   currentBG = "";
+  isChippy = false;
   private isStop = false;
   constructor() { }
 
@@ -37,12 +39,12 @@ export class NovelComponent implements OnInit {
 
     if (this.readIndex < this.fullText.length) {
       setTimeout(() => {
-
+        this.isChippy = ep1JSON[0].desc[this.subtitleIndex].is_chippy;
         this.text = this.text + this.fullText[this.readIndex]
         this.readIndex += 1
         console.log(this.text);
         this.startEvent();
-      }, 40)
+      }, 20)
     }
     if (this.readIndex == this.fullText.length) {
       console.log("Done");
@@ -56,13 +58,16 @@ export class NovelComponent implements OnInit {
   }
 
   nextClick() {
-    this.isShowNext = false;
-    this.isStop = false;
-    this.text = "";
-    this.subtitleIndex += 1;
-    this.fullText = ep1JSON[0].desc[this.subtitleIndex].subtitle
-    this.currentBG = ep1JSON[0].prefix_url + ep1JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
-    this.startEvent();
+    if (this.isShowNext) {
+      this.isShowNext = false;
+      this.isStop = false;
+      this.text = "";
+      this.subtitleIndex += 1;
+      this.fullText = ep1JSON[0].desc[this.subtitleIndex].subtitle
+      this.currentBG = ep1JSON[0].prefix_url + ep1JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
+      this.startEvent();
+    }
+
   }
 
 }

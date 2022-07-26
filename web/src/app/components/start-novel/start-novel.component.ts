@@ -10,6 +10,7 @@ export class StartNovelComponent implements OnInit {
 
   isWelcome2 = false;
   isLanguage = false;
+  isSelectLang = false;
   constructor() { }
 
   ngOnInit(): void {
@@ -32,6 +33,11 @@ export class StartNovelComponent implements OnInit {
         console.log("Language Active")
       })
     })
+  }
+
+  clickLang(){
+    this.isSelectLang = true
+
   }
 
 }

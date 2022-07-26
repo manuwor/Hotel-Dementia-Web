@@ -12,13 +12,17 @@
                 />
             </div>
 
-            <div class="language-control" *ngIf="isLanguage">
+            <div class="language-control" [class.language-control-out]="isSelectLang" *ngIf="isLanguage">
                 <img src="./assets/img/novel/language.png" class="lang-img">
                 <div class="button-lng-control">
-                    <img src="./assets/img/novel/th-button.png" class="button-img"/>
-                    <img src="./assets/img/novel/en-button.png" class="button-img"/>
+                    <img src="./assets/img/novel/th-button.png" class="button-img" (click)="clickLang()"/>
+                    <img src="./assets/img/novel/en-button.png" class="button-img" (click)="clickLang()"/>
                 </div>
-              
+            </div>
+
+            <div class="start-control" *ngIf="isSelectLang">
+                <img src="./assets/img/novel/start-button.png" class="start-img">
+
             </div>
 
         </div>

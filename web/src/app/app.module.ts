@@ -82,6 +82,7 @@ import { NgxGoogleAnalyticsModule } from 'ngx-google-analytics';
 import { ComingSoonComponent } from './components/coming-soon/coming-soon.component';
 import { NovelComponent } from './components/novel/novel.component';
 import { StartNovelComponent } from './components/start-novel/start-novel.component';
+import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -158,6 +159,7 @@ import { StartNovelComponent } from './components/start-novel/start-novel.compon
     ComingSoonComponent,
     NovelComponent,
     StartNovelComponent,
+    ChooseEpComponent,
   ],
   imports: [
     BrowserModule,

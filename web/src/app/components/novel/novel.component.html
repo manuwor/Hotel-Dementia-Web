@@ -5,8 +5,11 @@
 
 
         <div class="quote-speak">
+            <h1 class="text-in-img text-in-yellow" *ngIf="isChippy" [class.text-in-yellow]="isChippy">
+                ชิปปี้
+            </h1>
             <h1 class="text-in-img" innerHtml="{{text}}"></h1>
-            <img src="./assets/img/novel/next-img.png" class="button-next" (click)="nextClick()">
+            <img src="./assets/img/novel/next-img.png" *ngIf="isShowNext" class="button-next" (click)="nextClick()">
         </div>
       
 
