@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-start-novel',
@@ -11,7 +12,7 @@ export class StartNovelComponent implements OnInit {
   isWelcome2 = false;
   isLanguage = false;
   isSelectLang = false;
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     this.showAnimation1();
@@ -37,6 +38,11 @@ export class StartNovelComponent implements OnInit {
 
   clickLang(){
     this.isSelectLang = true
+
+  }
+
+  clickStart(){
+    this.router.navigate(["choose-ep"])
 
   }
 
