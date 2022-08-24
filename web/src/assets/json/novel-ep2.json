@@ -1,0 +1,212 @@
+[
+    {
+        "episode": "2",
+        "title": "ถ้า",
+        "prefix_url" : "./assets/img/novel/ep2/",
+        "desc": [
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            },
+            {
+                "subtitle": "เด็กหนุ่มข้างหน้าอายุน่าจะรุ่นราวคราวเดียวกับเธอ ผมสีเงินกระเจิงไปคนละทิศทาง <br> ผิวซีดประกอบกับดวงตาสีอำพันขึงขัง เขาดูเหมือนสัตว์แปลกที่พร้อมกัดถ้าเข้าใกล้ ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ รบกวนเดินตามมาใกล้ ๆ ครับ”",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor" : true,
+                "charactor" : "Bellboy",
+                "is_next" : false
+            }
+            ,
+            {
+                "subtitle": "เขาดุเมื่อชิปปี้เดินช้าลง เธออดที่จะหยุดมองของประดับของโรงแรมไม่ได้",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "ที่นี่ตกแต่งด้วยผนังบุกำมะหยี่สีแดงเข้มและกระเบื้องด้านสีเขียวน้ำทะเล <br> โคมไฟ ตู้โต๊ะ ถูกดีไซน์อย่างแปลกประหลาดคล้ายสัตว์ใต้ทะเล <br> หน้าตาที่เปิดโล่งอย่างอล่างฉ่างหอบไอทะเลเปียกชื้นเข้ามา",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "เห็นวิวทะเลหนาวเหน็บสุดลูกหูลูกตา <br> คลื่นแรงซัดหน้าผาที่โรงแรมตั้งอยู่เสียงดัง ครืน ครืน พื้นพรมแฉะชื้น",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "ชิปปี้ยังแปลกใจที่เปลวเทียนประดับข้างฝายังสามารถสู้ลม ให้แสงสว่างโดยไม่ดับได้",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "ฟ้ามีสีแดงริ้วรำไร เธอไม่ได้นอนทั้งคืนหรือ ?",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ ที่นี่ที่ไหนเหรอ ? ” ",
+                "is_chippy": true,
+                "bg_url": "7",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : false
+            }
+            ,
+            {
+                "subtitle": "“ โรงแรมหลงลืม ”",
+                "is_chippy": false,
+                "bg_url": "7-1",
+                "isCharactor" : true,
+                "charactor" : "BellBoy",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ ไม่ใช่ ฉันหมายถึง ฉันขับรถอยู่ในป่า แล้วจู่ ๆ ก็มาโผล่ริมทะเล ”",
+                "is_chippy": true,
+                "bg_url": "7",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ โรงแรมหลงลืมตั้งอยู่นอกเหนือสถานที่แหละกาลเวลา ”",
+                "is_chippy": false,
+                "bg_url": "7-1",
+                "isCharactor" : true,
+                "charactor" : "BellBoy",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "พูดถึงเวลา ชิปปี้หงายข้อมือดูนาฬิกา",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": " นาฬิกาชี้ที่ตี 2 57 นาที ",
+                "is_chippy": false,
+                "bg_url": "9",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : false
+            }
+            ,
+            {
+                "subtitle": " มันตาย ไม่รู้ว่าตายเมื่อไหร่ คงประมาณช่วงที่เธอเจอโรงแรม <br>หรือเธออาจจะตายไปแล้วก็ได้ โลกหลังความตายซับซ้อนกว่าที่คิด",
+                "is_chippy": false,
+                "bg_url": "9",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "กริ๊ก เอี๊ยด เสียงเบลล์บอยไขกุญแจเปิดประตูห้องนอน",
+                "is_chippy": false,
+                "bg_url": "10",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : false
+            }
+            ,
+            {
+                "subtitle": " เขาวางกระเป๋าทั้งหมดของเธอลงบนพื้นอย่างนุ่มนวลกว่าที่คิด <br>เมื่อเทียบกับท่าทีไร้เยื่อใย",
+                "is_chippy": false,
+                "bg_url": "10",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ ถ้าคุณแขกมีคำถามก็ถามพนักงานต้อนรับได้ ”",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor" : true,
+                "charactor" : "Bellboy",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ โอเคแล้วพรุ่งนี้.. ”",
+                "is_chippy": true,
+                "bg_url": "11-1",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "“ ที่นี่ไม่มีกลางวัน หิวเมื่อไหร่ก็ลงไปห้องรับประทานอาหารได้ครับ <br>ราตรีและอรุณสวัสดิ์ ขอให้ท่านลืมเรื่องร้ายในเร็ววัน ”",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor" : true,
+                "charactor" : "Bellboy",
+                "is_next" : true
+            },
+            {
+                "subtitle": "เขาปิดประตู แน่นอนว่าปิดได้นุ่มและเงียบกว่าที่คิดเช่นกัน<br> เมื่อเทียบกับคำพูดและท่าทีที่เย็นชา แต่นี่ไม่ใช่เวลาที่ชิปปี้จะเรื่องมากกับมารยาทพนักงาน",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            } ,
+            {
+                "subtitle": " เธอมองไปรอบตัว ห้องนอนขนาดใหญ่",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+        ]
+    }
+]

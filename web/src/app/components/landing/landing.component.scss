@@ -14,15 +14,17 @@ app-landing {
 
     .section-2-control {
         position: relative;
-
         @include media-breakpoint-down(md){
             padding-bottom: 100px;
         }
 
         .bg-img {
+            margin-top: 16px;
+            margin-bottom: 16px;
             background-color: black;
             position: absolute;
             width: 100%;
+            opacity: 0.6;
             height: 100%;
             object-fit: cover;
 
@@ -35,22 +37,24 @@ app-landing {
         .text-control {
             z-index: 1;
             margin-top: 150px;
+            margin-bottom: 150px;
         }
 
         .text-white-invite {
             font-family: "Copper-Bold";
-            font-size: 40px;
+            font-size: 80px;
             font-weight: 700;
             color: white;
             text-align: center;
-            text-shadow: 0px 0px 20px #ffffff;
 
             @include media-breakpoint-down(md) {
                 font-size: 32px;
             }
         }
         .text-white-invite-1 {
-            font-size: 45px !important;
+            text-align: center;
+            margin-top: 149px;
+            font-size: 40px !important;
 
             @include media-breakpoint-down(md) {
                 font-size: 33px;
@@ -81,15 +85,21 @@ app-landing {
     }
 
     .section-3-control {
-        .bg-img {
-            width: 100%;
+        background-color: black;
+        box-shadow: 10px 10px 10px black;
+        .section-3-img{
+            width: 80%;
             height: auto;
+            margin-left: auto;
+            margin-right: auto;
             object-fit: contain;
         }
     }
 
     .section-4-control {
-        background-color: $red;
+       background: url(/assets/img/landing/section-4-bg.png);
+       background-repeat: no-repeat;
+       background-size: cover;
         padding-top: 112px;
         padding-bottom: 112px;
 
@@ -191,9 +201,9 @@ app-landing {
     }
 
     .section-5-control {
-        padding-top: 500px;
-        background-image: url(../../../assets/img/landing/section-5-bg.jpg);
-        background-position: top center;
+        padding-top: 200px;
+        background-image: url(../../../assets/img/landing/section-5-bg.png);
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         @include media-breakpoint-down(lg){
@@ -241,8 +251,12 @@ app-landing {
             }
         }
 
+        .carousel-control{
+            margin-top: 150px;
+            margin-bottom: 100px;
+        }
+
         .tribe-control {
-            margin-top: 86px;
 
             .tribe-img{
                 width: 100%;
@@ -253,7 +267,9 @@ app-landing {
 
 
             .tribe-1-control {
-                width: 360px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80% !important;
 
                 @include media-breakpoint-down(lg) {
                     margin-left: auto;
@@ -304,12 +320,13 @@ app-landing {
                 }
             }
             .tribe-text {
+                margin-top: 60px;
                 font-family: "Copper-Bold";
                 font-size: 34px;
                 font-weight: 700;
                 color: white;
                 text-align: center;
-                text-shadow: 0px 0px 20px #ffffff;
+                text-shadow: 0px 0px 10px #ffffff;
 
                 @include media-breakpoint-down(md) {
                     font-size: 32px;
@@ -321,23 +338,12 @@ app-landing {
                 width: auto;
                 display: grid;
                 grid-template-columns: 33% 33% 33%;
-
-               
-
                 .tribe-img {
-                    width: 120px;
-                    height: 120px;
+                    width: 100%;
+                    height: auto;
                     object-fit: contain;
 
-                    @include media-breakpoint-down(lg){
-                        width: 300px;
-                        height: auto;
-                    }
-
-                    @include media-breakpoint-down(md){
-                        width: 120px;
-                    height: 120px;
-                    }
+                   
                 }
             }
         }
@@ -392,12 +398,14 @@ app-landing {
             .text-control {
                 display: flex;
                 flex-direction: column;
+                margin-top: 21px;
+                margin-bottom: 21px;
                 .text-header {
                     text-align: center;
                     font-size: 18px;
                     font-family: "Lora-Italic";
                     color: white;
-                    margin-top: 21px;
+                    
                 }
 
                 .text-red {
@@ -492,9 +500,29 @@ app-landing {
     }
 
     .section-6-control {
-        .roadmap-img {
-            width: 100%;
-            height: auto;
+        height: 761px;
+        background-image: url(../../../assets/img/landing/section-6-bg-img.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .text-white-invite {
+            font-family: "Copper-Bold";
+            font-size: 80px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 32px;
+            }
+        }
+        .button-partner{
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            height: 90px;
             object-fit: contain;
         }
     }
@@ -599,29 +627,42 @@ app-landing {
     }
 
     .section-9-control {
-        background: url(../../../assets/img/landing/section-9-bg.jpg);
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
+        background-color: black;
+
+        .text-white{
+            font-family: "Copper-Bold";
+            font-size: 50px;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 32px;
+            }
+        }
 
         .lite-paper-button {
             cursor: pointer;
             width: 353px;
             height: 109px;
             object-fit: contain;
-            margin-top: 117px;
+            margin-top: 40px;
 
          
+        }
+
+        .grid-bottom{
+            display: grid;
+            grid-template-columns: 50% 50%;
         }
 
         .text-our-marketplace {
             margin-top: 104px;
             font-size: 40px;
             font-weight: 700;
-            color: $red;
+            color: white;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 20px #ff1f00;
 
             @include media-breakpoint-down(md){
                 font-size: 32px;

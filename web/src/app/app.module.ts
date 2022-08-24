@@ -83,6 +83,8 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon.compon
 import { NovelComponent } from './components/novel/novel.component';
 import { StartNovelComponent } from './components/start-novel/start-novel.component';
 import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -160,8 +162,10 @@ import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
     NovelComponent,
     StartNovelComponent,
     ChooseEpComponent,
+    HeaderComponent,
   ],
   imports: [
+    FontAwesomeModule,
     BrowserModule,
     AppRoutingModule,
     VgCoreModule,

@@ -1,0 +1,75 @@
+<div class="container-fluid bg-header" style=" overflow: hidden !important; position: absolute;">
+    <div class="d-flex justify-content-center height-nav-bar" [class.bg-active-menu]="navbarOpen">
+      <nav class="navbar navbar-expand-lg navbar-light w-100 justify-content-between menu-height-control">
+  
+        <div class="navbar-brand d-flex direction-mobile">
+          <div class="" (click)="onClickLogo()">
+            <img src="./assets/img/landing/logo.png" routerLink="/" alt=""
+              class="logo-control h-auto" loading="lazy">
+          </div>
+  
+        </div>
+        <button class="navbar-toggler d-lg-none d-block" style="border: none;" type="button" (click)="toggleNavbar()"
+          role="button" aria-hidden="true">
+          <i class="fa fa-bars fa-lg fa-inverse" style="color: white; font-size: 25px;" aria-hidden="true"></i>
+        </button>
+        <div
+          class="navbar-collapse align-items-center justify-content-end text-right collapse menu-height-collpase-control d-lg-flex d-none"
+          [ngClass]="{ 'show': navbarOpen }">
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>Home</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>Visual Novel</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>OUR PARTNER</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>OUR GUEST</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>ABOUT US</span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  <div class="container-fluid menu-side-control d-flex d-lg-none flex-column" *ngIf="navbarOpen"
+    style="padding-left: 0px; padding-right: 0px;">
+  
+    <div class="menu-open-control ml-auto h-100">
+      <div class="menu-open-header-control d-flex">
+        <img src="/assets/img/landing/logo.png" 
+          class="logo-control h-auto my-auto" loading="lazy">
+        <button class="navbar-toggler d-lg-none d-block " style="border: none; margin-left: auto;" type="button" (click)="toggleNavbar()"
+          role="button" aria-hidden="true">
+          <i class="fa fa-times fa-lg fa-inverse" style="color: white; font-size: 25px;" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="d-flex flex-column menu-mobile-control">
+        <div class="button-list-control-dropdown">
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>Home</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>Visual Novel</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>OUR PARTNER</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>OUR GUEST</span>
+          </button>
+          <button mat-button class="btn menu-control-padding menu-text" routerLink="/" (click)="onClickHome()">
+            <span>ABOUT US</span>
+          </button>
+        </div>
+       
+  
+      </div>
+    </div>
+  
+  </div>
+  

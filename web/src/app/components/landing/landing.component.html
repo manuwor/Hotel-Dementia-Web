@@ -1,31 +1,32 @@
 <div class="d-flex flex-column">
-
+    <app-header></app-header>
     <img src="./assets/img/landing/section-1-img.jpg" class="d-none d-md-block section-1-img" />
     <img src="./assets/img/landing/section-1-img-mobile.jpeg" class="d-block d-md-none section-1-img" />
     <div class="section-2-control d-flex flex-column">
 
-        <img src="./assets/img/landing/section-2-img.png" class="d-none d-md-block bg-img" />
-        <img src="./assets/img/landing/section-2-img-mobile.png" class="d-block d-md-none bg-img" />
+        <img src="./assets/img/landing/section-2-bg.png" class="d-none d-md-block bg-img" />
+        <img src="./assets/img/landing/section-2-bg.png" class="d-block d-md-none bg-img" />
         <div class="container text-control d-flex flex-column">
-            <span class="text-white-invite"><span class="text-white-invite-1">T</span>he <span class="text-white-invite-1">I</span>nvitation</span>
-            <span class="text-red-invite">NOW LIVE</span>
-
-            <div class="border-video">
+            <span class="text-white-invite">Are you going <br> through a difficult<br> time right now?</span>
+            <span class="text-white-invite-1">Please sit down and relax.</span>
+            <!-- <div class="border-video">
                 <vg-player>
 
                     <video [vgMedia]="media" #media id="singleVideo" preload="auto" controls>
                         <source src="./assets/img/hotelvideo.mp4" type="video/mp4">
                     </video>
                 </vg-player>
-            </div>
+            </div> -->
         </div>
 
     </div>
 
     <div class="section-3-control d-flex flex-column">
+        <div class="container">
+            <img src="./assets/img/landing/img-sec-3.png" class="d-none d-md-block section-3-img" />
+            <img src="./assets/img/landing/img-sec-3.png" class="d-block d-md-none section-3-img" />
+        </div>
 
-        <img src="./assets/img/landing/section-3-bg.png" class="d-none d-md-block bg-img" />
-        <img src="./assets/img/landing/section-3-bg-mobile.png" class="d-block d-md-none bg-img" />
     </div>
 
     <div class="section-4-control">
@@ -76,144 +77,106 @@
             <span class="text-white"> 5 TRIBES</span>
             <span class="text-white-desc">Determined by how the character act when they are faced with problems</span>
 
-            <div class="tribe-control">
+            <div id="carouselExampleControls" class="carousel slide carousel-control" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                <img src="./assets/img/landing/tribe-img.png" class="d-none d-md-block tribe-img mx-auto">
-
-                <div class="d-flex d-md-none flex-column tribe-1-control">
-                    <span class="tribe-text">HUMAN</span>
-                    <div class="tribe-grid">
-                        <img src="./assets/img/landing/human-1.png" class="tribe-img">
-                        <img src="./assets/img/landing/human-2.png" class="tribe-img">
-                        <img src="./assets/img/landing/human-3.png" class="tribe-img">
-
-                    </div>
-                </div>
-
-                <div class="d-flex d-md-none flex-column tribe-2-control">
-                    <span class="tribe-text">GHOST</span>
-                    <div class="tribe-grid">
-                        <img src="./assets/img/landing/ghost-1.png" class="tribe-img">
-                        <img src="./assets/img/landing/ghost-2.png" class="tribe-img">
-                        <img src="./assets/img/landing/ghost-3.png" class="tribe-img">
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/human-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/human-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/human-3.png" class="tribe-img">
+                            </div>
+                            <span class="tribe-text">HUMAN</span>
+                        </div>
+                        </div>
 
                     </div>
-                </div>
+                    <div class="carousel-item">
+                        <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                <div class="d-flex d-md-none flex-column tribe-3-control">
-                    <span class="tribe-text">APE</span>
-                    <div class="tribe-grid">
-                        <img src="./assets/img/landing/ape-1.png" class="tribe-img">
-                        <img src="./assets/img/landing/ape-2.png" class="tribe-img">
-                        <img src="./assets/img/landing/ape-3.png" class="tribe-img">
-
-                    </div>
-                </div>
-
-                <div class="d-flex d-md-none flex-column tribe-4-control">
-                    <span class="tribe-text">WOLF</span>
-                    <div class="tribe-grid">
-                        <img src="./assets/img/landing/wolf-1.png" class="tribe-img">
-                        <img src="./assets/img/landing/wolf-2.png" class="tribe-img">
-                        <img src="./assets/img/landing/wolf-3.png" class="tribe-img">
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/ghost-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/ghost-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/ghost-3.png" class="tribe-img">
+                            </div>
+                            <span class="tribe-text">GHOST</span>
+                        </div>
+                        </div>
 
                     </div>
-                </div>
+                    <div class="carousel-item">
+                        <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                <div class="d-flex d-md-none flex-column tribe-5-control">
-                    <span class="tribe-text">GOAT</span>
-                    <div class="tribe-grid">
-                        <img src="./assets/img/landing/goat-1.png" class="tribe-img">
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/ape-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/ape-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/ape-3.png" class="tribe-img">
+                            </div>
+                            <span class="tribe-text">APE</span>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
+
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/wolf-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/wolf-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/wolf-3.png" class="tribe-img">
+                            </div>
+                            <span class="tribe-text">WOLF</span>
+                        </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
+
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/goat-1.png" class="tribe-img">
                         <img src="./assets/img/landing/goat-2.png" class="tribe-img">
                         <img src="./assets/img/landing/goat-3.png" class="tribe-img">
+                            </div>
+                            <span class="tribe-text">GOAT</span>
+                        </div>
+                        </div>
 
                     </div>
                 </div>
-
-
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-
-        </div>
-
-        <div class="d-flex flex-column">
-            <img src="./assets/img/landing/section-5-img-1.jpg" class="img-bottom">
-            <img src="./assets/img/landing/section-5-img-2.png" class="img-logo-hotel">
-        </div>
-
-
-
-        <div class="d-flex flex-column">
-
-            <div class="grid-bottom-control">
-
-                <div class="border-control d-flex">
-
-                    <div class="text-control my-auto mx-auto">
-                        <span class="text-header">Total Supply</span>
-                        <span class="text-red">2,000 NFTs</span>
-                    </div>
-
-                </div>
-                <div class="border-center-control d-flex flex-column">
-
-                    <div class="text-center my-auto mx-auto">
-                        <div class="my-auto d-flex flex-column">
-                            <span class="text-header">Whitelist Sales</span>
-                            <span class="text-red">18.06.22 / 14.00(UTC)</span>
-                        </div>
-                    </div>
-                    <div class="divider-red"></div>
-                    <div class="text-center my-auto mx-auto">
-                        <div class="my-auto d-flex flex-column">
-                            <span class="text-header">Public Sales</span>
-                            <span class="text-red">18.06.22 / 17.00(UTC)</span>
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="border-control">
-                    <div class="text-center my-auto mx-auto d-flex">
-                        <div class="my-auto d-flex flex-column">
-                            <span class="text-header">Whitelist Price</span>
-                            <span class="text-red">1 SOL</span>
-
-                        </div>
-
-                    </div>
-                    <div class="divider-red"></div>
-                    <div class="text-center my-auto mx-auto">
-                        <div class="my-auto d-flex flex-column">
-                            <span class="text-header">Public Price</span>
-                            <span class="text-red">1.25 SOL</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
           
-            <span class="text-live-now">
-                MINT IS NOW LIVE
-            </span>
-            <!-- <app-count-down-timer> </app-count-down-timer> -->
 
-            <img src="./assets/img/landing/mint-now.png" class="mint-now-button" (click)="clickMintNow()" >
         </div>
+
 
     </div>
     <div class="section-6-control d-flex flex-column">
 
-
-        <img src="./assets/img/landing/roadmap.png" class="d-none d-md-block roadmap-img">
-        <img src="./assets/img/landing/roadmap-mobile.png" class="d-block d-md-none roadmap-img">
+        <div class="container d-flex flex-column my-auto">
+            <span class="text-white-invite">HOTEL PARTNER</span>
+            <img src="./assets/img/landing/button-partner.png" class="button-partner">
+        </div>
     </div>
-    <div class="section-7-control d-flex flex-column">
+   
 
-        <img src="./assets/img/landing/partner.png" class="d-none d-md-block partner-img">
-        <img src="./assets/img/landing/partner-mobile.png" class="d-block d-md-none partner-img">
-    </div>
-
-    <div class="section-8-control d-flex flex-column">
+    <!-- <div class="section-8-control d-flex flex-column">
 
         <div class="container d-flex flex-column">
 
@@ -269,30 +232,42 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="section-9-control">
 
         <div class="container d-flex flex-column">
+            <span class="text-white">MORE ABOUT PROJECT</span>
+            <img src="./assets/img/landing/button-lite-paper.png" (click)="clickLitePaper()"
+                class="lite-paper-button mx-auto">
 
-            <img src="./assets/img/landing/lite-paper-button.png" (click)="clickLitePaper()" class="lite-paper-button mx-auto">
-            <span class="text-our-marketplace">Our Marketplace</span>
+                <div class="grid-bottom">
+                        <div class="d-flex flex-column">
 
-            <div class="button-marketplace-control">
+                            <span class="text-our-marketplace">Our Marketplace</span>
 
-                <img src="./assets/img/landing/magic-eden.png" (click)="clickEden()" class="button-marketplace">
-                <img src="./assets/img/landing/solanart.png" (click)="clickSolanart()" class="button-marketplace">
-            </div>
+                            <div class="button-marketplace-control">
+                
+                                <img src="./assets/img/landing/magic-eden.png" (click)="clickEden()" class="button-marketplace">
+                                <img src="./assets/img/landing/solanart.png" (click)="clickSolanart()" class="button-marketplace">
+                            </div>
+                
+                        </div>
+                        <div class="d-flex flex-column">
+                            <span class="text-our-marketplace">CHECK IT NOW</span>
 
-            <span class="text-our-marketplace">CHECK IT NOW</span>
+                            <div class="social-grid-control">
+                
+                                <img src="./assets/img/landing/ic-discord.png" (click)="clickDiscord()" class="social-icon">
+                                <img src="./assets/img/landing/ic-twitter.png" (click)="clickTwitter()" class="social-icon">
+                                <img src="./assets/img/landing/ic-facebook.png" (click)="clickFacebook()" class="social-icon">
+                                <img src="./assets/img/landing/ic-ig.png" (click)="clickIg()" class="social-icon">
+                            </div>
+                            </div>
 
-            <div class="social-grid-control">
-
-                <img src="./assets/img/landing/ic-discord.png" (click)="clickDiscord()" class="social-icon">
-                <img src="./assets/img/landing/ic-twitter.png" (click)="clickTwitter()" class="social-icon">
-                <img src="./assets/img/landing/ic-facebook.png" (click)="clickFacebook()" class="social-icon">
-                <img src="./assets/img/landing/ic-ig.png" (click)="clickIg()"  class="social-icon">
-            </div>
+                </div>
+        
+          
             <span class="text-copy-right">© 2022 HOTELDEMENTIA GAME NFT. WEB BY ::*</span>
 
         </div>
