@@ -85,6 +85,8 @@ import { StartNovelComponent } from './components/start-novel/start-novel.compon
 import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { OurGuestComponent } from './components/our-guest/our-guest.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -163,6 +165,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     StartNovelComponent,
     ChooseEpComponent,
     HeaderComponent,
+    OurGuestComponent,
+    FooterComponent,
   ],
   imports: [
     FontAwesomeModule,

@@ -1,0 +1,129 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+
+app-footer{
+
+    .footer-control{
+        padding-top: 44px;
+        padding-bottom: 44px;
+    }
+
+   
+
+        .text-white{
+            font-family: "Copper-Bold";
+            font-size: 50px;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+            @include media-breakpoint-down(lg) {
+                font-size: 24px;
+            }
+            @include media-breakpoint-down(md) {
+                font-size: 32px;
+            }
+        }
+
+        .lite-paper-button {
+            cursor: pointer;
+            width: 353px;
+            height: 109px;
+            object-fit: contain;
+            margin-top: 40px;
+
+         
+        }
+
+        .grid-bottom{
+            display: grid;
+            grid-template-columns: 50% 50%;
+
+            @include media-breakpoint-down(md){
+                grid-template-columns: 100%;
+            }
+        }
+
+        .text-our-marketplace {
+            margin-top: 104px;
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+            font-family: "Copper-Bold";
+            text-align: center;
+            @include media-breakpoint-down(lg){
+                font-size: 24px;
+            }
+            @include media-breakpoint-down(md){
+                font-size: 32px;
+            }
+        }
+
+        .button-marketplace-control {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            @include media-breakpoint-down(lg){
+                flex-direction: column;
+            }
+            @include media-breakpoint-down(md){
+                flex-direction: column;
+            }
+
+            .button-marketplace {
+                cursor: pointer;
+                height: 56px;
+                width: auto;
+                object-fit: contain;
+                margin-left: 24px;
+                margin-right: 24px;
+                @include media-breakpoint-down(lg){
+                    margin-top: 18px;
+                    height: 38px;
+                }
+                @include media-breakpoint-down(md){
+                    margin-top: 18px;
+                    height: 38px;
+                }
+            }
+        }
+
+        .social-grid-control {
+            margin-top: 25px;
+            width: 306px;
+            margin-left: auto;
+            margin-right: auto;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            
+
+            .social-icon {
+                cursor: pointer;
+                width: 42px;
+                height: 32px;
+                object-fit: contain;
+                margin-left: auto;
+                margin-right: auto;
+                @include media-breakpoint-down(lg){
+                    height: 24px;
+                }
+                @include media-breakpoint-down(md){
+                    height: 24px;
+                }
+            }
+        }
+
+        .text-copy-right {
+            margin-top: 171px;
+            font-family: "Lora-Regular";
+            font-size: 13px;
+            color: white;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+}

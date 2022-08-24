@@ -35,9 +35,11 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon.compon
 import { NovelComponent } from './components/novel/novel.component';
 import { StartNovelComponent } from './components/start-novel/start-novel.component';
 import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
+import { OurGuestComponent } from './components/our-guest/our-guest.component';
 
 const routes: Routes = [
     {path: '', component: LandingComponent},
+    {path: 'our-guest', component: OurGuestComponent},
     {path: 'choose-ep', component: ChooseEpComponent},
     {path: 'novel-ep-1', component: NovelComponent},
     {path: 'novel', component: StartNovelComponent},

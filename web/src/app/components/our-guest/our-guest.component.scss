@@ -1,0 +1,173 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+app-our-guest {
+    background: url(../../../assets/img/our-guest/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .card-control {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+
+        @include media-breakpoint-down(md){
+            margin-top: 30%;
+        }
+
+        .card-green-control {
+            background: #0b1b10;
+            border-radius: 30px;
+            padding: 44px;
+            width: 100%;
+
+            .right-control{
+                
+                @include media-breakpoint-down(lg){
+                    margin-left: 40px;
+                }
+                @include media-breakpoint-down(md){
+                    margin-left: 0px;
+                }
+            }
+
+
+           
+        }
+        .card-brown-control {
+            margin-top: 60px;
+            background: #342C2A;
+            border-radius: 30px;
+            padding-left: 44px;
+            padding-right: 44px;
+            width: 100%;
+
+            .right-control{
+                padding-top: 44px;
+                padding-bottom: 44px;
+                @include media-breakpoint-down(lg){
+                    margin-left: 40px;
+                }
+                @include media-breakpoint-down(md){
+                    margin-left: 0px;
+                }
+            }
+
+           
+        }
+
+        .grid-control {
+            display: grid;
+            grid-template-columns: 30% 70%;
+
+            @include media-breakpoint-down(md){
+                grid-template-columns: 100%;
+            }
+
+            
+        }
+
+        .img-control {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+
+            @include media-breakpoint-down(md){
+                width: 70%;
+            }
+        }
+
+        .text-desc{
+            width: 40%;
+            font-size: 15px;
+            font-family: "Copper-Regular";
+            font-weight: 300;
+            color: #ffffff;
+            line-height: 1.5em;
+
+            @include media-breakpoint-down(lg){
+                width: 100%;
+                font-size: 11px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            @include media-breakpoint-down(md){
+                font-size: 11px;
+                width: 100%;
+                margin-top: 30px;
+                text-align: center;
+            }
+        }
+
+        .button-control{
+            margin-top: auto;
+            margin-left: auto;
+            flex-direction: row;
+            @include media-breakpoint-down(md){
+                margin-top: 24px;
+                margin-right: auto;
+                flex-direction: column;
+            }
+        }
+
+        .button-cream{
+            width: auto;
+            height: 90px;
+            object-fit: contain;
+            margin-left: 24px;
+
+            @include media-breakpoint-down(md){
+                margin-left: 16px;
+                margin-right: 16px;
+                height: 95px;
+                width: auto;
+                
+            }
+        }
+
+        .text-top-control {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+           
+            @include media-breakpoint-down(md){
+                flex-direction: column;
+            }
+
+            .text-header {
+                font-size: 40px;
+                font-family: "Copper-Bold";
+                font-weight: 400;
+                color: #ffffff;
+                text-shadow: 0px 0px 53px rgba(255, 255, 255, 0.78);
+                @include media-breakpoint-down(lg){
+                    font-size: 22px;
+                }
+                @include media-breakpoint-down(md){
+                    font-size: 30px;
+                    text-align: center;
+                    margin-top: 50px;
+                }
+            }
+
+            .text-header-right{
+                margin-left: auto;
+
+                @include media-breakpoint-down(md){
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}

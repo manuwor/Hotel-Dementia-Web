@@ -6,6 +6,7 @@
 
 $red: #de6959;
 app-landing {
+    background-color: black;
     .section-1-img {
         width: 100%;
         height: auto;
@@ -15,7 +16,7 @@ app-landing {
     .section-2-control {
         position: relative;
         @include media-breakpoint-down(md){
-            padding-bottom: 100px;
+            padding-bottom: 80px;
         }
 
         .bg-img {
@@ -38,6 +39,10 @@ app-landing {
             z-index: 1;
             margin-top: 150px;
             margin-bottom: 150px;
+
+            @include media-breakpoint-down(md){
+                margin-bottom: 0px;
+            }
         }
 
         .text-white-invite {
@@ -54,10 +59,10 @@ app-landing {
         .text-white-invite-1 {
             text-align: center;
             margin-top: 149px;
-            font-size: 40px !important;
+            font-size: 40px;
 
             @include media-breakpoint-down(md) {
-                font-size: 33px;
+                font-size: 22px;
             }
         }
 
@@ -85,6 +90,7 @@ app-landing {
     }
 
     .section-3-control {
+        padding-top: 180px;
         background-color: black;
         box-shadow: 10px 10px 10px black;
         .section-3-img{
@@ -101,7 +107,6 @@ app-landing {
        background-repeat: no-repeat;
        background-size: cover;
         padding-top: 112px;
-        padding-bottom: 112px;
 
         .text-header {
             font-family: "Copper-Bold";
@@ -499,10 +504,17 @@ app-landing {
         }
     }
 
+    .divider-black-gradient{
+        height: 300px;
+        width: 100%;
+        background-image: url(../../../assets/img/landing/gradient-bottom.png);
+
+    }
+
     .section-6-control {
-        height: 761px;
+        height: 900px;
         background-image: url(../../../assets/img/landing/section-6-bg-img.jpg);
-        background-position: center center;
+        background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
         
@@ -627,6 +639,7 @@ app-landing {
     }
 
     .section-9-control {
+        padding-top: 150px;
         background-color: black;
 
         .text-white{
@@ -654,6 +667,10 @@ app-landing {
         .grid-bottom{
             display: grid;
             grid-template-columns: 50% 50%;
+
+            @include media-breakpoint-down(md){
+                grid-template-columns: 100%;
+            }
         }
 
         .text-our-marketplace {
