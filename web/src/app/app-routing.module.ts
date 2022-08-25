@@ -36,13 +36,15 @@ import { NovelComponent } from './components/novel/novel.component';
 import { StartNovelComponent } from './components/start-novel/start-novel.component';
 import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
 import { OurGuestComponent } from './components/our-guest/our-guest.component';
+import { VisualNovelComponent } from './components/visual-novel/visual-novel.component';
 
 const routes: Routes = [
     {path: '', component: LandingComponent},
     {path: 'our-guest', component: OurGuestComponent},
+    {path: 'choose-lang', component: StartNovelComponent},
     {path: 'choose-ep', component: ChooseEpComponent},
     {path: 'novel-ep-1', component: NovelComponent},
-    {path: 'novel', component: StartNovelComponent},
+    {path: 'visual-novel', component: VisualNovelComponent},
     {path: 'esports', component: EsportsHomeComponent},
     {path: 'bosting', component: BostingHomeComponent},
     {path: 'magazine', component: MagazineHomeComponent},

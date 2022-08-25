@@ -5,10 +5,13 @@
 @import "../../../styles.scss";
 
 app-our-guest {
-    background: url(../../../assets/img/our-guest/bg-main.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+  
+    .bg-control{
+        background: url(../../../assets/img/our-guest/bg-main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 1400px;
+    }
     .card-control {
         width: 90%;
         margin-left: auto;

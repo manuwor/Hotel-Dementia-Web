@@ -20,6 +20,10 @@ export class HeaderComponent implements OnInit {
 
   }
 
+  onClickVisual(){
+    
+  }
+
   onClickLogo(){
 
   }

@@ -87,6 +87,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { OurGuestComponent } from './components/our-guest/our-guest.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { VisualNovelComponent } from './components/visual-novel/visual-novel.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -167,6 +168,7 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     OurGuestComponent,
     FooterComponent,
+    VisualNovelComponent,
   ],
   imports: [
     FontAwesomeModule,

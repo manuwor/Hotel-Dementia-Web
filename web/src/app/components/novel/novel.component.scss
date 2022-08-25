@@ -5,10 +5,7 @@
 @import "../../../styles.scss";
 
 app-novel {
-    @include media-breakpoint-down(lg){
-        transform: rotate(90deg);
-        padding-bottom: 0px;
-       }
+   
 
     .container-div {
         width: 100%;
@@ -16,10 +13,19 @@ app-novel {
         padding-right: 0;
         padding-top: 30px;
         padding-bottom: 30px;
-           @include media-breakpoint-down(lg){
-            transform: rotate(90deg);
-            padding-bottom: 0px;
-           }
+        @include media-breakpoint-down(md) {
+            /* Rotate the content container */
+            transform: rotate(-90deg);
+            transform-origin: left top;
+            /* Set content width to viewport height */
+            width: 100vh;
+            /* Set content height to viewport width */
+            height: 100vw;
+            overflow-x: hidden;
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
     }
     .frame-control {
         position: relative;
@@ -39,6 +45,14 @@ app-novel {
             margin-top: auto;
             margin-bottom: auto;
             height: 80vh;
+        }
+
+        @include media-breakpoint-down(md) {
+            margin-right: auto;
+            margin-left:auto;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 100%;
         }
     }
     .img-frame {
@@ -68,6 +82,12 @@ app-novel {
            margin-top: auto;
            margin-bottom: auto;
         }
+
+        @include media-breakpoint-down(md){
+            width: 90%;
+            margin-bottom: 20px;
+            min-height: 100px;
+         }
     }
 
     .text-in-img {
@@ -77,7 +97,9 @@ app-novel {
         line-height: 1.5em;
         font-family: "novel-regular-italic";
         margin-bottom: 24px;
-        
+        @include media-breakpoint-down(md){
+          font-size: 13px;
+         }
     }
 
     .text-in-yellow{
@@ -95,6 +117,11 @@ app-novel {
         height: 30px;
         margin-right: 24px;
         margin-bottom: 24px;
+
+        @include media-breakpoint-down(md){
+             width: 20px;
+             height: 20px;
+           }
        
     }
 }

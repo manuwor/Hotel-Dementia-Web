@@ -38,7 +38,7 @@ export class StartNovelComponent implements OnInit {
 
   clickLang(){
     this.isSelectLang = true
-
+    this.router.navigate(["choose-ep"])
   }
 
   clickStart(){
