@@ -67,6 +67,10 @@ app-header{
         border-bottom-color: #eeeeee;
         border-bottom-width: 2px;
         border-bottom-style: solid;
+
+        @include media-breakpoint-down(md){
+          border: none;
+        }
       }
     
       .button-list-control {

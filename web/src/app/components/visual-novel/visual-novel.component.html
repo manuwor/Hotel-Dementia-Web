@@ -1,9 +1,10 @@
 <div class="d-flex flex-column bg-control">
     <app-header></app-header>
-
-    <div class="container d-flex flex-column container-control">
-
+    <div class="container d-flex flex-column container-control" *ngIf="!isShowMobile">
         <span class="text-header">HOTEL DE MENTIA <br> VISUAL NOVEL</span>
+    </div>
+    <div class="container d-md-flex d-none flex-column" *ngIf="!isShowMobile">
+
 
         <div class="card-control">
             <img src="./assets/img/visual-novel/card-1.png" class="card-item" data-bs-toggle="modal"
@@ -16,13 +17,81 @@
             <img src="./assets/img/visual-novel/card-5.png" class="card-item">
         </div>
     </div>
+
+   
+
+    <div id="carouselExampleControls" class="carousel slide carousel-control  d-block d-md-none" data-bs-ride="carousel" *ngIf="!isShowMobile">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex">
+                    <img src="./assets/img/visual-novel/card-1.png" class="card-item"  (click)="onClickSeason()">
+                </div>
+           
+
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex">
+                    <img src="./assets/img/visual-novel/card-2.png" class="card-item">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex">
+                    <img src="./assets/img/visual-novel/card-3.png" class="card-item">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex">
+                    <img src="./assets/img/visual-novel/card-4.png" class="card-item">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex">
+                    <img src="./assets/img/visual-novel/card-5.png" class="card-item">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container d-flex d-md-none flex-column container-control" *ngIf="isShowMobile">
+        <img src="./assets/img/visual-novel/card-1.png" class="card-item"  >
+        <div class="text-control d-flex flex-column">
+            <span class="text-season">SEASON 1</span>
+            <span class="text-ep">CHIPS OF <br> MEMORIES</span>
+            <span class="text-season">10 EPISODES</span>
+
+            <div class="text-bottom-control d-flex flex-column">
+                <span class="text-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac enim ligula.
+                    Morbi efficitur odio erat. Ut varius tortor congue, suscipit tellus vitae,
+                    faucibus nisi. Nullam volutpat neque at erat mattis, id pharetra dui posuere.
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                    turpis egestas. Suspendisse id ultricies diam. Nunc feugiat, ex vel accumsan
+                    gravida, lorem neque porttitor lectus, sit amet iaculis mi erat nec tortor.
+                    Phasellus tincidunt, nisi sit amet interdum auctor, ligula ligula pulvinar urna,
+                    sed mattis nulla mauris vel orci.
+                </span>
+
+                <img src="./assets/img/visual-novel/start-button.png" data-bs-dismiss="modal" aria-label="Close" routerLink="/choose-lang" class="start-button">
+            </div>
+        </div>
+    </div>
     <div class="divider-black-gradient"></div>
     <div class="footer-bg">
         <app-footer></app-footer>
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" *ngIf="!isShowMobile" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body my-auto">

@@ -15,7 +15,7 @@ app-landing {
 
     .section-2-control {
         position: relative;
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(md) {
             padding-bottom: 80px;
         }
 
@@ -29,7 +29,7 @@ app-landing {
             height: 100%;
             object-fit: cover;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 object-fit: cover;
                 height: 742px;
             }
@@ -40,7 +40,7 @@ app-landing {
             margin-top: 150px;
             margin-bottom: 150px;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 margin-bottom: 0px;
             }
         }
@@ -66,7 +66,6 @@ app-landing {
             }
         }
 
-
         .text-red-invite {
             margin-top: 24px;
             font-size: 96px;
@@ -74,7 +73,7 @@ app-landing {
             color: $red;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 40px #E04B36;
+            text-shadow: 0px 0px 40px #e04b36;
 
             @include media-breakpoint-down(md) {
                 font-size: 68px;
@@ -93,7 +92,7 @@ app-landing {
         padding-top: 180px;
         background-color: black;
         box-shadow: 10px 10px 10px black;
-        .section-3-img{
+        .section-3-img {
             width: 80%;
             height: auto;
             margin-left: auto;
@@ -103,10 +102,81 @@ app-landing {
     }
 
     .section-4-control {
-       background: url(/assets/img/landing/section-4-bg.png);
-       background-repeat: no-repeat;
-       background-size: cover;
+        background: url(/assets/img/landing/section-4-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         padding-top: 112px;
+
+        .carousel-control {
+            @include media-breakpoint-down(md) {
+                margin-top: 50px;
+                margin-bottom: 0px;
+            }
+        }
+
+        .carousel-item {
+            width: 100%;
+
+            .vdo-gif {
+                margin-left: auto;
+                margin-right: auto;
+                width: 60%;
+                height: auto;
+                object-fit: contain;
+
+                @include media-breakpoint-down(md) {
+                    margin-top: 57px;
+                }
+            }
+
+            .text-collecton {
+                text-align: center;
+                font-size: 18px;
+                font-family: "Lora-Italic";
+                color: white;
+                margin-top: 21px;
+                @include media-breakpoint-down(md) {
+                    font-size: 16px;
+                }
+            }
+
+            .text-name {
+                font-family: "Copper-Bold";
+                font-size: 34px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+                text-shadow: 0px 0px 20px #ffffff;
+                @include media-breakpoint-down(lg) {
+                    font-size: 22px;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: 34px;
+                }
+            }
+
+            .text-total-nft {
+                margin-top: 4px;
+                font-family: "Lora-Regular";
+                font-size: 15px;
+                color: white;
+                text-align: center;
+
+                @include media-breakpoint-down(md) {
+                    font-size: 14px;
+                }
+            }
+
+            .text-date {
+                font-family: "Lora-Regular";
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                @include media-breakpoint-down(md) {
+                    font-size: 18px;
+                }
+            }
+        }
 
         .text-header {
             font-family: "Copper-Bold";
@@ -140,6 +210,7 @@ app-landing {
             grid-template-columns: 33% 33% 33%;
 
             @include media-breakpoint-down(md) {
+                display: none;
                 grid-template-columns: 100%;
             }
 
@@ -150,7 +221,7 @@ app-landing {
                 height: auto;
                 object-fit: contain;
 
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     margin-top: 57px;
                 }
             }
@@ -161,7 +232,7 @@ app-landing {
                 font-family: "Lora-Italic";
                 color: white;
                 margin-top: 21px;
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     font-size: 16px;
                 }
             }
@@ -173,10 +244,10 @@ app-landing {
                 color: white;
                 text-align: center;
                 text-shadow: 0px 0px 20px #ffffff;
-                @include media-breakpoint-down(lg){
+                @include media-breakpoint-down(lg) {
                     font-size: 22px;
                 }
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     font-size: 34px;
                 }
             }
@@ -187,8 +258,8 @@ app-landing {
                 font-size: 15px;
                 color: white;
                 text-align: center;
-                
-                @include media-breakpoint-down(md){
+
+                @include media-breakpoint-down(md) {
                     font-size: 14px;
                 }
             }
@@ -198,7 +269,7 @@ app-landing {
                 font-size: 20px;
                 color: white;
                 text-align: center;
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     font-size: 18px;
                 }
             }
@@ -211,14 +282,14 @@ app-landing {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             padding-top: 180px;
         }
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(md) {
             padding-top: 180px;
         }
 
-        .mint-now-button{
+        .mint-now-button {
             cursor: pointer;
             height: 99px;
             width: auto;
@@ -238,7 +309,8 @@ app-landing {
             text-shadow: 0px 0px 20px #ffffff;
 
             @include media-breakpoint-down(md) {
-                font-size: 68px;
+                font-size: 32px;
+                text-shadow: none;
             }
         }
 
@@ -256,20 +328,23 @@ app-landing {
             }
         }
 
-        .carousel-control{
+        .carousel-control {
             margin-top: 150px;
             margin-bottom: 100px;
+
+            @include media-breakpoint-down(md){
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
         }
 
         .tribe-control {
-
-            .tribe-img{
+            .tribe-img {
                 width: 100%;
                 height: auto;
                 object-fit: contain;
                 margin-top: 40px;
             }
-
 
             .tribe-1-control {
                 margin-left: auto;
@@ -331,10 +406,11 @@ app-landing {
                 font-weight: 700;
                 color: white;
                 text-align: center;
-                text-shadow: 0px 0px 10px #ffffff;
+                text-shadow: 0px 0px 3px #ffffff;
 
                 @include media-breakpoint-down(md) {
-                    font-size: 32px;
+                    margin-top: 30px;
+                    font-size: 24px;
                 }
             }
 
@@ -343,12 +419,20 @@ app-landing {
                 width: auto;
                 display: grid;
                 grid-template-columns: 33% 33% 33%;
+
+                @include media-breakpoint-down(md){
+                    grid-template-columns: 100%;
+                }
                 .tribe-img {
                     width: 100%;
                     height: auto;
                     object-fit: contain;
 
-                   
+                    @include media-breakpoint-down(md){
+                        width: 80%;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
                 }
             }
         }
@@ -361,7 +445,7 @@ app-landing {
             margin-left: auto;
             margin-right: auto;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 margin-top: 100px;
                 width: 100%;
             }
@@ -375,7 +459,7 @@ app-landing {
             margin-right: auto;
             margin-top: -80px;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 height: auto;
                 width: 100%;
                 margin-top: -35%;
@@ -390,7 +474,7 @@ app-landing {
             display: grid;
             grid-template-columns: 30% 39% 30%;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 grid-template-columns: 100%;
             }
 
@@ -410,7 +494,6 @@ app-landing {
                     font-size: 18px;
                     font-family: "Lora-Italic";
                     color: white;
-                    
                 }
 
                 .text-red {
@@ -419,7 +502,7 @@ app-landing {
                     color: $red;
                     font-family: "Copper-Bold";
                     text-align: center;
-                    text-shadow: 0px 0px 20px #ff1f00;
+                    text-shadow: 0px 0px 5px #ff1f00;
                 }
             }
 
@@ -430,14 +513,13 @@ app-landing {
                 padding-top: 16px;
                 padding-bottom: 16px;
 
-
                 .text-header {
                     text-align: center;
                     font-size: 18px;
                     font-family: "Lora-Italic";
                     color: white;
                     margin-top: 21px;
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 16px;
                     }
                 }
@@ -448,9 +530,9 @@ app-landing {
                     color: $red;
                     font-family: "Copper-Bold";
                     text-align: center;
-                    text-shadow: 0px 0px 20px #ff1f00;
+                    text-shadow: 0px 0px 5px #ff1f00;
 
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 36px;
                     }
                 }
@@ -469,7 +551,7 @@ app-landing {
                 margin-right: auto;
                 border: solid 1px $red;
 
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     width: 100%;
                     margin-top: 29px;
                     margin-bottom: 29px;
@@ -483,9 +565,9 @@ app-landing {
             color: white;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 20px #ffffff;
+            text-shadow: 0px 0px 5px #ffffff;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 font-size: 34px;
             }
         }
@@ -496,19 +578,22 @@ app-landing {
             color: $red;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 40px #e04b36;
-        
-            @include media-breakpoint-down(md){
+            text-shadow: 0px 0px 5px #e04b36;
+
+            @include media-breakpoint-down(md) {
                 font-size: 45px;
             }
         }
     }
 
-    .divider-black-gradient{
+    .divider-black-gradient {
         height: 300px;
         width: 100%;
         background-image: url(../../../assets/img/landing/gradient-bottom.png);
 
+        @include media-breakpoint-down(md){
+            height: 80px;
+        }
     }
 
     .section-6-control {
@@ -517,7 +602,11 @@ app-landing {
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
-        
+
+        @include media-breakpoint-down(md){
+            height: 500px;
+        }
+
         .text-white-invite {
             font-family: "Copper-Bold";
             font-size: 80px;
@@ -529,7 +618,7 @@ app-landing {
                 font-size: 32px;
             }
         }
-        .button-partner{
+        .button-partner {
             cursor: pointer;
             margin-left: auto;
             margin-right: auto;
@@ -558,11 +647,11 @@ app-landing {
             font-weight: 700;
             color: white;
             text-align: center;
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-down(lg) {
                 font-size: 40px;
                 margin-bottom: 50px;
             }
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 font-size: 40px;
             }
         }
@@ -572,12 +661,12 @@ app-landing {
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
 
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-down(lg) {
                 grid-template-columns: 50% 50%;
                 margin-top: 0px;
             }
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 grid-template-columns: 50% 50%;
                 margin-top: 0px;
             }
@@ -589,11 +678,11 @@ app-landing {
                 margin-right: auto;
                 display: flex;
                 flex-direction: column;
-                @include media-breakpoint-down(lg){
+                @include media-breakpoint-down(lg) {
                     width: 70%;
                     margin-top: 24px;
                 }
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     width: 90%;
                     margin-top: 24px;
                 }
@@ -612,10 +701,10 @@ app-landing {
                     font-family: "Copper-Bold";
                     text-align: center;
                     text-shadow: 0px 0px 20px #ffffff;
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 22px;
                     }
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 20px;
                     }
                 }
@@ -627,10 +716,10 @@ app-landing {
                     color: white;
                     font-family: "Lora-Regular";
                     text-align: center;
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 15px;
                     }
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 14px;
                     }
                 }
@@ -642,7 +731,7 @@ app-landing {
         padding-top: 150px;
         background-color: black;
 
-        .text-white{
+        .text-white {
             font-family: "Copper-Bold";
             font-size: 50px;
             font-weight: 400;
@@ -660,15 +749,13 @@ app-landing {
             height: 109px;
             object-fit: contain;
             margin-top: 40px;
-
-         
         }
 
-        .grid-bottom{
+        .grid-bottom {
             display: grid;
             grid-template-columns: 50% 50%;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 grid-template-columns: 100%;
             }
         }
@@ -681,7 +768,7 @@ app-landing {
             font-family: "Copper-Bold";
             text-align: center;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 font-size: 32px;
             }
         }
@@ -693,7 +780,7 @@ app-landing {
             margin-left: auto;
             margin-right: auto;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 flex-direction: column;
             }
 
@@ -705,7 +792,7 @@ app-landing {
                 margin-left: 24px;
                 margin-right: 24px;
 
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     margin-top: 18px;
                     height: 38px;
                 }
@@ -719,7 +806,6 @@ app-landing {
             margin-right: auto;
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
-            
 
             .social-icon {
                 cursor: pointer;
@@ -729,7 +815,7 @@ app-landing {
                 margin-left: auto;
                 margin-right: auto;
 
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     height: 24px;
                 }
             }

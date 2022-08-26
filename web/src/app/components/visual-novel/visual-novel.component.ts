@@ -8,9 +8,19 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class VisualNovelComponent implements OnInit {
 
+
+  isShowMobile = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  public onClickSeason(){
+
+    this.isShowMobile = true;
+
+    console.log(this.isShowMobile);
+
   }
 
 }
