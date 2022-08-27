@@ -88,6 +88,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { OurGuestComponent } from './components/our-guest/our-guest.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { VisualNovelComponent } from './components/visual-novel/visual-novel.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -171,6 +172,7 @@ import { VisualNovelComponent } from './components/visual-novel/visual-novel.com
     VisualNovelComponent,
   ],
   imports: [
+    NgbCarouselModule,
     FontAwesomeModule,
     BrowserModule,
     AppRoutingModule,

@@ -70,50 +70,41 @@
             </div>
 
             <div class="d-flex d-md-none">
-
-                <div id="carouselNFT" class="carousel slide carousel-control" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="d-flex flex-column">
-                                <img src="./assets/img/landing/TheNovelty.gif" class="vdo-gif">
-                                <span class="text-collecton">Collection I</span>
-                                <span class="text-name">THE NOVELTY</span>
-                                <span class="text-total-nft">2,000 NFTs</span>
-                                <span class="text-date">April 2022</span>
-                            </div>
+                <ngb-carousel class="carousel-control" [showNavigationIndicators]="false">
+                    <ng-template ngbSlide>
+                        <div class="d-flex flex-column">
+                            <img src="./assets/img/landing/TheNovelty.gif" class="vdo-gif">
+                            <span class="text-collecton">Collection I</span>
+                            <span class="text-name">THE NOVELTY</span>
+                            <span class="text-total-nft">2,000 NFTs</span>
+                            <span class="text-date">April 2022</span>
                         </div>
-                        <div class="carousel-item">
-                            <div class="d-flex flex-column">
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="d-flex flex-column">
 
-                                <img src="./assets/img/landing/TheInvitation.gif" class="vdo-gif">
-                                <span class="text-collecton">Collection II</span>
-                                <span class="text-name">THE INVITATION</span>
-                                <span class="text-total-nft">2,000 NFTs</span>
-                                <span class="text-date">June 2022</span>
-                            </div>
+                            <img src="./assets/img/landing/TheInvitation.gif" class="vdo-gif">
+                            <span class="text-collecton">Collection II</span>
+                            <span class="text-name">THE INVITATION</span>
+                            <span class="text-total-nft">2,000 NFTs</span>
+                            <span class="text-date">June 2022</span>
                         </div>
-                        <div class="carousel-item">
-                            <div class="d-flex flex-column">
+    
+                    </ng-template>
+                    <ng-template ngbSlide>
+                        <div class="d-flex flex-column">
 
-                                <img src="./assets/img/landing/the-grandball.png" class="vdo-gif">
-                                <span class="text-collecton">Collection III</span>
-                                <span class="text-name">THE GRAND BALL</span>
-                                <span class="text-total-nft">6,000 NFTs</span>
-                                <span class="text-date">August 2022</span>
-                            </div>
+                            <img src="./assets/img/landing/the-grandball.png" class="vdo-gif">
+                            <span class="text-collecton">Collection III</span>
+                            <span class="text-name">THE GRAND BALL</span>
+                            <span class="text-total-nft">6,000 NFTs</span>
+                            <span class="text-date">August 2022</span>
                         </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselNFT"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselNFT"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+    
+                    </ng-template>
+                    
+                  </ngb-carousel>
+              
             </div>
 
         </div>
@@ -124,171 +115,136 @@
         <div class="container d-flex flex-column">
             <span class="text-white"> 5 TRIBES</span>
             <span class="text-white-desc">Determined by how the character act when they are faced with problems</span>
+            <ngb-carousel class="carousel-control d-none d-md-block" [showNavigationIndicators]="false">
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-            <div id="carouselExampleControls" class="carousel slide carousel-control  d-none d-md-block" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
-
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/human-1.png" class="tribe-img">
-                                    <img src="./assets/img/landing/human-2.png" class="tribe-img">
-                                    <img src="./assets/img/landing/human-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">HUMAN</span>
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/human-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/human-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/human-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">HUMAN</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/ghost-1.png" class="tribe-img">
-                                    <img src="./assets/img/landing/ghost-2.png" class="tribe-img">
-                                    <img src="./assets/img/landing/ghost-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">GHOST</span>
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/ghost-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/ghost-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/ghost-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">GHOST</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/ape-1.png" class="tribe-img">
-                                    <img src="./assets/img/landing/ape-2.png" class="tribe-img">
-                                    <img src="./assets/img/landing/ape-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">APE</span>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
+
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/ape-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/ape-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/ape-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">APE</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/wolf-1.png" class="tribe-img">
-                                    <img src="./assets/img/landing/wolf-2.png" class="tribe-img">
-                                    <img src="./assets/img/landing/wolf-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">WOLF</span>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
+
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/wolf-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/wolf-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/wolf-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">WOLF</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/goat-1.png" class="tribe-img">
-                                    <img src="./assets/img/landing/goat-2.png" class="tribe-img">
-                                    <img src="./assets/img/landing/goat-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">GOAT</span>
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/goat-1.png" class="tribe-img">
+                                <img src="./assets/img/landing/goat-2.png" class="tribe-img">
+                                <img src="./assets/img/landing/goat-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">GOAT</span>
                         </div>
-
                     </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                </ng-template>
+              </ngb-carousel>
+           
+            <ngb-carousel class="carousel-control d-block d-md-none" [showNavigationIndicators]="false">
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-            <div id="carouselControlsMobile" class="carousel slide carousel-control d-block d-md-none" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselControlsMobile" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">1</button>
-                    <button type="button" data-bs-target="#carouselControlsMobile" data-bs-slide-to="1" >2</button>
-                    <button type="button" data-bs-target="#carouselControlsMobile" data-bs-slide-to="2" >3</button>
-                  </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
-
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/human-2.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">HUMAN</span>
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/human-2.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">HUMAN</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/ghost-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">GHOST</span>
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/ghost-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">GHOST</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/ape-2.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">APE</span>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
+
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/ape-2.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">APE</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/wolf-1.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">WOLF</span>
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
+
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/wolf-1.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">WOLF</span>
                         </div>
-
                     </div>
-                    <div class="carousel-item">
-                        <div class="tribe-control">
-                            <div class="d-flex flex-column tribe-1-control">
+                </ng-template>
+                <ng-template ngbSlide>
+                    <div class="tribe-control">
+                        <div class="d-flex flex-column tribe-1-control">
 
-                                <div class="tribe-grid">
-                                    <img src="./assets/img/landing/goat-3.png" class="tribe-img">
-                                </div>
-                                <span class="tribe-text">GOAT</span>
+                            <div class="tribe-grid">
+                                <img src="./assets/img/landing/goat-3.png" class="tribe-img">
                             </div>
+                            <span class="tribe-text">GOAT</span>
                         </div>
-
                     </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsMobile"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsMobile"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                </ng-template>
+              </ngb-carousel>
+           
 
 
         </div>
