@@ -5,7 +5,6 @@
 @import "../../../styles.scss";
 
 app-start-novel {
-    
     .container-div {
         width: 100%;
         padding-left: 0;
@@ -28,17 +27,17 @@ app-start-novel {
     }
     .frame-control {
         position: relative;
-       
+
         width: 100%;
         margin-left: auto;
         margin-right: auto;
 
-        @include media-breakpoint-up(xl){
+        @include media-breakpoint-up(xl) {
             width: 80%;
             margin-left: auto;
             margin-right: auto;
         }
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             margin-right: auto;
             margin-left: 0;
             margin-top: auto;
@@ -47,11 +46,53 @@ app-start-novel {
         }
 
         @include media-breakpoint-down(md) {
-            margin-right: auto;
-            margin-left: auto;
+            margin-right: 10%;
+            margin-left: 5%;
             margin-top: auto;
             margin-bottom: auto;
             height: 100%;
+            width: 90%;
+        }
+        @include media-breakpoint-down(sm) {
+            margin-right: 15%;
+            margin-left: 2%;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 100%;
+            width: 90%;
+        }
+    }
+
+    @supports (-webkit-touch-callout: none) {
+        .frame-control {
+            position: relative;
+    
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+    
+            @include media-breakpoint-up(xl) {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @include media-breakpoint-down(lg) {
+                margin-right: auto;
+                margin-left: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+                height: 80vh;
+            }
+    
+            @include media-breakpoint-down(md) {
+                margin-right: 40%;
+                margin-left: 5%;
+                margin-top: auto;
+                margin-bottom: auto;
+                height: 100%;
+                width: 90%;
+            }
+         
         }
     }
 
@@ -70,7 +111,7 @@ app-start-novel {
         @include media-breakpoint-down(lg) {
             width: 100%;
         }
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             width: 100%;
             height: auto;
             object-fit: cover;
@@ -141,7 +182,7 @@ app-start-novel {
             height: 80px;
             object-fit: contain;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 height: 60px;
             }
         }
@@ -176,7 +217,7 @@ app-start-novel {
         }
     }
 
-    .language-control-out{
+    .language-control-out {
         animation: language_anim_out 2s forwards;
     }
 
@@ -190,12 +231,11 @@ app-start-novel {
         flex-direction: column;
         animation: language_anim 4s forwards;
 
-        .start-img{
+        .start-img {
             width: auto;
             height: 60px;
             object-fit: contain;
         }
-
     }
 
     @keyframes welcome_1 {

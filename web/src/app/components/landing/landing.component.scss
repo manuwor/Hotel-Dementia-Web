@@ -13,14 +13,18 @@ app-landing {
         object-fit: cover;
     }
 
+    .carousel-indicators{
+        bottom: -90px
+    }
+
     .section-2-control {
         position: relative;
         @include media-breakpoint-down(md) {
-            padding-bottom: 80px;
+            padding-bottom: 0px;
         }
 
         .bg-img {
-            margin-top: 16px;
+            padding-top: 16px;
             margin-bottom: 16px;
             background-color: black;
             position: absolute;
@@ -31,7 +35,9 @@ app-landing {
 
             @include media-breakpoint-down(md) {
                 object-fit: cover;
-                height: 742px;
+                height: 442px;
+                margin-bottom: auto;
+                margin-top: auto;
             }
         }
 
@@ -42,18 +48,19 @@ app-landing {
 
             @include media-breakpoint-down(md) {
                 margin-bottom: 0px;
+                margin-top: 100px;
             }
         }
 
         .text-white-invite {
             font-family: "Copper-Bold";
-            font-size: 80px;
+            font-size: 60px;
             font-weight: 700;
             color: white;
             text-align: center;
 
             @include media-breakpoint-down(md) {
-                font-size: 32px;
+                font-size: 24px;
             }
         }
         .text-white-invite-1 {
@@ -62,7 +69,7 @@ app-landing {
             font-size: 40px;
 
             @include media-breakpoint-down(md) {
-                font-size: 22px;
+                font-size: 14px;
             }
         }
 
@@ -92,6 +99,10 @@ app-landing {
         padding-top: 180px;
         background-color: black;
         box-shadow: 10px 10px 10px black;
+
+        @include media-breakpoint-down(md){
+            padding-top: 60px;
+        }
         .section-3-img {
             width: 80%;
             height: auto;
@@ -186,7 +197,7 @@ app-landing {
             text-align: center;
 
             @include media-breakpoint-down(md) {
-                font-size: 40px;
+                font-size: 24px;
             }
         }
 
@@ -199,7 +210,7 @@ app-landing {
             text-align: center;
 
             @include media-breakpoint-down(md) {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
 
@@ -286,7 +297,7 @@ app-landing {
             padding-top: 180px;
         }
         @include media-breakpoint-down(md) {
-            padding-top: 180px;
+            padding-top: 100px;
         }
 
         .mint-now-button {
@@ -615,7 +626,7 @@ app-landing {
             text-align: center;
 
             @include media-breakpoint-down(md) {
-                font-size: 32px;
+                font-size: 24px;
             }
         }
         .button-partner {
@@ -731,6 +742,10 @@ app-landing {
         padding-top: 150px;
         background-color: black;
 
+        @include media-breakpoint-down(md){
+            padding-top: 50px;
+        }
+
         .text-white {
             font-family: "Copper-Bold";
             font-size: 50px;
@@ -739,7 +754,7 @@ app-landing {
             text-align: center;
 
             @include media-breakpoint-down(md) {
-                font-size: 32px;
+                font-size: 20px;
             }
         }
 
@@ -749,6 +764,10 @@ app-landing {
             height: 109px;
             object-fit: contain;
             margin-top: 40px;
+
+            @include media-breakpoint-down(md){
+                width: 60%;
+            }
         }
 
         .grid-bottom {
@@ -760,75 +779,7 @@ app-landing {
             }
         }
 
-        .text-our-marketplace {
-            margin-top: 104px;
-            font-size: 40px;
-            font-weight: 700;
-            color: white;
-            font-family: "Copper-Bold";
-            text-align: center;
-
-            @include media-breakpoint-down(md) {
-                font-size: 32px;
-            }
-        }
-
-        .button-marketplace-control {
-            margin-top: 25px;
-            display: flex;
-            flex-direction: row;
-            margin-left: auto;
-            margin-right: auto;
-
-            @include media-breakpoint-down(md) {
-                flex-direction: column;
-            }
-
-            .button-marketplace {
-                cursor: pointer;
-                height: 56px;
-                width: auto;
-                object-fit: contain;
-                margin-left: 24px;
-                margin-right: 24px;
-
-                @include media-breakpoint-down(md) {
-                    margin-top: 18px;
-                    height: 38px;
-                }
-            }
-        }
-
-        .social-grid-control {
-            margin-top: 25px;
-            width: 306px;
-            margin-left: auto;
-            margin-right: auto;
-            display: grid;
-            grid-template-columns: 25% 25% 25% 25%;
-
-            .social-icon {
-                cursor: pointer;
-                width: 42px;
-                height: 32px;
-                object-fit: contain;
-                margin-left: auto;
-                margin-right: auto;
-
-                @include media-breakpoint-down(md) {
-                    height: 24px;
-                }
-            }
-        }
-
-        .text-copy-right {
-            margin-top: 171px;
-            font-family: "Lora-Regular";
-            font-size: 13px;
-            color: white;
-            text-align: center;
-            margin-bottom: 40px;
-        }
+        
     }
     vg-overlay-play .vg-overlay-play {
         display: flex;
