@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <ngb-carousel class="carousel-control  d-block d-md-none" [showNavigationIndicators]="false">
+    <ngb-carousel class="carousel-control  d-block d-md-none" [showNavigationIndicators]="false" *ngIf="!isShowMobile">
         <ng-template ngbSlide>
             <div class="d-flex">
                 <img src="./assets/img/visual-novel/card-1.png" class="card-item"  (click)="onClickSeason()">

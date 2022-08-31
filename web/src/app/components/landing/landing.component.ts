@@ -25,7 +25,7 @@ export class LandingComponent implements OnInit {
   }
   clickLitePaper(){
     this.$gaService.event('click', 'Button', 'Litepaper');
-    window.open("https://bit.ly/HDM-LitePaperV2-0", "_blank");
+    window.open("https://7d400753.flowpaper.com/litepaperV20Final/", "_blank");
   }
 
 
