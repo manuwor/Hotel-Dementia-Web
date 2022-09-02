@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { GoogleAnalyticsService } from 'ngx-google-analytics';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +9,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   navbarOpen = false;
-  constructor() { }
+  constructor(protected $gaService: GoogleAnalyticsService) { }
 
   ngOnInit(): void {
   }
@@ -17,15 +18,23 @@ export class HeaderComponent implements OnInit {
     this.navbarOpen = !this.navbarOpen;
   }
   onClickHome(){
-
+    this.$gaService.event('click', 'Header', 'Home');
   }
-
+  onClickOurGuest(){
+    this.$gaService.event('click', 'Header', 'Our guests');
+  }
+  onClickAboutUs(){
+    this.$gaService.event('click', 'Header', 'About Us');
+  }
+  onClickPartner(){
+    this.$gaService.event('click', 'Header', 'Partner');
+  }
   onClickVisual(){
-    
+    this.$gaService.event('click', 'Header', 'Visual');
   }
 
   onClickLogo(){
-
+    this.$gaService.event('click', 'Header', 'Logo');
   }
 
 }

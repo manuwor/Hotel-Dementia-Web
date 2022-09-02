@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "deploy:test": "ng build --configuration=production && firebase use hotel-dementia && firebase target:clear hosting hotel-dementia-test && firebase target:apply hosting hotel-dementia-test hotel-dementia-test && firebase deploy --only hosting:hotel-dementia-test",
-    "deploy:prod": "ng build --prod && firebase use hotel-dementia && firebase target:clear hosting hotel-dementia && firebase target:apply hosting hotel-dementia hotel-dementia && firebase deploy --only hosting:hotel-dementia"
+    "deploy:prod": "ng build --configuration=production && firebase use hotel-dementia && firebase target:clear hosting hotel-dementia && firebase target:apply hosting hotel-dementia hotel-dementia && firebase deploy --only hosting:hotel-dementia"
   },
   "private": true,
   "dependencies": {
