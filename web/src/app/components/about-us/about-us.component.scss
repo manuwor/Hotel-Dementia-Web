@@ -1,0 +1,251 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+$red: #de6959;
+app-about-us {
+    .bg-control {
+        background: url(../../../assets/img/our-guest/bg-main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 1400px;
+    }
+    .section-1-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        position: absolute;
+
+
+    }
+
+    .carousel-indicators{
+        bottom: -90px
+    }
+
+    .section-2-control {
+        margin-top: 30%;
+        position: relative;
+        @include media-breakpoint-down(md) {
+            padding-bottom: 0px;
+            margin-top: 110%;
+        }
+
+        .bg-img {
+            padding-top: 16px;
+            margin-bottom: 16px;
+            background-color: black;
+            position: absolute;
+            width: 100%;
+            opacity: 0.6;
+            height: 100%;
+            object-fit: cover;
+
+            @include media-breakpoint-down(md) {
+                object-fit: cover;
+                height: 442px;
+                margin-bottom: auto;
+                margin-top: auto;
+            }
+        }
+
+        .text-control {
+          
+            z-index: 1;
+            margin-top: 150px;
+            margin-bottom: 150px;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 0px;
+                margin-top: 100px;
+            }
+        }
+
+        .text-white {
+            font-family: "Copper-Bold";
+            font-size: 14px;
+            letter-spacing: 0.3em;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 11px;
+                letter-spacing: 0em;
+            }
+        }
+       
+    }
+    .section-8-control {
+        padding-top: 112px;
+        padding-bottom: 112px;
+
+        .text-header {
+            font-family: "Copper-Bold";
+            font-size: 55px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+            @include media-breakpoint-down(lg) {
+                font-size: 40px;
+                margin-bottom: 50px;
+            }
+            @include media-breakpoint-down(md) {
+                font-size: 40px;
+            }
+        }
+
+        .grid-control {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+
+            @include media-breakpoint-down(lg) {
+                grid-template-columns: 50% 50%;
+                margin-top: 0px;
+            }
+
+            @include media-breakpoint-down(md) {
+                grid-template-columns: 50% 50%;
+                margin-top: 0px;
+            }
+
+            .item-control {
+                width: 80%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                flex-direction: column;
+                @include media-breakpoint-down(lg) {
+                    width: 70%;
+                    margin-top: 24px;
+                }
+                @include media-breakpoint-down(md) {
+                    width: 90%;
+                    margin-top: 24px;
+                }
+
+                .profile-img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: contain;
+                }
+
+                .profile-name {
+                    margin-top: 14px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: white;
+                    font-family: "Copper-Bold";
+                    text-align: center;
+                    text-shadow: 0px 0px 20px #ffffff;
+                    @include media-breakpoint-down(md) {
+                        font-size: 22px;
+                    }
+                    @include media-breakpoint-down(md) {
+                        font-size: 20px;
+                    }
+                }
+
+                .profile-position {
+                    margin-top: 14px;
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: white;
+                    font-family: "Lora-Regular";
+                    text-align: center;
+                    @include media-breakpoint-down(md) {
+                        font-size: 15px;
+                    }
+                    @include media-breakpoint-down(md) {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section-9-control {
+        padding-top: 50px;
+        z-index: 4;
+        background-color: black;
+
+        @include media-breakpoint-down(md){
+            padding-top: 50px;
+        }
+
+        .text-white {
+            font-family: "Copper-Bold";
+            font-size: 50px;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 20px;
+            }
+        }
+
+        .lite-paper-button {
+            cursor: pointer;
+            width: 353px;
+            height: 109px;
+            object-fit: contain;
+            margin-top: 40px;
+
+            @include media-breakpoint-down(md){
+                width: 60%;
+            }
+        }
+
+        .grid-bottom {
+            display: grid;
+            grid-template-columns: 50% 50%;
+
+            @include media-breakpoint-down(md) {
+                grid-template-columns: 100%;
+            }
+        }
+
+        
+    }
+    .divider-black-gradient-rotate {
+        height: 300px;
+        width: 100%;
+        background-image: url(../../../assets/img/landing/gradient-bottom-rotate.png);
+
+        @include media-breakpoint-down(md){
+            height: 80px;
+        }
+    }
+
+    .team-control{
+
+
+        .grid-control{
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+
+            .item-control{
+                width: 90%;
+                height: auto;
+                object-fit: contain;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .img-control{
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    
+}

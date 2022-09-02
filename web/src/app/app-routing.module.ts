@@ -37,11 +37,14 @@ import { StartNovelComponent } from './components/start-novel/start-novel.compon
 import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
 import { OurGuestComponent } from './components/our-guest/our-guest.component';
 import { VisualNovelComponent } from './components/visual-novel/visual-novel.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 const routes: Routes = [
     {path: '', component: LandingComponent},
+    {path: 'about-us', component: AboutUsComponent},
     {path: 'our-guest', component: OurGuestComponent},
     {path: 'choose-lang', component: StartNovelComponent},
+    {path: 'coming-soon', component: ComingSoonComponent},
     {path: 'choose-ep', component: ChooseEpComponent},
     {path: 'novel-ep-1', component: NovelComponent},
     {path: 'visual-novel', component: VisualNovelComponent},

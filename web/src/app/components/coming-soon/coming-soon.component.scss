@@ -4,8 +4,28 @@
 @import "~bootstrap/scss/variables";
 @import "../../../styles.scss";
 
+app-coming-soon {
+    .bg-control {
+        background: url(../../../assets/img/our-guest/bg-main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 700px;
+    }
 
-app-coming-soon{
 
+    .coming-soon-control{
+        height: 400px;
+        width: 100%;
+        display: flex;
+        margin-top: 15%;
+
+        .text-coming-soon{
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    
     
 }

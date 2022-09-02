@@ -17,11 +17,20 @@ export class OurGuestComponent implements OnInit {
 
   clickEden(){
     this.$gaService.event('click', 'Button', 'Eden');
-    window.open("https://magiceden.io/creators/hoteldementia", "_blank");
+    window.open("https://magiceden.io/marketplace/hoteldementia", "_blank");
+  }
+
+  clickEden2(){
+    this.$gaService.event('click', 'Button', 'Eden');
+    window.open("https://magiceden.io/marketplace/hdmtheinvitation", "_blank");
   }
 
   clickSolanart(){
     this.$gaService.event('click', 'Button', 'Solanart');
     window.open("https://solanart.io/collections/hoteldementia", "_blank");
+  }
+  clickSolanart2(){
+    this.$gaService.event('click', 'Button', 'Solanart');
+    window.open("https://solanart.io/collections/hoteldementia2", "_blank");
   }
 }
