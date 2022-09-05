@@ -167,7 +167,6 @@ app-our-guest {
                     width: auto;
                     margin-left: auto;
                     margin-right: auto;
-                    margin-top: 44px;
                 }
             }
             .img-control {
@@ -188,7 +187,7 @@ app-our-guest {
                     height: 100%;
                 }
                 @include media-breakpoint-down(md) {
-                    width: 60%;
+                    width: 80%;
                     position: relative;
                 }
             }

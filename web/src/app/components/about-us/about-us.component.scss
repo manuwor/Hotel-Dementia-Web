@@ -21,6 +21,21 @@ app-about-us {
 
     }
 
+    .section-1-control{
+        background: url(../../../assets/img/about-us/bg-top.png);
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+
+        @include media-breakpoint-down(md){
+            background: url(../../../assets/img/about-us/bg-top-mobile.jpg);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+    }
+
     .carousel-indicators{
         bottom: -90px
     }
@@ -30,7 +45,7 @@ app-about-us {
         position: relative;
         @include media-breakpoint-down(md) {
             padding-bottom: 0px;
-            margin-top: 110%;
+            margin-top: 50%;
         }
 
         .bg-img {
@@ -55,11 +70,12 @@ app-about-us {
           
             z-index: 1;
             margin-top: 150px;
-            margin-bottom: 150px;
-
+            margin-bottom: 0px;
+           
             @include media-breakpoint-down(md) {
                 margin-bottom: 0px;
                 margin-top: 100px;
+                width: 100%;
             }
         }
 
@@ -82,6 +98,12 @@ app-about-us {
         padding-top: 112px;
         padding-bottom: 112px;
 
+        @include media-breakpoint-down(md){
+            padding-top: 0px;
+            margin-top: 40px;
+            padding-bottom: 0px;
+        }
+
         .text-header {
             font-family: "Copper-Bold";
             font-size: 55px;
@@ -93,7 +115,8 @@ app-about-us {
                 margin-bottom: 50px;
             }
             @include media-breakpoint-down(md) {
-                font-size: 40px;
+                font-size: 20px;
+                margin-bottom: 16px;
             }
         }
 
@@ -171,10 +194,19 @@ app-about-us {
     .section-9-control {
         padding-top: 50px;
         z-index: 4;
-        background-color: black;
+        background-color: transparent;
+        background: url(../../../assets/img/about-us/bg-more-project.png);
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
 
         @include media-breakpoint-down(md){
             padding-top: 50px;
+            background-color: transparent;
+        }
+        @include media-breakpoint-down(sm){
+            padding-top: 50px;
+            background-color: transparent;
         }
 
         .text-white {
@@ -218,7 +250,7 @@ app-about-us {
         background-image: url(../../../assets/img/landing/gradient-bottom-rotate.png);
 
         @include media-breakpoint-down(md){
-            height: 80px;
+            height: 300px;
         }
     }
 
