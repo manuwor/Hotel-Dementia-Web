@@ -1,0 +1,173 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+app-our-partner {
+    .bg-main {
+        background: url("../../../assets/img/our-partner/bg-2.jpg");
+        min-height: 1000px;
+        padding-bottom: 100px;
+
+        @include media-breakpoint-down(md){
+            background: url("../../../assets/img/our-partner/bg-mobile.png");
+        }
+
+        .content-control {
+            margin-top: 159px;
+            .text-header {
+                text-align: center;
+                font-size: 48px;
+                font-family: "Copper-Regular";
+                font-weight: 400;
+                color: #ffffff;
+                line-height: 1.5em;
+                text-shadow: 0px 0px 53px rgba(255, 255, 255, 0.78);
+
+                @include media-breakpoint-down(md){
+                    font-size: 23px;
+                }
+            }
+
+            .tag-partner-control {
+                margin-top: 62px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+                text-align: center;
+
+                @include media-breakpoint-down(md){
+                    margin-top: 15px;
+                    margin-bottom: 24px;
+                }
+            }
+
+            .tag-partner {
+                object-fit: contain;
+                width: auto;
+                margin-left: 5px;
+                margin-right: 5px;
+                height: 40px;
+
+                @include media-breakpoint-down(md){
+                    height: 25px;
+                }
+            }
+
+            .text-sub-header {
+                text-align: center;
+                font-size: 24px;
+                font-family: "Copper-Regular";
+                font-weight: 400;
+                margin-top: 40px;
+                color: #ffffff;
+                line-height: 1.5em;
+                text-shadow: 0px 0px 53px rgba(255, 255, 255, 0.78);
+                @include media-breakpoint-down(xl){
+                    font-size: 16px;
+                }
+                @include media-breakpoint-down(md){
+                    font-size: 9px;
+                    text-align: center;
+                
+                }
+            }
+
+            .lounge-control {
+                margin-top: 24px;
+                margin-left: auto;
+                margin-right: auto;
+                left: 0;
+                right: 0;
+
+                @include media-breakpoint-down(md){
+                    text-align: center;
+                    margin-bottom: 15px;
+                    margin-top: 0px;
+                }
+
+               
+                .lounge-item {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    width: 198px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    @include media-breakpoint-down(xl){
+                        width: 120px;
+                    }
+                    @include media-breakpoint-down(md){
+                        width: 80px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+                }
+
+                .lounge-item-special {
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    width: 198px;
+                    margin-left: 40px;
+                    margin-right: 40px;
+
+                    @include media-breakpoint-down(xl){
+                        width: 120px;
+                    }
+                    @include media-breakpoint-down(md){
+                        width: 80px;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+
+                }
+
+                .lounge-img {
+                    width: 198px;
+                    height: 198px;
+                    object-fit: contain;
+                    @include media-breakpoint-down(xl){
+                        width: 120px;
+                        height: 120px;
+                    }
+                    @include media-breakpoint-down(md){
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+
+                .lounge-name {
+                    text-align: center;
+                    font-size: 18px;
+                    font-family: "Copper-Regular";
+                    font-weight: 400;
+                    color: #ffffff;
+                    line-height: 1.5em;
+                    margin-top: 26px;
+                    @include media-breakpoint-down(xl){
+                        font-size: 12px;
+                    }
+                    @include media-breakpoint-down(md){
+                        font-size: 8px;
+                    }
+                }
+                .lounge-desc {
+                    text-align: center;
+                    font-size: 15px;
+                    font-family: "novel-regular";
+                    font-weight: 200;
+                    color: #ffffff;
+                    line-height: 1.5em;
+                    margin-top: 19px;
+                    @include media-breakpoint-down(xl){
+                        font-size: 11px;
+                    }
+                      @include media-breakpoint-down(md){
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

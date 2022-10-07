@@ -90,6 +90,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { VisualNovelComponent } from './components/visual-novel/visual-novel.component';
 import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { OurPartnerComponent } from './components/our-partner/our-partner.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -172,6 +173,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
     FooterComponent,
     VisualNovelComponent,
     AboutUsComponent,
+    OurPartnerComponent,
   ],
   imports: [
     NgbCarouselModule,
