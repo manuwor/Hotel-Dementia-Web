@@ -18,6 +18,7 @@
                 <img src="./assets/img/our-partner/delivery.png" class="tag-partner">
 
             </div>
+         
             <div class="tag-partner-control  d-md-none d-flex">
 
                 <img src="./assets/img/our-partner/lounge.png" class="tag-partner">
@@ -37,55 +38,85 @@
 
             <div class="lounge-control d-md-flex d-none">
 
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL1()">
 
                     <img src="./assets/img/our-partner/lounge-1.png" class="lounge-img">
-                    <span class="lounge-name">DUMBO</span>
-                    <span class="lounge-desc">Good vibe Good jazz on the roof</span>
+                    <span class="lounge-name">Labyrith Cafe</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL2()">
 
                     <img src="./assets/img/our-partner/lounge-2.png" class="lounge-img">
-                    <span class="lounge-name">DUSK TILL DAWN</span>
-                    <span class="lounge-desc">พื้นที่ตรงกลางเชื่อมผู้คนด้วยศิลปะและดนตรี</span>
+                    <span class="lounge-name">Ve/la</span>
+                    <span class="lounge-desc">Your favourite neighbourhood cafe</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL3()">
 
                     <img src="./assets/img/our-partner/lounge-3.png" class="lounge-img">
-                    <span class="lounge-name">FIND THE LOCKER ROOM</span>
+                    <span class="lounge-name">Find The Locker Room</span>
                     <span class="lounge-desc">Speakeasy yes we are</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL4()">
 
                     <img src="./assets/img/our-partner/lounge-4.png" class="lounge-img">
-                    <span class="lounge-name">KNOCK KNOCK</span>
+                    <span class="lounge-name">Dusk till Dawn</span>
+                    <span class="lounge-desc">พื้นที่ตรงกลางที่เชื่อมผู้คน ด้วยศิลปะและดนตรี</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL5()">
 
                     <img src="./assets/img/our-partner/lounge-5.png" class="lounge-img">
-                    <span class="lounge-name">SINNERMAN BAR</span>
+                    <span class="lounge-name">Dumbo</span>
+                    <span class="lounge-desc">Good vibe Good jazz on the roof</span>
                 </div>
 
             </div>
 
+            <div class="lounge-control d-md-flex d-none">
+
+                <div class="lounge-item d-flex flex-column" (click)="clickL6()">
+
+                    <img src="./assets/img/our-partner/lounge-6.png" class="lounge-img">
+                    <span class="lounge-name">Knock Knock</span>
+                </div>
+                <div class="lounge-item d-flex flex-column" (click)="clickL7()">
+
+                    <img src="./assets/img/our-partner/lounge-7.png" class="lounge-img">
+                    <span class="lounge-name">Sinnerman Bar</span>
+                </div>
+
+                <div class="lounge-item d-flex flex-column" (click)="clickL8()">
+
+                    <img src="./assets/img/our-partner/lounge-8.png" class="lounge-img">
+                    <span class="lounge-name">Wallflowers Cafe</span>
+                </div>
+
+                <div class="lounge-item d-flex flex-column" (click)="clickL9()">
+
+                    <img src="./assets/img/our-partner/lounge-9.png" class="lounge-img">
+                    <span class="lounge-name">Great Shot Bar</span>
+                    <span class="lounge-desc">“GREAT SHOT” means both interm of shot when you taking a Photo & shot of a Drink</span>
+                </div>
+
+              
+              
+            </div>
+
             <div class="lounge-control d-md-none d-flex">
 
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL1()">
 
                     <img src="./assets/img/our-partner/lounge-1.png" class="lounge-img">
-                    <span class="lounge-name">DUMBO</span>
-                    <span class="lounge-desc">Good vibe Good jazz on the roof</span>
+                    <span class="lounge-name">Labyrith Cafe</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL2()">
 
                     <img src="./assets/img/our-partner/lounge-2.png" class="lounge-img">
-                    <span class="lounge-name">DUSK TILL DAWN</span>
-                    <span class="lounge-desc">พื้นที่ตรงกลางเชื่อมผู้คนด้วยศิลปะและดนตรี</span>
+                    <span class="lounge-name">Ve/la</span>
+                    <span class="lounge-desc">Your favourite neighbourhood cafe</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL3()">
 
                     <img src="./assets/img/our-partner/lounge-3.png" class="lounge-img">
-                    <span class="lounge-name">FIND THE LOCKER ROOM</span>
+                    <span class="lounge-name">Find The Locker Room</span>
                     <span class="lounge-desc">Speakeasy yes we are</span>
                 </div>
                
@@ -93,44 +124,46 @@
             </div>
 
             <div class="lounge-control d-flex d-md-none">
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL4()">
 
                     <img src="./assets/img/our-partner/lounge-4.png" class="lounge-img">
-                    <span class="lounge-name">KNOCK KNOCK</span>
+                    <span class="lounge-name">Dusk till Dawn</span>
+                    <span class="lounge-desc">พื้นที่ตรงกลางที่เชื่อมผู้คน ด้วยศิลปะและดนตรี</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL5()">
 
                     <img src="./assets/img/our-partner/lounge-5.png" class="lounge-img">
-                    <span class="lounge-name">SINNERMAN BAR</span>
+                    <span class="lounge-name">Dumbo</span>
+                    <span class="lounge-desc">Good vibe Good jazz on the roof</span>
                 </div>
 
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL6()">
 
                     <img src="./assets/img/our-partner/lounge-6.png" class="lounge-img">
-                    <span class="lounge-name">LABYRITH CAFE</span>
+                    <span class="lounge-name">Knock Knock</span>
                 </div>
             </div>
             <div class="lounge-control d-flex d-md-none">
 
             
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickL7()">
 
                     <img src="./assets/img/our-partner/lounge-7.png" class="lounge-img">
-                    <span class="lounge-name">VE/LA</span>
-                    <span class="lounge-desc">Your favourite neighbourhood cafe</span>
+                    <span class="lounge-name">Sinnerman Bar</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+
+                <div class="lounge-item d-flex flex-column" (click)="clickL8()">
 
                     <img src="./assets/img/our-partner/lounge-8.png" class="lounge-img">
+                    <span class="lounge-name">Wallflowers Cafe</span>
+                </div>
+
+                <div class="lounge-item d-flex flex-column" (click)="clickL9()">
+
+                    <img src="./assets/img/our-partner/lounge-9.png" class="lounge-img">
                     <span class="lounge-name">Great Shot Bar</span>
                     <span class="lounge-desc">“GREAT SHOT” means both interm of shot when you taking a Photo & shot of a Drink</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
-
-                    <img src="./assets/img/our-partner/lounge-9.png" class="lounge-img">
-                    <span class="lounge-name">Wallflowers Cafe</span>
-                </div>
-               
 
             </div>
 
@@ -141,13 +174,13 @@
 
             <div class="lounge-control d-flex">
 
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickR1()">
 
                     <img src="./assets/img/our-partner/recreation-1.png" class="lounge-img">
                     <span class="lounge-name">Mediums</span>
                     <span class="lounge-desc">A creative retreat for all daydreamers</span>
                 </div>
-                <div class="lounge-item d-flex flex-column">
+                <div class="lounge-item d-flex flex-column" (click)="clickR2()">
 
                     <img src="./assets/img/our-partner/recreation-2.png" class="lounge-img">
                     <span class="lounge-name">Sea Life</span>
@@ -160,7 +193,7 @@
 
             <div class="lounge-control d-flex">
 
-                <div class="lounge-item-special d-flex flex-column">
+                <div class="lounge-item-special d-flex flex-column" (click)="clickC1()">
                     <h1 class="text-sub-header">
                         Hotel <br>
                         Chain
@@ -168,7 +201,7 @@
                     <img src="./assets/img/our-partner/chain-1.png" class="lounge-img">
                     <span class="lounge-name">Asai</span>
                 </div>
-                <div class="lounge-item-special d-flex flex-column">
+                <div class="lounge-item-special d-flex flex-column" (click)="clickRE1()">
                     <h1 class="text-sub-header">
                         Hotel <br>
                         Restaurant
@@ -176,7 +209,7 @@
                     <img src="./assets/img/our-partner/restaurant-1.png" class="lounge-img">
                     <span class="lounge-name">Aunglo By Yangrak</span>
                 </div>
-                <div class="lounge-item-special d-md-flex d-none flex-column">
+                <div class="lounge-item-special d-md-flex d-none flex-column" (click)="clickDE1()">
                     <h1 class="text-sub-header">
                         Delivery <br>
                         service
@@ -189,7 +222,7 @@
             <div class="lounge-control d-flex d-md-none">
 
              
-                <div class="lounge-item-special d-flex d-md-none flex-column">
+                <div class="lounge-item-special d-flex d-md-none flex-column" (click)="clickDE1()">
                     <h1 class="text-sub-header">
                         Delivery <br>
                         service
