@@ -83,6 +83,14 @@ import { ComingSoonComponent } from './components/coming-soon/coming-soon.compon
 import { NovelComponent } from './components/novel/novel.component';
 import { StartNovelComponent } from './components/start-novel/start-novel.component';
 import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { OurGuestComponent } from './components/our-guest/our-guest.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { VisualNovelComponent } from './components/visual-novel/visual-novel.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { OurPartnerComponent } from './components/our-partner/our-partner.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -160,8 +168,16 @@ import { ChooseEpComponent } from './components/choose-ep/choose-ep.component';
     NovelComponent,
     StartNovelComponent,
     ChooseEpComponent,
+    HeaderComponent,
+    OurGuestComponent,
+    FooterComponent,
+    VisualNovelComponent,
+    AboutUsComponent,
+    OurPartnerComponent,
   ],
   imports: [
+    NgbCarouselModule,
+    FontAwesomeModule,
     BrowserModule,
     AppRoutingModule,
     VgCoreModule,

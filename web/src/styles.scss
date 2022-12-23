@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+$bg-button: #1a73e8;
+$text-white: #fff;
 @font-face {
     font-family: BebasNeue-Regular;
     src: url(assets/fonts/BebasNeue-Regular.eot);
@@ -56,8 +58,9 @@
 @font-face {
     font-family: "Copper-Regular";
     src: url(./assets/fonts/OPTICopperplate.otf);
-    font-weight: 700;
 }
+
+
 :root {
     --fontFamily: "Copper-Bold", sans-serif;
     --fontFamily2: BebasNeue-Regular;

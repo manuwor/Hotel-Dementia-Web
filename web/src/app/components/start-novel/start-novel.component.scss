@@ -11,9 +11,18 @@ app-start-novel {
         padding-right: 0;
         padding-top: 30px;
         padding-bottom: 30px;
-        @include media-breakpoint-down(lg) {
-            transform: rotate(90deg);
-            padding-bottom: 0px;
+        @include media-breakpoint-down(md) {
+            /* Rotate the content container */
+            transform: rotate(-90deg);
+            transform-origin: left top;
+            /* Set content width to viewport height */
+            width: 100vh;
+            /* Set content height to viewport width */
+            height: 100vw;
+            overflow-x: hidden;
+            position: absolute;
+            top: 100%;
+            left: 0;
         }
     }
     .frame-control {
@@ -35,6 +44,56 @@ app-start-novel {
             margin-bottom: auto;
             height: 80vh;
         }
+
+        @include media-breakpoint-down(md) {
+            margin-right: 10%;
+            margin-left: 5%;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 100%;
+            width: 90%;
+        }
+        @include media-breakpoint-down(sm) {
+            margin-right: 15%;
+            margin-left: 2%;
+            margin-top: auto;
+            margin-bottom: auto;
+            height: 100%;
+            width: 90%;
+        }
+    }
+
+    @supports (-webkit-touch-callout: none) {
+        .frame-control {
+            position: relative;
+    
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+    
+            @include media-breakpoint-up(xl) {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @include media-breakpoint-down(lg) {
+                margin-right: auto;
+                margin-left: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+                height: 80vh;
+            }
+    
+            @include media-breakpoint-down(md) {
+                margin-right: 40%;
+                margin-left: 5%;
+                margin-top: auto;
+                margin-bottom: auto;
+                height: 100%;
+                width: 90%;
+            }
+         
+        }
     }
 
     .opacity-frame {
@@ -51,6 +110,11 @@ app-start-novel {
 
         @include media-breakpoint-down(lg) {
             width: 100%;
+        }
+        @include media-breakpoint-down(lg) {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
         }
     }
 
@@ -104,6 +168,25 @@ app-start-novel {
     .text-welcome-2-anim-cont {
         animation: welcome_2_cont 4s forwards;
     }
+    .button-lng-control {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        .button-img {
+            cursor: pointer;
+            margin-left: 28px;
+            margin-right: 28px;
+            width: auto;
+            height: 80px;
+            object-fit: contain;
+
+            @include media-breakpoint-down(md) {
+                height: 60px;
+            }
+        }
+    }
     .language-control {
         position: absolute;
         margin-top: auto;
@@ -134,7 +217,7 @@ app-start-novel {
         }
     }
 
-    .language-control-out{
+    .language-control-out {
         animation: language_anim_out 2s forwards;
     }
 
@@ -148,12 +231,11 @@ app-start-novel {
         flex-direction: column;
         animation: language_anim 4s forwards;
 
-        .start-img{
+        .start-img {
             width: auto;
             height: 60px;
             object-fit: contain;
         }
-
     }
 
     @keyframes welcome_1 {

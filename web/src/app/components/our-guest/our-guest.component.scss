@@ -1,0 +1,295 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+app-our-guest {
+    .bg-control {
+        background: url(../../../assets/img/our-guest/bg-main.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 1400px;
+    }
+    .card-control {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 30%;
+        }
+
+        .card-green-control {
+            background: #0b1b10;
+            border-radius: 30px;
+            height: 500px;
+            padding-left: 0px;
+            padding-right: 44px;
+            width: 100%;
+
+            @include media-breakpoint-down(lg) {
+                padding-left: 16px;
+                padding-right: 16px;
+                height: auto;
+            }
+
+            @include media-breakpoint-down(md) {
+                padding-left: 16px;
+                padding-right: 16px;
+                height: auto;
+            }
+
+            .right-control {
+                width: 80%;
+                margin-top: 44px;
+                margin-bottom: 44px;
+                @include media-breakpoint-down(lg) {
+                    margin-left: 40px;
+                }
+                @include media-breakpoint-down(md) {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .grid-control {
+                display: flex;
+                flex-direction: row;
+
+                @include media-breakpoint-down(md) {
+                    display: grid;
+                    flex-direction: column;
+                }
+            }
+
+            .border-img-control {
+                width: 600px;
+                height: 500px;
+                position: relative;
+
+                @include media-breakpoint-down(lg) {
+                    width: 60%;
+                    height: auto;
+                    position: relative;
+                }
+
+                @include media-breakpoint-down(md) {
+                    display: flex;
+                    height: auto;
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 44px;
+                }
+            }
+
+            .img-control {
+                position: absolute;
+                width: 70%;
+                object-fit: contain;
+                margin-left: auto;
+                margin-right: auto;
+                height: auto;
+                margin-top: auto;
+                margin-bottom: auto;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+
+                @include media-breakpoint-down(md) {
+                    width: 60%;
+                    position: relative;
+                }
+            }
+        }
+        .card-brown-control {
+            margin-top: 60px;
+            background: #342c2a;
+            border-radius: 30px;
+            padding-left: 0px;
+            padding-right: 44px;
+            width: 100%;
+            height: 500px;
+            @include media-breakpoint-down(lg) {
+                height: 400px;
+            }
+            @include media-breakpoint-down(md) {
+                padding-left: 16px;
+                padding-right: 16px;
+                height: auto;
+            }
+
+            .right-control {
+                width: 80%;
+                margin-top: 44px;
+                margin-bottom: 44px;
+                @include media-breakpoint-down(lg) {
+                    margin-left: 40px;
+                }
+                @include media-breakpoint-down(md) {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            .grid-control {
+                display: flex;
+                flex-direction: row;
+                @include media-breakpoint-down(lg) {
+                    display: flex;
+                    flex-direction: row;
+                    height: 100%;
+                }
+                @include media-breakpoint-down(md) {
+                    display: grid;
+                    flex-direction: column;
+                }
+            }
+            
+            .border-img-control {
+                width: 600px;
+                height: 500px;
+                position: relative;
+
+                @include media-breakpoint-down(lg) {
+                    width: 60%;
+                    height: auto;
+                    position: relative;
+                }
+
+                @include media-breakpoint-down(md) {
+                    display: flex;
+                    height: auto;
+                    width: auto;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            .img-control {
+                position: absolute;
+                width: 100%;
+                object-fit: cover;
+                margin-left: auto;
+                margin-right: auto;
+                height: 100%;
+                margin-top: auto;
+                margin-bottom: auto;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                @include media-breakpoint-down(lg) {
+                    width: 100%;
+                    height: 100%;
+                }
+                @include media-breakpoint-down(md) {
+                    width: 80%;
+                    position: relative;
+                }
+            }
+        }
+
+        .text-desc {
+            width: 60%;
+            font-size: 12px;
+            font-family: "Copper-Regular";
+            font-weight: 300;
+            color: #ffffff;
+            line-height: 1.5em;
+
+            @include media-breakpoint-down(lg) {
+                width: 70%;
+                font-size: 11px;
+                margin-top: 16px;
+                margin-bottom: 16px;
+            }
+
+            @include media-breakpoint-down(md) {
+                font-size: 11px;
+                width: 100%;
+                margin-top: 30px;
+                font-weight: 300;
+                text-align: center;
+            }
+        }
+
+        .button-control {
+            margin-top: auto;
+            margin-left: auto;
+            flex-direction: row;
+
+            @include media-breakpoint-down(lg) {
+                margin-top: 24px;
+                margin-right: 44px;
+                flex-direction: row;
+            }
+            @include media-breakpoint-down(md) {
+                margin-top: 24px;
+                margin-right: auto;
+                flex-direction: column;
+            }
+        }
+
+        .button-cream {
+            cursor: pointer;
+            width: auto;
+            height: 40px;
+            object-fit: contain;
+            margin-left: 24px;
+
+            @include media-breakpoint-down(lg) {
+                height: 30px;
+                margin-left: 12px;
+            }
+
+            @include media-breakpoint-down(md) {
+                margin-left: 16px;
+                margin-right: 16px;
+                margin-bottom: 16px;
+                height: 50px;
+                object-fit: contain;
+                width: 90%;
+            }
+        }
+
+        .text-top-control {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+
+            @include media-breakpoint-down(md) {
+                flex-direction: column;
+            }
+
+            .text-header {
+                font-size: 30px;
+                font-family: "Copper-Bold";
+                font-weight: 400;
+                color: #ffffff;
+                text-shadow: 0px 0px 53px rgba(255, 255, 255, 0.78);
+                @include media-breakpoint-down(lg) {
+                    font-size: 22px;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: 24px;
+                    text-align: center;
+                    margin-top: 30px;
+                }
+            }
+
+            .text-header-right {
+                margin-left: auto;
+
+                @include media-breakpoint-down(md) {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}

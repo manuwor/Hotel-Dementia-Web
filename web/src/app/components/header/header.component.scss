@@ -1,0 +1,426 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "../../../styles.scss";
+
+
+app-header{
+
+    a:visited {
+        color: #333 !important;
+      }
+    
+      a {
+        color: #333;
+    
+        &:visited {
+          color: #333 !important;
+        }
+      }
+    
+      .menu-side-control {
+        position: fixed;
+        z-index: 2000;
+        background-color: black;
+        width: 100% !important;
+        height: 100vh;
+        overflow-y: auto;
+      }
+    
+      .mat-menu-item {
+        text-decoration: none !important;
+        font-family: "Copper-Bold";
+    
+        &:visited {
+          color: #333 !important;
+        }
+      }
+    
+      .mat-menu-panel {
+        background-color: black;
+        max-width: initial !important;
+      }
+    
+      .dropdown-img {
+        margin-left: 8px;
+        width: 12px;
+        height: 12px;
+      }
+    
+      .arrow-up {
+        transform: rotate(180deg);
+      }
+      .arrow-down{
+        transform: rotate(0deg);
+      }
+    
+      .menu-open-control {
+        width: 100%;
+        background-color: black;
+        float: right;
+      }
+    
+      .menu-open-header-control {
+        width: 100%;
+        height: 80px;
+        border-bottom-color: #eeeeee;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+
+        @include media-breakpoint-down(md){
+          border: none;
+        }
+      }
+    
+      .button-list-control {
+        height: 60px;
+        margin-bottom: 15px;
+      }
+    
+      .button-list-control-dropdown {
+        height: auto;
+        min-height: 50px;
+      }
+    
+      .cdk-overlay-pane {
+        width: 100%;
+      }
+    
+      .direction-mobile {
+        margin-right: auto;
+    
+        @include media-breakpoint-down(md) {
+          margin-right: auto;
+        }
+      }
+    
+      .menu-header-active {
+        border-bottom-color: $bg-button;
+        border-bottom-width: 5px !important;
+        border-bottom-style: solid;
+        border-radius: 0px;
+    
+        @include media-breakpoint-down(md) {
+          border-bottom-style: none;
+        }
+      }
+    
+      .button-register {
+        margin-left: 10px;
+        background-color: $bg-button;
+        border-radius: 2px;
+        color: white;
+        font-family: "Medium";
+        font-size: 15px;
+        padding: 9px 38px 9px 38px;
+    
+        &:hover {
+          color: white;
+        }
+    
+        @include media-breakpoint-down(md) {
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: 40px;
+        }
+      }
+    
+      .menu-control-padding {
+        height: 100% !important;
+        margin-left: 14px;
+        margin-right: 14px;
+    
+        @include media-breakpoint-down(xl) {
+          margin-left: 8px;
+          margin-right: 8px;
+        }
+    
+        @include media-breakpoint-down(lg) {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+        @include media-breakpoint-down(md) {
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 16px;
+          }
+      }
+    
+      .text-menu-border {
+        @include media-breakpoint-down(md) {
+          padding-bottom: 15px;
+          border-bottom-color: $bg-button;
+          border-bottom-width: 5px !important;
+          border-bottom-style: solid;
+          border-radius: 2px;
+        }
+      }
+    
+      .mat-menu-panel {
+        background-color: black;
+        max-width: initial !important;
+      }
+    
+      .dropdown-img {
+        margin-left: 8px;
+        width: 12px;
+        height: 12px;
+      }
+    
+      .menu-text {
+        font-size: 12px;
+        font-family: "Copper-Regular";
+        color: $text-white;
+
+        &:hover{
+            color: $text-white; 
+        }
+    
+        @media only screen and (min-width: 992px) and (max-width: 1024px) {
+          font-size: 13px;
+        }
+    
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          font-size: 18px;
+        }
+      }
+    
+      .menu-sub-text {
+        font-size: 13px !important;
+        font-family: "SemiBold" !important;
+        color: $text-white !important;
+    
+        &:visited {
+          color: #333 !important;
+        }
+    
+        @include media-breakpoint-down(md) {
+          font-family: "Regular" !important;
+          font-size: 15px !important;
+        }
+      }
+    
+      .logo-control {
+        cursor: pointer;
+        width: 145px;
+        height: auto;
+    
+        &:hover {
+          background-color: transparent !important;
+        }
+      }
+    
+      .menu-height-control {
+        height: 80px !important;
+      }
+    
+      .menu-height-collpase-control {
+        height: 100% !important;
+      }
+    
+      .bg-header {
+        min-height: 90px;
+        z-index: 100;
+        background: transparent;
+    
+        @include media-breakpoint-down(md) {
+          padding-left: 0px;
+          padding-right: 0px;
+        }
+      }
+    
+      // background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0) 100%)
+      .menu-control {
+        margin-left: auto;
+      }
+    
+      .height-nav-bar {
+        left: 0;
+        right: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+    
+        @include media-breakpoint-down(xl) {
+          margin-left: 0px;
+          margin-right: 0px;
+        }
+      }
+    
+      .bg-active-menu {
+        height: 100% !important;
+        background: white;
+      }
+    
+      // background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0) 100%)
+      .margin-menu-item {
+        margin-top: 0px;
+    
+        @include media-breakpoint-down(sm) {
+          margin-top: 30px;
+        }
+      }
+    
+      .menu-item {
+        margin-left: 20px;
+        margin-right: 20px;
+    
+        @include media-breakpoint-down(sm) {
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+      }
+    
+      .text-menu {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bold;
+        color: $text-white;
+    
+        &:hover {
+          color: $red;
+        }
+    
+        @include media-breakpoint-down(sm) {
+          font-size: 20px;
+          font-weight: 700;
+        }
+      }
+    
+      .dropdown-arrow {
+        width: 15px;
+        height: 11px;
+        object-fit: contain;
+        float: right;
+        margin-right: 5px;
+      }
+    
+     
+    
+      .text-mobile {
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    
+  
+    
+      
+    
+      .mat-menu-panel {
+        max-width: initial !important;
+    
+        @include media-breakpoint-down(md) {
+          max-width: 100% !important;
+          width: 100% !important;
+        }
+      }
+    
+      a.mat-menu-item {
+        text-decoration: none !important;
+        font-family: "SemiBold";
+      }
+    
+      button.mat-menu-item {
+        font-size: 15px;
+        font-family: "SemiBold";
+        color: #333333;
+    
+        @include media-breakpoint-down(md) {
+          text-align: center;
+        }
+      }
+    
+      .cdk-overlay-connected-position-bounding-box {
+        @include media-breakpoint-down(md) {
+          left: 0px !important;
+          width: 100% !important;
+        }
+      }
+    
+      .footer-logo-control {
+        width: 100%;
+      }
+    
+      .text-open-office {
+        font-size: 14px;
+        color: white;
+        font-family: "Regular";
+        margin-top: 24px;
+        margin-bottom: 15px;
+      }
+    
+      .footer-logo-icon-control {
+        margin-top: 8px;
+      }
+    
+      .img-call {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+      }
+    
+      .text-logo-side {
+        font-size: 14px;
+        color: white;
+        font-family: "Regular";
+        margin-left: 8px;
+      }
+    
+      .img-logo-red {
+        width: 100%;
+        height: 56px;
+        margin-top: 8px;
+        object-fit: contain;
+    
+        @include media-breakpoint-down(md) {
+          margin-bottom: 16px;
+          height: auto;
+          width: 200px;
+        }
+      }
+    
+      .footer-icon-social-control {
+        margin-top: 16px;
+        width: 100%;
+    
+        .icon-col-control {
+          @include media-breakpoint-down(md) {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+          }
+        }
+    
+        .icon-social {
+          width: 36px;
+          height: 36px;
+          object-fit: contain;
+          margin-left: 4px !important;
+          margin-right: 4px !important;
+        }
+    
+        @include media-breakpoint-down(md) {
+          margin-bottom: 8px;
+        }
+      }
+    
+      .sitemap-list {
+        font-size: 14px;
+        color: #333;
+        font-family: "Regular";
+    
+        @include media-breakpoint-down(md) {
+          text-align: center;
+          margin-top: 4px;
+          font-size: 13px;
+        }
+      }
+    
+      .menu-mobile-control {
+        padding-top: 15px;
+      }
+
+
+
+}

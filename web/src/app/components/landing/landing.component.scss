@@ -6,57 +6,72 @@
 
 $red: #de6959;
 app-landing {
+    background-color: black;
     .section-1-img {
         width: 100%;
         height: auto;
         object-fit: cover;
     }
 
+    .carousel-indicators{
+        bottom: -90px
+    }
+
     .section-2-control {
         position: relative;
-
-        @include media-breakpoint-down(md){
-            padding-bottom: 100px;
+        @include media-breakpoint-down(md) {
+            padding-bottom: 0px;
         }
 
         .bg-img {
+            padding-top: 16px;
+            margin-bottom: 16px;
             background-color: black;
             position: absolute;
             width: 100%;
+            opacity: 0.6;
             height: 100%;
             object-fit: cover;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 object-fit: cover;
-                height: 742px;
+                height: 442px;
+                margin-bottom: auto;
+                margin-top: auto;
             }
         }
 
         .text-control {
             z-index: 1;
             margin-top: 150px;
+            margin-bottom: 150px;
+
+            @include media-breakpoint-down(md) {
+                margin-bottom: 0px;
+                margin-top: 100px;
+            }
         }
 
         .text-white-invite {
             font-family: "Copper-Bold";
-            font-size: 40px;
+            font-size: 60px;
             font-weight: 700;
             color: white;
             text-align: center;
-            text-shadow: 0px 0px 20px #ffffff;
 
             @include media-breakpoint-down(md) {
-                font-size: 32px;
+                font-size: 24px;
             }
         }
         .text-white-invite-1 {
-            font-size: 45px !important;
+            text-align: center;
+            margin-top: 149px;
+            font-size: 40px;
 
             @include media-breakpoint-down(md) {
-                font-size: 33px;
+                font-size: 14px;
             }
         }
-
 
         .text-red-invite {
             margin-top: 24px;
@@ -65,7 +80,7 @@ app-landing {
             color: $red;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 40px #E04B36;
+            text-shadow: 0px 0px 40px #e04b36;
 
             @include media-breakpoint-down(md) {
                 font-size: 68px;
@@ -81,61 +96,46 @@ app-landing {
     }
 
     .section-3-control {
-        .bg-img {
-            width: 100%;
+        padding-top: 180px;
+        background-color: black;
+        box-shadow: 10px 10px 10px black;
+
+        @include media-breakpoint-down(md){
+            padding-top: 60px;
+        }
+        .section-3-img {
+            width: 80%;
             height: auto;
+            margin-left: auto;
+            margin-right: auto;
             object-fit: contain;
         }
     }
 
     .section-4-control {
-        background-color: $red;
+        background: url(/assets/img/landing/section-4-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         padding-top: 112px;
-        padding-bottom: 112px;
 
-        .text-header {
-            font-family: "Copper-Bold";
-            font-size: 55px;
-            font-weight: 700;
-            color: white;
-            text-align: center;
-
+        .carousel-control {
             @include media-breakpoint-down(md) {
-                font-size: 40px;
+                margin-top: 50px;
+                margin-bottom: 0px;
             }
         }
 
-        .text-desc {
-            font-family: "Lora-Regular";
-            margin-top: 17px;
-            font-size: 15px;
-            font-weight: 400;
-            color: white;
-            text-align: center;
-
-            @include media-breakpoint-down(md) {
-                font-size: 14px;
-            }
-        }
-
-        .grid-control {
-            margin-top: 44px;
+        .carousel-item {
             width: 100%;
-            display: grid;
-            grid-template-columns: 33% 33% 33%;
-
-            @include media-breakpoint-down(md) {
-                grid-template-columns: 100%;
-            }
 
             .vdo-gif {
                 margin-left: auto;
                 margin-right: auto;
-                width: 80%;
+                width: 60%;
                 height: auto;
                 object-fit: contain;
 
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     margin-top: 57px;
                 }
             }
@@ -146,7 +146,7 @@ app-landing {
                 font-family: "Lora-Italic";
                 color: white;
                 margin-top: 21px;
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     font-size: 16px;
                 }
             }
@@ -158,10 +158,10 @@ app-landing {
                 color: white;
                 text-align: center;
                 text-shadow: 0px 0px 20px #ffffff;
-                @include media-breakpoint-down(lg){
+                @include media-breakpoint-down(lg) {
                     font-size: 22px;
                 }
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     font-size: 34px;
                 }
             }
@@ -172,8 +172,105 @@ app-landing {
                 font-size: 15px;
                 color: white;
                 text-align: center;
-                
-                @include media-breakpoint-down(md){
+
+                @include media-breakpoint-down(md) {
+                    font-size: 14px;
+                }
+            }
+
+            .text-date {
+                font-family: "Copper-Bold";
+                font-size: 20px;
+                color: white;
+                text-align: center;
+                @include media-breakpoint-down(md) {
+                    font-size: 18px;
+                }
+            }
+        }
+
+        .text-header {
+            font-family: "Copper-Bold";
+            font-size: 55px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 24px;
+            }
+        }
+
+        .text-desc {
+            font-family: "Copper-Bold" !important;
+            margin-top: 17px;
+            font-size: 15px;
+            font-weight: 300;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 12px;
+            }
+        }
+
+        .grid-control {
+            margin-top: 44px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+
+            @include media-breakpoint-down(md) {
+                display: none;
+                grid-template-columns: 100%;
+            }
+
+            .vdo-gif {
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+                height: auto;
+                object-fit: contain;
+
+                @include media-breakpoint-down(md) {
+                    margin-top: 57px;
+                }
+            }
+
+            .text-collecton {
+                text-align: center;
+                font-size: 18px;
+                font-family: "Lora-Italic";
+                color: white;
+                margin-top: 21px;
+                @include media-breakpoint-down(md) {
+                    font-size: 16px;
+                }
+            }
+
+            .text-name {
+                font-family: "Copper-Bold";
+                font-size: 34px;
+                font-weight: 700;
+                color: white;
+                text-align: center;
+                text-shadow: 0px 0px 20px #ffffff;
+                @include media-breakpoint-down(lg) {
+                    font-size: 22px;
+                }
+                @include media-breakpoint-down(md) {
+                    font-size: 34px;
+                }
+            }
+
+            .text-total-nft {
+                margin-top: 4px;
+                font-family: "Lora-Regular";
+                font-size: 15px;
+                color: white;
+                text-align: center;
+
+                @include media-breakpoint-down(md) {
                     font-size: 14px;
                 }
             }
@@ -183,7 +280,7 @@ app-landing {
                 font-size: 20px;
                 color: white;
                 text-align: center;
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     font-size: 18px;
                 }
             }
@@ -191,19 +288,19 @@ app-landing {
     }
 
     .section-5-control {
-        padding-top: 500px;
-        background-image: url(../../../assets/img/landing/section-5-bg.jpg);
-        background-position: top center;
+        padding-top: 200px;
+        background-image: url(../../../assets/img/landing/section-5-bg.png);
+        background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        @include media-breakpoint-down(lg){
+        @include media-breakpoint-down(lg) {
             padding-top: 180px;
         }
-        @include media-breakpoint-down(md){
-            padding-top: 180px;
+        @include media-breakpoint-down(md) {
+            padding-top: 100px;
         }
 
-        .mint-now-button{
+        .mint-now-button {
             cursor: pointer;
             height: 99px;
             width: auto;
@@ -223,12 +320,13 @@ app-landing {
             text-shadow: 0px 0px 20px #ffffff;
 
             @include media-breakpoint-down(md) {
-                font-size: 68px;
+                font-size: 32px;
+                text-shadow: none;
             }
         }
 
         .text-white-desc {
-            font-family: "Lora-Regular";
+            font-family: "Copper-Bold" !important;
             font-size: 15px;
             font-weight: 700;
             color: white;
@@ -241,19 +339,28 @@ app-landing {
             }
         }
 
-        .tribe-control {
-            margin-top: 86px;
+        .carousel-control {
+            margin-top: 150px;
+            margin-bottom: 100px;
 
-            .tribe-img{
+            @include media-breakpoint-down(md){
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .tribe-control {
+            .tribe-img {
                 width: 100%;
                 height: auto;
                 object-fit: contain;
                 margin-top: 40px;
             }
 
-
             .tribe-1-control {
-                width: 360px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80% !important;
 
                 @include media-breakpoint-down(lg) {
                     margin-left: auto;
@@ -304,15 +411,17 @@ app-landing {
                 }
             }
             .tribe-text {
+                margin-top: 60px;
                 font-family: "Copper-Bold";
                 font-size: 34px;
                 font-weight: 700;
                 color: white;
                 text-align: center;
-                text-shadow: 0px 0px 20px #ffffff;
+                text-shadow: 0px 0px 3px #ffffff;
 
                 @include media-breakpoint-down(md) {
-                    font-size: 32px;
+                    margin-top: 30px;
+                    font-size: 24px;
                 }
             }
 
@@ -322,21 +431,18 @@ app-landing {
                 display: grid;
                 grid-template-columns: 33% 33% 33%;
 
-               
-
+                @include media-breakpoint-down(md){
+                    grid-template-columns: 100%;
+                }
                 .tribe-img {
-                    width: 120px;
-                    height: 120px;
+                    width: 100%;
+                    height: auto;
                     object-fit: contain;
 
-                    @include media-breakpoint-down(lg){
-                        width: 300px;
-                        height: auto;
-                    }
-
                     @include media-breakpoint-down(md){
-                        width: 120px;
-                    height: 120px;
+                        width: 80%;
+                        margin-left: auto;
+                        margin-right: auto;
                     }
                 }
             }
@@ -350,7 +456,7 @@ app-landing {
             margin-left: auto;
             margin-right: auto;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 margin-top: 100px;
                 width: 100%;
             }
@@ -364,7 +470,7 @@ app-landing {
             margin-right: auto;
             margin-top: -80px;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 height: auto;
                 width: 100%;
                 margin-top: -35%;
@@ -379,7 +485,7 @@ app-landing {
             display: grid;
             grid-template-columns: 30% 39% 30%;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 grid-template-columns: 100%;
             }
 
@@ -392,12 +498,13 @@ app-landing {
             .text-control {
                 display: flex;
                 flex-direction: column;
+                margin-top: 21px;
+                margin-bottom: 21px;
                 .text-header {
                     text-align: center;
                     font-size: 18px;
                     font-family: "Lora-Italic";
                     color: white;
-                    margin-top: 21px;
                 }
 
                 .text-red {
@@ -406,7 +513,7 @@ app-landing {
                     color: $red;
                     font-family: "Copper-Bold";
                     text-align: center;
-                    text-shadow: 0px 0px 20px #ff1f00;
+                    text-shadow: 0px 0px 5px #ff1f00;
                 }
             }
 
@@ -417,14 +524,13 @@ app-landing {
                 padding-top: 16px;
                 padding-bottom: 16px;
 
-
                 .text-header {
                     text-align: center;
                     font-size: 18px;
                     font-family: "Lora-Italic";
                     color: white;
                     margin-top: 21px;
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 16px;
                     }
                 }
@@ -435,9 +541,9 @@ app-landing {
                     color: $red;
                     font-family: "Copper-Bold";
                     text-align: center;
-                    text-shadow: 0px 0px 20px #ff1f00;
+                    text-shadow: 0px 0px 5px #ff1f00;
 
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 36px;
                     }
                 }
@@ -456,7 +562,7 @@ app-landing {
                 margin-right: auto;
                 border: solid 1px $red;
 
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     width: 100%;
                     margin-top: 29px;
                     margin-bottom: 29px;
@@ -470,9 +576,9 @@ app-landing {
             color: white;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 20px #ffffff;
+            text-shadow: 0px 0px 5px #ffffff;
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 font-size: 34px;
             }
         }
@@ -483,18 +589,52 @@ app-landing {
             color: $red;
             font-family: "Copper-Bold";
             text-align: center;
-            text-shadow: 0px 0px 40px #e04b36;
-        
-            @include media-breakpoint-down(md){
+            text-shadow: 0px 0px 5px #e04b36;
+
+            @include media-breakpoint-down(md) {
                 font-size: 45px;
             }
         }
     }
 
+    .divider-black-gradient {
+        height: 300px;
+        width: 100%;
+        background-image: url(../../../assets/img/landing/gradient-bottom.png);
+
+        @include media-breakpoint-down(md){
+            height: 80px;
+        }
+    }
+
     .section-6-control {
-        .roadmap-img {
-            width: 100%;
-            height: auto;
+        height: 900px;
+        background-image: url(../../../assets/img/landing/section-6-bg-img.jpg);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        @include media-breakpoint-down(md){
+            height: 500px;
+        }
+
+        .text-white-invite {
+            font-family: "Copper-Bold";
+            font-size: 80px;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 24px;
+            }
+        }
+        .button-partner {
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            height: 90px;
             object-fit: contain;
         }
     }
@@ -518,11 +658,11 @@ app-landing {
             font-weight: 700;
             color: white;
             text-align: center;
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-down(lg) {
                 font-size: 40px;
                 margin-bottom: 50px;
             }
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 font-size: 40px;
             }
         }
@@ -532,12 +672,12 @@ app-landing {
             display: grid;
             grid-template-columns: 25% 25% 25% 25%;
 
-            @include media-breakpoint-down(lg){
+            @include media-breakpoint-down(lg) {
                 grid-template-columns: 50% 50%;
                 margin-top: 0px;
             }
 
-            @include media-breakpoint-down(md){
+            @include media-breakpoint-down(md) {
                 grid-template-columns: 50% 50%;
                 margin-top: 0px;
             }
@@ -549,11 +689,11 @@ app-landing {
                 margin-right: auto;
                 display: flex;
                 flex-direction: column;
-                @include media-breakpoint-down(lg){
+                @include media-breakpoint-down(lg) {
                     width: 70%;
                     margin-top: 24px;
                 }
-                @include media-breakpoint-down(md){
+                @include media-breakpoint-down(md) {
                     width: 90%;
                     margin-top: 24px;
                 }
@@ -572,10 +712,10 @@ app-landing {
                     font-family: "Copper-Bold";
                     text-align: center;
                     text-shadow: 0px 0px 20px #ffffff;
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 22px;
                     }
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 20px;
                     }
                 }
@@ -587,10 +727,10 @@ app-landing {
                     color: white;
                     font-family: "Lora-Regular";
                     text-align: center;
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 15px;
                     }
-                    @include media-breakpoint-down(md){
+                    @include media-breakpoint-down(md) {
                         font-size: 14px;
                     }
                 }
@@ -599,92 +739,47 @@ app-landing {
     }
 
     .section-9-control {
-        background: url(../../../assets/img/landing/section-9-bg.jpg);
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
+        padding-top: 150px;
+        background-color: black;
+
+        @include media-breakpoint-down(md){
+            padding-top: 50px;
+        }
+
+        .text-white {
+            font-family: "Copper-Bold";
+            font-size: 50px;
+            font-weight: 400;
+            color: white;
+            text-align: center;
+
+            @include media-breakpoint-down(md) {
+                font-size: 20px;
+            }
+        }
 
         .lite-paper-button {
             cursor: pointer;
             width: 353px;
             height: 109px;
             object-fit: contain;
-            margin-top: 117px;
-
-         
-        }
-
-        .text-our-marketplace {
-            margin-top: 104px;
-            font-size: 40px;
-            font-weight: 700;
-            color: $red;
-            font-family: "Copper-Bold";
-            text-align: center;
-            text-shadow: 0px 0px 20px #ff1f00;
+            margin-top: 40px;
 
             @include media-breakpoint-down(md){
-                font-size: 32px;
+                width: 60%;
             }
         }
 
-        .button-marketplace-control {
-            margin-top: 25px;
-            display: flex;
-            flex-direction: row;
-            margin-left: auto;
-            margin-right: auto;
-
-            @include media-breakpoint-down(md){
-                flex-direction: column;
-            }
-
-            .button-marketplace {
-                cursor: pointer;
-                height: 56px;
-                width: auto;
-                object-fit: contain;
-                margin-left: 24px;
-                margin-right: 24px;
-
-                @include media-breakpoint-down(md){
-                    margin-top: 18px;
-                    height: 38px;
-                }
-            }
-        }
-
-        .social-grid-control {
-            margin-top: 25px;
-            width: 306px;
-            margin-left: auto;
-            margin-right: auto;
+        .grid-bottom {
             display: grid;
-            grid-template-columns: 25% 25% 25% 25%;
-            
+            grid-template-columns: 50% 50%;
 
-            .social-icon {
-                cursor: pointer;
-                width: 42px;
-                height: 32px;
-                object-fit: contain;
-                margin-left: auto;
-                margin-right: auto;
-
-                @include media-breakpoint-down(md){
-                    height: 24px;
-                }
+            @include media-breakpoint-down(md) {
+                grid-template-columns: 100%;
             }
         }
 
-        .text-copy-right {
-            margin-top: 171px;
-            font-family: "Lora-Regular";
-            font-size: 13px;
-            color: white;
-            text-align: center;
-            margin-bottom: 40px;
-        }
+        
     }
     vg-overlay-play .vg-overlay-play {
         display: flex;

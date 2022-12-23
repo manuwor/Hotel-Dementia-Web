@@ -31,9 +31,8 @@
             ],
             "styles": [
               "./node_modules/@videogular/ngx-videogular/fonts/videogular.css",
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "node_modules/bootstrap/scss/bootstrap.scss",
-              "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
-              "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
               "src/assets/css/animate.min.css",
               "src/assets/css/boxicons.min.css",
               "src/assets/css/fancybox.min.css",
@@ -46,7 +45,6 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/popper.js/dist/umd/popper.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "node_modules/owl.carousel/dist/owl.carousel.min.js",
               "src/assets/js/cursor.min.js",
               "src/assets/js/fancybox.min.js",
               "src/assets/js/magnific-popup.min.js",
@@ -73,7 +71,7 @@
               ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
+              "sourceMap": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -83,7 +81,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "6mb",
-                  "maximumError": "7mb"
+                  "maximumError": "10mb"
                 }
               ]
             }
