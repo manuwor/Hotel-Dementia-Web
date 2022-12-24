@@ -3,6 +3,7 @@ import { Route, Router } from '@angular/router';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import NovelModel from 'src/app/model/novel-model';
 import ep1JSON from "../../../assets/json/novel-ep1.json";
+import ep2JSON from "../../../assets/json/novel-ep2.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -32,13 +33,21 @@ export class NovelComponent implements OnInit {
   characterName = "";
   isChippy = false;
   isNoSubtitle = false;
+  EPCurrent;
   private isStop = false;
   constructor(protected $gaService: GoogleAnalyticsService, private router: Router) { }
 
   ngOnInit(): void {
-
-    this.fullText = ep1JSON[0].desc[this.subtitleIndex].subtitle
-    this.currentBG = ep1JSON[0].prefix_url + ep1JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
+    console.log(this.router.url);
+    if(this.router.url.includes("ep-1")){
+      this.EPCurrent = ep1JSON;
+     
+    }else if(this.router.url.includes("ep-2")){
+      this.EPCurrent = ep2JSON;
+    
+    }
+    this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
+      this.currentBG = this.EPCurrent[0].prefix_url + ep2JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
     console.log(this.readIndex)
     console.log(this.fullText.length)
 
@@ -117,10 +126,10 @@ export class NovelComponent implements OnInit {
 
     if (this.readIndex < this.fullText.length) {
       setTimeout(() => {
-        this.isChippy = ep1JSON[0].desc[this.subtitleIndex].is_chippy;
+        this.isChippy = this.EPCurrent[0].desc[this.subtitleIndex].is_chippy;
         this.text = this.text + this.fullText[this.readIndex]
-        this.isCharactor = ep1JSON[0].desc[this.subtitleIndex].isCharactor;
-        this.characterName = ep1JSON[0].desc[this.subtitleIndex].charactor;
+        this.isCharactor = this.EPCurrent[0].desc[this.subtitleIndex].isCharactor;
+        this.characterName = this.EPCurrent[0].desc[this.subtitleIndex].charactor;
         this.readIndex += 1
         this.startEvent();
       }, 20)
@@ -143,11 +152,11 @@ export class NovelComponent implements OnInit {
   }
 
   nextClick() {
-    if (this.subtitleIndex == ep1JSON[0].desc.length - 1) {
+    if (this.subtitleIndex == this.EPCurrent[0].desc.length - 1) {
       console.log("Finish");
       this.isEnd = true;
-      this.text = ep1JSON[0].end.text 
-      this.currentBG = ep1JSON[0].prefix_url + ep1JSON[0].end.bg_url + ".jpg";
+      this.text = this.EPCurrent[0].end.text 
+      this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].end.bg_url + ".jpg";
       this.showAnimation1();
     } else {
 
@@ -157,7 +166,7 @@ export class NovelComponent implements OnInit {
         this.isStop = false;
         this.text = "";
         this.subtitleIndex += 1;
-        this.fullText = ep1JSON[0].desc[this.subtitleIndex].subtitle
+        this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
         if (this.fullText.length === 0) {
           this.isNoSubtitle = true;
           setTimeout(() => {
@@ -172,7 +181,7 @@ export class NovelComponent implements OnInit {
           this.isNoSubtitle = false;
 
         }
-        this.currentBG = ep1JSON[0].prefix_url + ep1JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
+        this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].desc[this.subtitleIndex].bg_url + ".jpg";
         this.startEvent();
       }
     }
