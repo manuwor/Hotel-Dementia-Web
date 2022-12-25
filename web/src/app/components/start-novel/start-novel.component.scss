@@ -101,7 +101,7 @@ app-start-novel {
         width: 100%;
         height: 100%;
         z-index: 1;
-        background-color: #00000060;
+        animation: fadebg 2s forwards;
     }
     .img-frame {
         width: 100%;
@@ -261,6 +261,16 @@ app-start-novel {
 
         100% {
             opacity: 0;
+        }
+    }
+
+    @keyframes fadebg {
+        0%{
+            background-color: transparent;
+        }
+
+        100%{
+            background-color: #00000060;
         }
     }
     @keyframes welcome_2 {

@@ -1,65 +1,83 @@
 <div class="container-fluid container-div d-flex">
 
-    <div class="frame-control d-flex" *ngIf="!isEnd">
-        <img src={{currentBG}} class="img-frame" />
+    <div *ngIf="!isShowTitle" [class.div-fadeout]="isFadeTitle">
+        <div class="frame-control d-flex" *ngIf="!isFadeTitle">
+            <img src="./assets/img/novel/start.jpg" class="img-frame" />
+            <div class="d-flex flex-column element-control">
+                <div class="div-element-control">
+                    <div class="div-item">
+                        <span class="text-welcome-1 text-episode" [class.text-episode-anim]="!isTitle"
+                            [class.text-episode-anim-cont]="isTitle">EPISODES {{EPTITLE}}</span>
 
 
-        <div class="quote-speak" *ngIf="!isNoSubtitle">
-            <h1 class="text-in-img text-in-yellow" *ngIf="isChippy" [class.text-in-yellow]="isChippy">
-                Chippy
-            </h1>
-            <h1 class="text-in-img text-in-yellow" *ngIf="isCharactor" [class.text-in-yellow]="isCharactor">
-                {{characterName}}
-            </h1>
-            <h1 class="text-in-img" innerHtml="{{text}}"></h1>
-            <h1 class="text-in-img">...</h1>
-            <img src="./assets/img/novel/next-img.png" *ngIf="isShowNext" class="button-next" (click)="nextClick()">
-        </div>
+                        <img *ngIf="isTitle2" src="./assets/img/novel/ep{{EPTITLE}}/title.png" class="img-title" [class.img-title-anim]="!isTitle2"
+                            [class.img-title-anim-cont]="isTitle2">
 
-
-
-
-    </div>
-    <div class="frame-control d-flex" *ngIf="isEnd && !isClickCard">
-        <img src={{currentBG}} class="img-frame" />
-
-        <div class="end-control" *ngIf="isTextEndShow">
-
-        </div>
-
-        <div class="end-text-control"  *ngIf="isTextEndShow">
-
-            <div class="d-flex flex-column my-auto mx-auto">
-                <h1 class="end-text" innerHtml="{{text}}" [class.end-text-anim]="isCardShow"></h1>
-
-                <div class="d-md-flex d-none card-control" *ngIf="isCardShow">
-                    <img src={{cardEnd1}} (mouseover)="onMouseOver1()" 
-                    (mouseout)="onMouseOut1()"
-                    class="card-end" (click)="onClickCardRemember()">
-                    <img src={{cardEnd2}} (mouseover)="onMouseOver2()" 
-                    (mouseout)="onMouseOut2()"
-                    class="card-end" (click)="onClickCardForget()">
-
-                </div>
-
-                <div class="d-flex d-md-none card-control" *ngIf="isCardShow">
-                    <img src={{cardEndMobile1}} 
-                    class="card-end" (click)="onClickCardRemember()">
-                    <img src={{cardEndMobile2}} 
-                    class="card-end" (click)="onClickCardForget()">
-
+                          
+                    </div>
+                    <span *ngIf="isTitle2" class="text-continue text-episode" (click)="clickCont()">Click to continue . . .</span>
                 </div>
             </div>
+            <div class="opacity-frame"></div>
+        </div>
+    </div>
+    <div *ngIf="isShowTitle">
+        <div class="frame-control d-flex" *ngIf="!isEnd">
+            <img src={{currentBG}} class="img-frame" />
+
+
+            <div class="quote-speak" *ngIf="!isNoSubtitle">
+                <h1 class="text-in-img text-in-yellow" *ngIf="isChippy" [class.text-in-yellow]="isChippy">
+                    Chippy
+                </h1>
+                <h1 class="text-in-img text-in-yellow" *ngIf="isCharactor" [class.text-in-yellow]="isCharactor">
+                    {{characterName}}
+                </h1>
+                <h1 class="text-in-img" innerHtml="{{text}}"></h1>
+                <h1 class="text-in-img">...</h1>
+                <img src="./assets/img/novel/next-img.png" *ngIf="isShowNext" class="button-next" (click)="nextClick()">
+            </div>
+
+
+
+
+        </div>
+        <div class="frame-control d-flex" *ngIf="isEnd && !isClickCard">
+            <img src={{currentBG}} class="img-frame" />
+
+            <div class="end-control" *ngIf="isTextEndShow">
+
+            </div>
+
+            <div class="end-text-control" *ngIf="isTextEndShow">
+
+                <div class="d-flex flex-column my-auto mx-auto">
+                    <h1 class="end-text" innerHtml="{{text}}" [class.end-text-anim]="isCardShow"></h1>
+
+                    <div class="d-md-flex d-none card-control" *ngIf="isCardShow">
+                        <img src={{cardEnd1}} (mouseover)="onMouseOver1()" (mouseout)="onMouseOut1()" class="card-end"
+                            (click)="onClickCardRemember()">
+                        <img src={{cardEnd2}} (mouseover)="onMouseOver2()" (mouseout)="onMouseOut2()" class="card-end"
+                            (click)="onClickCardForget()">
+
+                    </div>
+
+                    <div class="d-flex d-md-none card-control" *ngIf="isCardShow">
+                        <img src={{cardEndMobile1}} class="card-end" (click)="onClickCardRemember()">
+                        <img src={{cardEndMobile2}} class="card-end" (click)="onClickCardForget()">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="frame-control d-flex" *ngIf="isEnd && isClickCard">
+
+            <div class="end-control">
+
+            </div>
+
 
         </div>
     </div>
-    <div class="frame-control d-flex" *ngIf="isEnd && isClickCard">
-
-        <div class="end-control" >
-
-        </div>
-
-      
-    </div>
-
 </div>

@@ -11,7 +11,10 @@ import ep2JSON from "../../../assets/json/novel-ep2.json";
   encapsulation: ViewEncapsulation.None
 })
 export class NovelComponent implements OnInit {
-
+  isShowTitle = false;
+  isTitle = false;
+  isTitle2 = false;
+  isFadeTitle = false;
   isEnd = false;
   cardEnd1 = "./assets/img/novel/card-end.png";
   cardEnd2 = "./assets/img/novel/card-end.png";
@@ -33,6 +36,7 @@ export class NovelComponent implements OnInit {
   characterName = "";
   isChippy = false;
   isNoSubtitle = false;
+  EPTITLE = "1";
   EPCurrent;
   private isStop = false;
   constructor(protected $gaService: GoogleAnalyticsService, private router: Router) { }
@@ -41,16 +45,18 @@ export class NovelComponent implements OnInit {
     console.log(this.router.url);
     if(this.router.url.includes("ep-1")){
       this.EPCurrent = ep1JSON;
+      this.EPTITLE = "1";
      
     }else if(this.router.url.includes("ep-2")){
       this.EPCurrent = ep2JSON;
+      this.EPTITLE = "2";
     
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
       this.currentBG = this.EPCurrent[0].prefix_url + ep2JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
     console.log(this.readIndex)
     console.log(this.fullText.length)
-
+    this.showAnimationTitle();
     this.startEvent();
 
 
@@ -150,6 +156,33 @@ export class NovelComponent implements OnInit {
     }
 
   }
+  async showAnimationTitle() {
+    await new Promise(f => {
+      setTimeout(f, 2000);
+
+    }).then(res => {
+      this.isTitle = true;
+      
+      new Promise(f => {
+        setTimeout(f, 2000);
+
+      }).then(res => {
+        this.isTitle2 = true
+      })
+    })
+  }
+
+  clickCont(){
+    this.isFadeTitle = true;
+    new Promise(f => {
+      setTimeout(f, 1500);
+
+    }).then(res => {
+      this.isShowTitle = true;
+
+    })
+   
+  }
 
   nextClick() {
     if (this.subtitleIndex == this.EPCurrent[0].desc.length - 1) {
@@ -185,7 +218,9 @@ export class NovelComponent implements OnInit {
         this.startEvent();
       }
     }
+    
 
   }
 
+  
 }

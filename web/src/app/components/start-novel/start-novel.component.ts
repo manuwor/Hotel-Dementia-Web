@@ -21,7 +21,7 @@ export class StartNovelComponent implements OnInit {
 
   async showAnimation1() {
     await new Promise(f => {
-      setTimeout(f, 1500);
+      setTimeout(f, 3000);
 
     }).then(res => {
       this.isWelcome2 = true;
@@ -30,6 +30,7 @@ export class StartNovelComponent implements OnInit {
         setTimeout(f, 3000);
 
       }).then(res => {
+        this.isSelectLang = true
         this.isLanguage = true;
         console.log("Language Active")
       })

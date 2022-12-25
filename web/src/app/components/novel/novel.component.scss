@@ -11,6 +11,7 @@ app-novel {
         padding-right: 0;
         padding-top: 30px;
         padding-bottom: 30px;
+
         @include media-breakpoint-down(md) {
             /* Rotate the content container */
             transform: rotate(-90deg);
@@ -25,6 +26,7 @@ app-novel {
             left: 0;
         }
     }
+
     .frame-control {
         position: relative;
 
@@ -37,6 +39,7 @@ app-novel {
             margin-left: auto;
             margin-right: auto;
         }
+
         @include media-breakpoint-down(lg) {
             margin-right: auto;
             margin-left: 0;
@@ -54,6 +57,7 @@ app-novel {
             width: 90%;
         }
     }
+
     .img-frame {
         width: 100%;
         height: auto;
@@ -98,6 +102,7 @@ app-novel {
             -o-transform: translateY(0px);
         }
     }
+
     @keyframes fade_in_text {
         0% {
             opacity: 0;
@@ -107,13 +112,13 @@ app-novel {
         }
 
         100% {
-            opacity:1;
+            opacity: 1;
             transform: translateY(0em);
             -webkit-transform: translateY(0em);
             -o-transform: translateY(0em);
         }
     }
-  
+
     .end-text {
         color: white;
         font-size: 16px;
@@ -122,6 +127,7 @@ app-novel {
         line-height: 1.5em;
         font-family: "novel-regular-italic";
         margin-bottom: 24px;
+
         @include media-breakpoint-down(md) {
             font-size: 13px;
         }
@@ -142,6 +148,7 @@ app-novel {
         margin-left: auto;
         margin-right: auto;
     }
+
     .card-end {
         cursor: pointer;
         width: 200px;
@@ -150,7 +157,7 @@ app-novel {
         margin-left: 30px;
         margin-right: 30px;
 
-        @include media-breakpoint-down(md){
+        @include media-breakpoint-down(md) {
             width: 100px;
         }
     }
@@ -168,6 +175,7 @@ app-novel {
         margin-right: auto;
         background: rgba(0, 0, 0, 0.7);
         border-radius: 20px;
+
         @include media-breakpoint-down(lg) {
             margin-top: auto;
             margin-bottom: auto;
@@ -187,6 +195,7 @@ app-novel {
         line-height: 1.5em;
         font-family: "novel-regular-italic";
         margin-bottom: 24px;
+
         @include media-breakpoint-down(md) {
             font-size: 13px;
         }
@@ -212,5 +221,155 @@ app-novel {
             width: 20px;
             height: 20px;
         }
+    }
+
+    .element-control {
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .text-continue {
+        position: absolute;
+        margin-bottom: 30px;
+        font-size: 24px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        animation: welcome_1 2s forwards;
+    }
+
+
+    .div-element-control {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        animation: fadebg 4s forwards;
+
+        .div-item {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-episode {
+
+            font-size: 28px;
+            animation: welcome_1 2s forwards;
+        }
+
+
+        .img-title {
+
+            width: auto;
+            height: 121px;
+            margin-left: auto;
+            margin-right: auto;
+            object-fit: contain;
+            animation: img_title 4s forwards;
+        }
+
+        .text-episode-anim {
+            animation: welcome_1 2s forwards;
+        }
+
+        .text-episode-anim-cont {
+            animation: welcome_1_fade_out 2s forwards;
+        }
+
+        .img-title-anim {
+            animation: img_title 4s forwards;
+            animation-delay: 4s;
+        }
+
+        .img-title-anim-cont {
+            animation: img_title_fade_out 2s forwards;
+        }
+    }
+
+    @keyframes welcome_1 {
+        0% {
+            opacity: 0;
+            transform: translateY(10px);
+            -webkit-transform: translateY(10px);
+            -o-transform: translateY(10px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0px);
+            -webkit-transform: translateY(0px);
+            -o-transform: translateY(0px);
+
+        }
+    }
+
+    @keyframes welcome_1_fade_out {
+        0% {
+            transform: translateY(0px);
+            -webkit-transform: translateY(0px);
+            -o-transform: translateY(0px);
+        }
+
+
+
+        100% {
+            transform: translateY(-60px);
+            -webkit-transform: translateY(-60px);
+            -o-transform: translateY(-60px);
+        }
+    }
+
+    @keyframes img_title {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+
+        }
+    }
+
+    @keyframes img_title_fade_out {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadebg {
+        0% {
+            background-color: transparent;
+        }
+
+        100% {
+            background-color: #00000060;
+        }
+    }
+
+    @keyframes fadeOutBlack {
+        0% {
+            background-color: transparent;
+        }
+
+        100% {
+            background-color: #000000;
+        }
+    }
+
+    .div-fadeout {
+        animation: fadeOutBlack 2s forwards;
     }
 }
