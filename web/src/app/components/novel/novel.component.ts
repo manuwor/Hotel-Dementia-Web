@@ -48,6 +48,7 @@ export class NovelComponent implements OnInit {
       this.EPTITLE = "1";
      
     }else if(this.router.url.includes("ep-2")){
+      this.router.navigate(["/404"]);
       this.EPCurrent = ep2JSON;
       this.EPTITLE = "2";
     

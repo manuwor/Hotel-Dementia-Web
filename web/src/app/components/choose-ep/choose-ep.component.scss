@@ -142,6 +142,9 @@ app-choose-ep {
             margin-right: auto;
             object-fit: contain;
         }
+        .ep-img-disabled{
+            filter: brightness(0.5);
+        }
 
         .ep-empty{
             width: 108px;
