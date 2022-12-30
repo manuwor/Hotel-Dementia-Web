@@ -25,6 +25,13 @@ app-novel {
             top: 90%;
             left: 0;
         }
+
+        @supports (-webkit-touch-callout: none) {
+            /* CSS specific to iOS devices */
+            top: 102%;
+            width: 90vh;
+        }
+
     }
 
     .frame-control {
@@ -235,6 +242,7 @@ app-novel {
     }
 
     .text-continue {
+        cursor: pointer;
         position: absolute;
         margin-bottom: 30px;
         font-size: 24px;
@@ -242,6 +250,10 @@ app-novel {
         left: 0;
         right: 0;
         animation: welcome_1 2s forwards;
+
+        @include media-breakpoint-down(md){
+            font-size: 18px;
+        }
     }
 
 
@@ -275,6 +287,10 @@ app-novel {
             margin-right: auto;
             object-fit: contain;
             animation: img_title 4s forwards;
+
+            @include media-breakpoint-down(md){
+                height: 70px;
+            }
         }
 
         .text-episode-anim {
