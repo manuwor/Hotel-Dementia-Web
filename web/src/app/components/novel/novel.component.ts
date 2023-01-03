@@ -16,6 +16,7 @@ export class NovelComponent implements OnInit {
   isTitle2 = false;
   isFadeTitle = false;
   isEnd = false;
+  isEndCredit = false;
   cardEnd1 = "./assets/img/novel/card-end.png";
   cardEnd2 = "./assets/img/novel/card-end.png";
   cardEndMobile1 = "./assets/img/novel/card-end.png";
@@ -43,27 +44,33 @@ export class NovelComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(this.router.url);
-    if(this.router.url.includes("ep-1")){
+    if (this.router.url.includes("ep-1")) {
       this.EPCurrent = ep1JSON;
       this.EPTITLE = "1";
-     
-    }else if(this.router.url.includes("ep-2")){
+
+    } else if (this.router.url.includes("ep-2")) {
       this.router.navigate(["/404"]);
       this.EPCurrent = ep2JSON;
       this.EPTITLE = "2";
-    
+
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
-      this.currentBG = this.EPCurrent[0].prefix_url + ep2JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
+    this.currentBG = this.EPCurrent[0].prefix_url + ep2JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
     console.log(this.readIndex)
     console.log(this.fullText.length)
     this.showAnimationTitle();
     this.startEvent();
-
+   
+    
 
   }
-
-  async onClickCardRemember(){
+  playAudio(){
+    let audio = new Audio();
+    audio.src = "../../../assets/sound/sound-1.wav";
+    audio.load();
+    audio.play();
+  }
+  async onClickCardRemember() {
     this.$gaService.event('click', 'Card', 'จดจำ');
     this.isClickCard = true;
     await new Promise(f => {
@@ -73,7 +80,7 @@ export class NovelComponent implements OnInit {
       this.router.navigate(['/choose-ep'])
     })
   }
-  async onClickCardForget(){
+  async onClickCardForget() {
     this.$gaService.event('click', 'Card', 'ลืม');
     this.isClickCard = true;
     await new Promise(f => {
@@ -84,18 +91,18 @@ export class NovelComponent implements OnInit {
     })
   }
 
-  onMouseOver1(){
+  onMouseOver1() {
     this.cardEnd1 = "./assets/img/novel/card-end-1.png";
   }
 
-  onMouseOut1(){
+  onMouseOut1() {
     this.cardEnd1 = "./assets/img/novel/card-end.png";
   }
-  onMouseOver2(){
+  onMouseOver2() {
     this.cardEnd2 = "./assets/img/novel/card-end-2.png";
   }
 
-  onMouseOut2(){
+  onMouseOut2() {
     this.cardEnd2 = "./assets/img/novel/card-end.png";
   }
   async showAnimation1() {
@@ -104,27 +111,27 @@ export class NovelComponent implements OnInit {
 
     }).then(res => {
       this.isTextEndShow = true;
-      
+
       new Promise(f => {
         setTimeout(f, 2500);
-  
+
       }).then(res => {
         this.isCardShow = true;
 
         new Promise(f => {
           setTimeout(f, 4000);
-    
+
         }).then(res => {
           this.cardEndMobile1 = "./assets/img/novel/card-end-1.png";
-  
+
           this.cardEndMobile2 = "./assets/img/novel/card-end-2.png";
-          
-          
-         
+
+
+
         })
 
-        
-       
+
+
       })
     })
   }
@@ -163,7 +170,7 @@ export class NovelComponent implements OnInit {
 
     }).then(res => {
       this.isTitle = true;
-      
+
       new Promise(f => {
         setTimeout(f, 2000);
 
@@ -173,8 +180,9 @@ export class NovelComponent implements OnInit {
     })
   }
 
-  clickCont(){
+  clickCont() {
     this.isFadeTitle = true;
+    this.playAudio();
     new Promise(f => {
       setTimeout(f, 1500);
 
@@ -182,16 +190,21 @@ export class NovelComponent implements OnInit {
       this.isShowTitle = true;
 
     })
-   
+
   }
 
   nextClick() {
     if (this.subtitleIndex == this.EPCurrent[0].desc.length - 1) {
       console.log("Finish");
       this.isEnd = true;
-      this.text = this.EPCurrent[0].end.text 
-      this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].end.bg_url + ".jpg";
-      this.showAnimation1();
+      this.isEndCredit = true;
+      setTimeout(() => {
+        this.isEndCredit = false;
+        this.text = this.EPCurrent[0].end.text
+        this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].end.bg_url + ".jpg";
+        this.showAnimation1();
+      }, 3000)
+     
     } else {
 
 
@@ -219,9 +232,9 @@ export class NovelComponent implements OnInit {
         this.startEvent();
       }
     }
-    
+
 
   }
 
-  
+
 }

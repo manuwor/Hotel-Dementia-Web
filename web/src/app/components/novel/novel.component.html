@@ -10,10 +10,10 @@
                             [class.text-episode-anim-cont]="isTitle">EPISODES {{EPTITLE}}</span>
 
 
-                        <img *ngIf="isTitle2" src="./assets/img/novel/ep{{EPTITLE}}/title.png" class="img-title" [class.img-title-anim]="!isTitle2"
-                            [class.img-title-anim-cont]="isTitle2">
+                        <img *ngIf="isTitle2" src="./assets/img/novel/ep{{EPTITLE}}/title.png" class="img-title"
+                            [class.img-title-anim]="!isTitle2" [class.img-title-anim-cont]="isTitle2">
 
-                          
+
                     </div>
                     <span *ngIf="isTitle2" class="text-continue" (click)="clickCont()">Click to continue . . .</span>
                 </div>
@@ -43,33 +43,39 @@
 
         </div>
         <div class="frame-control d-flex" *ngIf="isEnd && !isClickCard">
-            <img src={{currentBG}} class="img-frame" />
 
-            <div class="end-control" *ngIf="isTextEndShow">
 
-            </div>
 
-            <div class="end-text-control" *ngIf="isTextEndShow">
+            <img src="./assets/img/novel/end-credit.jpg" class="img-frame" *ngIf="isEndCredit">
 
-                <div class="d-flex flex-column my-auto mx-auto">
-                    <h1 class="end-text" innerHtml="{{text}}" [class.end-text-anim]="isCardShow"></h1>
+            <ng-container *ngIf="!isEndCredit">
+                <img src={{currentBG}} class="img-frame" />
 
-                    <div class="d-md-flex d-none card-control" *ngIf="isCardShow">
-                        <img src={{cardEnd1}} (mouseover)="onMouseOver1()" (mouseout)="onMouseOut1()" class="card-end"
-                            (click)="onClickCardRemember()">
-                        <img src={{cardEnd2}} (mouseover)="onMouseOver2()" (mouseout)="onMouseOut2()" class="card-end"
-                            (click)="onClickCardForget()">
+                <div class="end-control" *ngIf="isTextEndShow">
 
-                    </div>
-
-                    <div class="d-flex d-md-none card-control" *ngIf="isCardShow">
-                        <img src={{cardEndMobile1}} class="card-end" (click)="onClickCardRemember()">
-                        <img src={{cardEndMobile2}} class="card-end" (click)="onClickCardForget()">
-
-                    </div>
                 </div>
 
-            </div>
+                <div class="end-text-control" *ngIf="isTextEndShow">
+
+                    <div class="d-flex flex-column my-auto mx-auto">
+                        <h1 class="end-text" innerHtml="{{text}}" [class.end-text-anim]="isCardShow"></h1>
+
+                        <div class="d-md-flex d-none card-control" *ngIf="isCardShow">
+                            <img src={{cardEnd1}} (mouseover)="onMouseOver1()" (mouseout)="onMouseOut1()"
+                                class="card-end" (click)="onClickCardRemember()">
+                            <img src={{cardEnd2}} (mouseover)="onMouseOver2()" (mouseout)="onMouseOut2()"
+                                class="card-end" (click)="onClickCardForget()">
+
+                        </div>
+
+                        <div class="d-flex d-md-none card-control" *ngIf="isCardShow">
+                            <img src={{cardEndMobile1}} class="card-end" (click)="onClickCardRemember()">
+                            <img src={{cardEndMobile2}} class="card-end" (click)="onClickCardForget()">
+
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
         </div>
         <div class="frame-control d-flex" *ngIf="isEnd && isClickCard">
 

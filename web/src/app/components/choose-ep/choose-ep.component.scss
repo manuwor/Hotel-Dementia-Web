@@ -130,7 +130,7 @@ app-choose-ep {
             margin-right: auto;
             display: grid;
             height: 100px;
-            grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+            grid-template-columns: 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% 14.2% ;
         }
         
 
@@ -167,12 +167,11 @@ app-choose-ep {
 
        
         .connect-2-control{
-            width: 100%;
-
-           
+            width: 98%;
         }
 
         .connect-2-border{
+            display: flex;
             width: 108px;
             height: 108px;
             margin-left: auto;
