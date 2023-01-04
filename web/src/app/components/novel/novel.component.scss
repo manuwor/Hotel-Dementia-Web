@@ -229,6 +229,23 @@ app-novel {
         margin-bottom: 12px !important;
     }
 
+    .button-previous {
+        position: absolute;
+        bottom: 0;
+        cursor: pointer;
+        right: 0;
+        rotate: 180;
+        width: 30px;
+        height: 30px;
+        margin-right: 64px;
+        margin-bottom: 24px;
+
+        @include media-breakpoint-down(md) {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
     .button-next {
         position: absolute;
         bottom: 0;

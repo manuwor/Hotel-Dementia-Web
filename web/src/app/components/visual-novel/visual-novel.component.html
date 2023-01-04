@@ -21,7 +21,7 @@
     <ngb-carousel class="carousel-control  d-block d-md-none" [showNavigationIndicators]="false" *ngIf="!isShowMobile">
         <ng-template ngbSlide>
             <div class="d-flex">
-                <img src="./assets/img/visual-novel/card-1.png" class="card-item"  (click)="onClickSeason()">
+                <img src="./assets/img/visual-novel/card-1.png" class="card-item" (click)="onClickSeason()">
             </div>
         </ng-template>
         <ng-template ngbSlide>
@@ -48,31 +48,28 @@
             </div>
 
         </ng-template>
-        
-      </ngb-carousel>
 
-    
+    </ngb-carousel>
+
+
 
     <div class="container d-flex d-md-none flex-column container-control" *ngIf="isShowMobile">
-        <img src="./assets/img/visual-novel/card-1.png" class="card-item"  >
+        <img src="./assets/img/visual-novel/card-1.png" class="card-item">
         <div class="text-control d-flex flex-column">
             <span class="text-season">SEASON 1</span>
             <span class="text-ep">CHIPS OF <br> MEMORIES</span>
-            <span class="text-season">10 EPISODES</span>
+            <span class="text-season">8 EPISODES</span>
 
             <div class="text-bottom-control d-flex flex-column">
                 <span class="text-desc">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac enim ligula.
-                    Morbi efficitur odio erat. Ut varius tortor congue, suscipit tellus vitae,
-                    faucibus nisi. Nullam volutpat neque at erat mattis, id pharetra dui posuere.
-                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                    turpis egestas. Suspendisse id ultricies diam. Nunc feugiat, ex vel accumsan
-                    gravida, lorem neque porttitor lectus, sit amet iaculis mi erat nec tortor.
-                    Phasellus tincidunt, nisi sit amet interdum auctor, ligula ligula pulvinar urna,
-                    sed mattis nulla mauris vel orci.
+                    A prodigy scholarship student plagiarized her way to fame and got caught. Her
+                    reputation and future tarnished in single night. She fled on stolen car but her
+                    journey takes an unexpected turn when she discover a mysterious hotel promised
+                    to erase her dark past.
                 </span>
 
-                <img src="./assets/img/visual-novel/start-button.png" data-bs-dismiss="modal" aria-label="Close" routerLink="/choose-ep" class="start-button">
+                <img src="./assets/img/visual-novel/start-button.png" data-bs-dismiss="modal" aria-label="Close"
+                    routerLink="/choose-ep" class="start-button">
             </div>
         </div>
     </div>
@@ -82,7 +79,8 @@
     </div>
 
     <!-- Modal -->
-    <div class="modal fade" *ngIf="!isShowMobile" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" *ngIf="!isShowMobile" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body my-auto">
@@ -97,21 +95,18 @@
                             <div class="text-control d-flex flex-column">
                                 <span class="text-season">SEASON 1</span>
                                 <span class="text-ep">CHIPS OF <br> MEMORIES</span>
-                                <span class="text-season">10 EPISODES</span>
+                                <span class="text-season">8 EPISODES</span>
 
                                 <div class="text-bottom-control d-flex flex-column">
                                     <span class="text-desc">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac enim ligula.
-                                        Morbi efficitur odio erat. Ut varius tortor congue, suscipit tellus vitae,
-                                        faucibus nisi. Nullam volutpat neque at erat mattis, id pharetra dui posuere.
-                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
-                                        turpis egestas. Suspendisse id ultricies diam. Nunc feugiat, ex vel accumsan
-                                        gravida, lorem neque porttitor lectus, sit amet iaculis mi erat nec tortor.
-                                        Phasellus tincidunt, nisi sit amet interdum auctor, ligula ligula pulvinar urna,
-                                        sed mattis nulla mauris vel orci.
+                                        A prodigy scholarship student plagiarized her way to fame and got caught. Her
+                                        reputation and future tarnished in single night. She fled on stolen car but her
+                                        journey takes an unexpected turn when she discover a mysterious hotel promised
+                                        to erase her dark past.
                                     </span>
 
-                                    <img src="./assets/img/visual-novel/start-button.png" data-bs-dismiss="modal" aria-label="Close" routerLink="/choose-ep" class="start-button">
+                                    <img src="./assets/img/visual-novel/start-button.png" data-bs-dismiss="modal"
+                                        aria-label="Close" routerLink="/choose-ep" class="start-button">
                                 </div>
                             </div>
                         </div>

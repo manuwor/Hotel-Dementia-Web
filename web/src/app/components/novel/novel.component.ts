@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, HostListener, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewEncapsulation } from '@angular/core';
 import { Route, Router } from '@angular/router';
 import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import NovelModel from 'src/app/model/novel-model';
@@ -10,7 +10,7 @@ import ep2JSON from "../../../assets/json/novel-ep2.json";
   styleUrls: ['./novel.component.scss'],
   encapsulation: ViewEncapsulation.None
 })
-export class NovelComponent implements OnInit {
+export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   isShowTitle = false;
   isTitle = false;
   isTitle2 = false;
@@ -39,6 +39,7 @@ export class NovelComponent implements OnInit {
   isNoSubtitle = false;
   EPTITLE = "1";
   EPCurrent;
+  audio;
   private isStop = false;
   constructor(protected $gaService: GoogleAnalyticsService, private router: Router) { }
 
@@ -60,15 +61,69 @@ export class NovelComponent implements OnInit {
     console.log(this.fullText.length)
     this.showAnimationTitle();
     this.startEvent();
-   
-    
+    this.audio = new Audio()
+
 
   }
-  playAudio(){
-    let audio = new Audio();
-    audio.src = "../../../assets/sound/sound-1.wav";
-    audio.load();
-    audio.play();
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if(this.audio){
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio = null;
+    }
+  }
+
+  @HostListener('window:webkitvisibilitychange', ['$event'])
+  webkitvisibilitychangeHandler(event){
+    if(this.audio){
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio = null;
+    }
+  }
+
+  @HostListener('window:visibilitychange', ['$event'])
+  visibilitychangeHandler(event){
+    if(this.audio){
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio = null;
+    }
+  }
+
+
+  @HostListener('window:unload', ['$event'])
+  unloadHandler(event){
+    if(this.audio){
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio = null;
+    }
+  }
+  @HostListener('window:beforeunload', ['$event'])
+  beforeunloadHandler(event){
+    if(this.audio){
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio = null;
+    }
+  }
+
+  ngOnDestroy(): void {
+    if(this.audio){
+      this.audio.pause();
+      this.audio.currentTime = 0;
+      this.audio = null;
+    }
+   
+  }
+  playAudio() {
+ 
+    this.audio.src = "../../../assets/sound/sound-1.wav";
+    this.audio.loop = true;
+    this.audio.load();
+    this.audio.play();
   }
   async onClickCardRemember() {
     this.$gaService.event('click', 'Card', 'จดจำ');
@@ -204,7 +259,7 @@ export class NovelComponent implements OnInit {
         this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].end.bg_url + ".jpg";
         this.showAnimation1();
       }, 3000)
-     
+
     } else {
 
 
