@@ -36,7 +36,7 @@
     "jquery": "^3.6.0",
     "mat-video": "^2.8.1",
     "ngx-countdown": "^13.0.0",
-    "ngx-google-analytics": "^13.0.1",
+    "ngx-google-analytics": "^14.0.1",
     "popper.js": "^1.16.1",
     "rxjs": "~6.5.4",
     "source-map-support": "^0.5.21",
