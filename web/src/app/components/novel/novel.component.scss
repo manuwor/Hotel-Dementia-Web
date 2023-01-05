@@ -88,11 +88,11 @@ app-novel {
     .end-control {
         position: absolute;
         background-color: black;
-        opacity: 0.6;
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
+        animation: fade_in_end 2s forwards;
     }
 
     .end-text-control {
@@ -104,6 +104,17 @@ app-novel {
         flex-direction: column;
     }
 
+    @keyframes fade_in_end {
+        0% {
+            opacity: 0;
+          
+        }
+
+        100% {
+            opacity: 0.6;
+           
+        }
+    }
     @keyframes fade_in {
         0% {
             opacity: 0;

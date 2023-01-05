@@ -67,7 +67,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if(this.audio){
+    if (this.audio) {
       this.audio.pause();
       this.audio.currentTime = 0;
       this.audio = null;
@@ -75,8 +75,8 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   @HostListener('window:webkitvisibilitychange', ['$event'])
-  webkitvisibilitychangeHandler(event){
-    if(this.audio){
+  webkitvisibilitychangeHandler(event) {
+    if (this.audio) {
       this.audio.pause();
       this.audio.currentTime = 0;
       this.audio = null;
@@ -84,8 +84,8 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   @HostListener('window:visibilitychange', ['$event'])
-  visibilitychangeHandler(event){
-    if(this.audio){
+  visibilitychangeHandler(event) {
+    if (this.audio) {
       this.audio.pause();
       this.audio.currentTime = 0;
       this.audio = null;
@@ -94,16 +94,16 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
 
 
   @HostListener('window:unload', ['$event'])
-  unloadHandler(event){
-    if(this.audio){
+  unloadHandler(event) {
+    if (this.audio) {
       this.audio.pause();
       this.audio.currentTime = 0;
       this.audio = null;
     }
   }
   @HostListener('window:beforeunload', ['$event'])
-  beforeunloadHandler(event){
-    if(this.audio){
+  beforeunloadHandler(event) {
+    if (this.audio) {
       this.audio.pause();
       this.audio.currentTime = 0;
       this.audio = null;
@@ -111,15 +111,15 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   ngOnDestroy(): void {
-    if(this.audio){
+    if (this.audio) {
       this.audio.pause();
       this.audio.currentTime = 0;
       this.audio = null;
     }
-   
+
   }
   playAudio() {
- 
+
     this.audio.src = "../../../assets/sound/sound-1.wav";
     this.audio.loop = true;
     this.audio.load();
@@ -132,7 +132,11 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       setTimeout(f, 1500);
 
     }).then(res => {
-      this.router.navigate(['/choose-ep'])
+      this.isEndCredit = true;
+      setTimeout(() => {
+        this.isEndCredit = false;
+        this.router.navigate(['/choose-ep'])
+      }, 3000)
     })
   }
   async onClickCardForget() {
@@ -142,7 +146,11 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       setTimeout(f, 1500);
 
     }).then(res => {
-      this.router.navigate(['/choose-ep'])
+      this.isEndCredit = true;
+      setTimeout(() => {
+        this.isEndCredit = false;
+        this.router.navigate(['/choose-ep'])
+      }, 3000)
     })
   }
 
@@ -252,13 +260,9 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     if (this.subtitleIndex == this.EPCurrent[0].desc.length - 1) {
       console.log("Finish");
       this.isEnd = true;
-      this.isEndCredit = true;
-      setTimeout(() => {
-        this.isEndCredit = false;
-        this.text = this.EPCurrent[0].end.text
-        this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].end.bg_url + ".jpg";
-        this.showAnimation1();
-      }, 3000)
+      this.text = this.EPCurrent[0].end.text
+      this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].end.bg_url + ".jpg";
+      this.showAnimation1();
 
     } else {
 
