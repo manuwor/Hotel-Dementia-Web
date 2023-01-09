@@ -10,10 +10,10 @@
                 "bg_url": "1",
                 "isCharactor" : false,
                 "charactor" : "",
-                "is_next" : true
+                "is_next" : false
             },
             {
-                "subtitle": "เด็กหนุ่มข้างหน้าอายุน่าจะรุ่นราวคราวเดียวกับเธอ ผมสีเงินกระเจิงไปคนละทิศทาง <br> ผิวซีดประกอบกับดวงตาสีอำพันขึงขัง เขาดูเหมือนสัตว์แปลกที่พร้อมกัดถ้าเข้าใกล้ ",
+                "subtitle": "เด็กหนุ่มข้างหน้าอายุน่าจะรุ่นราวคราวเดียวกับเธอ ผมสีเงินกระเจิงไปคนละทิศทาง  ผิวซีดประกอบกับดวงตาสีอำพันขึงขัง เขาดูเหมือนสัตว์แปลกที่พร้อมกัดถ้าเข้าใกล้ ",
                 "is_chippy": false,
                 "bg_url": "2",
                 "isCharactor" : false,
@@ -96,7 +96,7 @@
             {
                 "subtitle": "“ ไม่ใช่ ฉันหมายถึง ฉันขับรถอยู่ในป่า แล้วจู่ ๆ ก็มาโผล่ริมทะเล ”",
                 "is_chippy": true,
-                "bg_url": "7-1",
+                "bg_url": "7",
                 "isCharactor" : false,
                 "charactor" : "",
                 "is_next" : true
@@ -105,7 +105,7 @@
             {
                 "subtitle": "“ โรงแรมหลงลืมตั้งอยู่นอกเหนือสถานที่แหละกาลเวลา ”",
                 "is_chippy": false,
-                "bg_url": "7",
+                "bg_url": "7-1",
                 "isCharactor" : true,
                 "charactor" : "BellBoy",
                 "is_next" : true
@@ -340,6 +340,15 @@
             },
             {
                 "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "16",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
+            }
+            ,
+            {
+                "subtitle": "แต่แล้วความทรงจำก็มีรอยร้าวและแตกกลายเป็นเศษเล็ก ๆ ละลายหายไป ",
                 "is_chippy": false,
                 "bg_url": "16-1",
                 "isCharactor" : false,
@@ -589,7 +598,7 @@
             {
                 "subtitle": "“ เรียกชิปปี้ก็พอ ฉัน… ก็พอไหว ”",
                 "is_chippy": true,
-                "bg_url": "21-1",
+                "bg_url": "21",
                 "isCharactor" : false,
                 "charactor" : "",
                 "is_next" : true
@@ -1113,6 +1122,14 @@
                 "isCharactor" : false,
                 "charactor" : "",
                 "is_next" : false
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "to-be-cont",
+                "isCharactor" : false,
+                "charactor" : "",
+                "is_next" : true
             }
         ],
         "end" : 

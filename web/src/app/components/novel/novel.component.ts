@@ -11,6 +11,7 @@ import ep2JSON from "../../../assets/json/novel-ep2.json";
   encapsulation: ViewEncapsulation.None
 })
 export class NovelComponent implements OnInit, OnDestroy, OnChanges {
+  SPEED_COUNT_TEXT = 20;
   isShowTitle = false;
   isTitle = false;
   isTitle2 = false;
@@ -24,6 +25,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   subtitleIndex = 0;
   text = "";
   isShowNext = false;
+  isShowPrev = false;
   private lastindex = 0;
   fullText = "";
 
@@ -50,7 +52,6 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       this.EPTITLE = "1";
 
     } else if (this.router.url.includes("ep-2")) {
-      this.router.navigate(["/404"]);
       this.EPCurrent = ep2JSON;
       this.EPTITLE = "2";
 
@@ -201,6 +202,9 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
 
   startEvent() {
 
+    if(this.subtitleIndex === 0){
+      this.isShowPrev = false;
+    }
     if (this.readIndex < this.fullText.length) {
       setTimeout(() => {
         this.isChippy = this.EPCurrent[0].desc[this.subtitleIndex].is_chippy;
@@ -209,16 +213,23 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
         this.characterName = this.EPCurrent[0].desc[this.subtitleIndex].charactor;
         this.readIndex += 1
         this.startEvent();
-      }, 20)
+      }, this.SPEED_COUNT_TEXT)
     }
 
 
     if (this.readIndex == this.fullText.length) {
       console.log("Done");
+      console.log("subtitleIndex : " + this.subtitleIndex)
       this.lastindex += 1;
       this.isStop = true;
       this.readIndex = 0;
       this.isShowNext = true;
+      if(this.subtitleIndex > 0 && this.subtitleIndex != this.EPCurrent[0].desc.length - 1){
+        this.isShowPrev = true;
+      }else{
+        this.isShowPrev = false;
+      }
+    
 
       // setTimeout(() => {
       //   this.nextClick();
@@ -255,7 +266,20 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     })
 
   }
-
+  prevClick() {
+    if (this.isShowPrev) {
+      this.isShowNext = false;
+      this.isShowPrev = false;
+      this.isStop = false;
+      this.text = "";
+      this.subtitleIndex -= 1;
+      this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
+      console.log("prevClick subtitleIndex : " + this.subtitleIndex )
+      this.isNoSubtitle = false;
+      this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].desc[this.subtitleIndex].bg_url + ".jpg";
+      this.startEvent();
+    }
+  }
   nextClick() {
     if (this.subtitleIndex == this.EPCurrent[0].desc.length - 1) {
       console.log("Finish");
@@ -269,6 +293,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
 
       if (this.isShowNext) {
         this.isShowNext = false;
+        this.isShowPrev = false;
         this.isStop = false;
         this.text = "";
         this.subtitleIndex += 1;
