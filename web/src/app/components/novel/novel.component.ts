@@ -127,7 +127,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     this.audio.play();
   }
   async onClickCardRemember() {
-    this.$gaService.event('click', 'Card', 'จดจำ');
+    this.$gaService.event('click', 'Card', 'จดจำ - '+this.EPTITLE);
     this.isClickCard = true;
     await new Promise(f => {
       setTimeout(f, 1500);
@@ -141,7 +141,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     })
   }
   async onClickCardForget() {
-    this.$gaService.event('click', 'Card', 'ลืม');
+    this.$gaService.event('click', 'Card', 'ลืม - '+this.EPTITLE);
     this.isClickCard = true;
     await new Promise(f => {
       setTimeout(f, 1500);

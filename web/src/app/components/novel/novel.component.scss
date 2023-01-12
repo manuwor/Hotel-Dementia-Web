@@ -242,14 +242,14 @@ app-novel {
         cursor: pointer;
         right: 0;
         rotate: 180deg;
-        width: 30px;
-        height: 30px;
+        width: 22px;
+        height: 22px;
         margin-right: 94px;
         margin-bottom: 24px;
 
         @include media-breakpoint-down(md) {
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
             margin-right: 74px;
             bottom: -5px;
         }
@@ -260,14 +260,14 @@ app-novel {
         bottom: 0;
         cursor: pointer;
         right: 0;
-        width: 30px;
-        height: 30px;
+        width: 22px;
+        height: 22px;
         margin-right: 24px;
         margin-bottom: 24px;
 
         @include media-breakpoint-down(md) {
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
             bottom: -5px;
         }
     }
