@@ -271,6 +271,11 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
         this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
         if (this.fullText.length === 0) {
           this.isNoSubtitle = true;
+          let duration = 1000;
+
+          if(this.EPCurrent[0].desc[this.subtitleIndex].duration && this.EPCurrent[0].desc[this.subtitleIndex].duration > 0){
+            duration = this.EPCurrent[0].desc[this.subtitleIndex].duration;
+          }
           setTimeout(() => {
             console.log("Done");
             this.lastindex += 1;
@@ -278,7 +283,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
             this.readIndex = 0;
             this.isShowNext = true;
             this.nextClick();
-          }, 1000)
+          }, duration)
         } else {
           this.isNoSubtitle = false;
 

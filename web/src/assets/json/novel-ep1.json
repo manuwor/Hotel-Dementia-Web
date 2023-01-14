@@ -2,906 +2,1011 @@
     {
         "episode": "1",
         "title": "โรงแรมหลงลืม",
-        "prefix_url" : "./assets/img/novel/ep1/",
+        "prefix_url": "./assets/img/novel/ep1/",
         "desc": [
             {
                 "subtitle": "ล้อรถครูดถนนในจังหวะเบรคน่าหวาดเสียว …",
                 "is_chippy": false,
                 "bg_url": "1",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เครื่องยนต์เก่าคำรามน่ากลัวเหมือนไม่เห็นด้วยกับความเร็วที่กำลังเคลื่อนไป",
                 "is_chippy": false,
                 "bg_url": "2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ถนนเส้นเล็ก มืดสนิทและคดโค้งอย่างอันตราย <br> แต่ใจคนขับไม่ได้อยู่ที่ถนนตรงหน้า",
                 "is_chippy": false,
                 "bg_url": "2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "ดวงตาของเธอเปื้อนคราบน้ำตา สันจมูกแสบร้อนจากแผลช้ำ <br> หัวปวดกระหน่ำราวจะแตกออก",
                 "bg_url": "3",
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "is_chippy": false,
-                "is_next" : true
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ ฉันอยู่ที่นี่ไม่ได้แล้ว ]",
                 "bg_url": "4",
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "is_chippy": true,
-                "is_next" : false
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เสียงแรกร่ำร้อง …",
                 "bg_url": "4",
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "is_chippy": false,
-                "is_next" : true
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ แล้วจะหนีไปไหนล่ะ ]",
                 "bg_url": "4",
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "is_chippy": true,
-                "is_next" : false
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "อีกเสียงในใจถาม…",
                 "is_chippy": false,
                 "bg_url": "4",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
-            }
-            ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
             {
                 "subtitle": "",
                 "bg_url": "5",
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "is_chippy": false,
-                "is_next" : false
-            }
-            ,
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "“ ... ”",
                 "bg_url": "5",
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "is_chippy": true,
-                "is_next" : false
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ไม่มีคำตอบ เธอรู้แค่ถ้าเธอหยุดรถ ผู้คนจะตามมาขย้ำเธอ",
                 "is_chippy": false,
                 "bg_url": "5",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เธอเหยียบคันเร่งไปที่ 140",
                 "is_chippy": false,
                 "bg_url": "5",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "ฉับพลันนั้นเอง เงาดำกระโจนผ่านหน้ารถไปอย่างรวดเร็ว <br> เธอกระทืบเบรคกระทันหัน รถหมุนคว้างอย่างน่ากลัว…  ",
                 "is_chippy": false,
                 "bg_url": "6",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "หัวเธอกระแทกกระจกแล้วกระแทกพวงมาลัยอีกที",
                 "is_chippy": false,
                 "bg_url": "6",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "",
                 "is_chippy": false,
                 "bg_url": "black",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "ความมึนชาตามมาด้วยความเจ็บอย่างมหาศาล <br> เธอกลั้นน้ำตาไม่อยู่ …",
                 "is_chippy": false,
                 "bg_url": "7",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "ถึงจะไม่ได้ชนกวางตัวนั้น แต่เธอก็เผลอปล่อยก้อนสะอื้นออกมา",
                 "is_chippy": false,
                 "bg_url": "8",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ไม่ตาย.. แต่ ไม่สบายใจขึ้นเลยแม้แต่นิดเดียว]",
                 "is_chippy": true,
                 "bg_url": "8-1",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ ฉันไม่มีที่ไป ]",
                 "is_chippy": true,
                 "bg_url": "9",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "คิดอะไรถึงขโมยรถแม่มาแบบนี้ <br> เธออายุ 16 ถ้าโดนจับจะเป็นเรื่องกว่าเดิม…",
                 "is_chippy": false,
                 "bg_url": "9",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ .. มันยังเป็นเรื่องได้มากกว่านี้จริง ๆ เหรอ ]",
                 "is_chippy": true,
                 "bg_url": "9",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เธอถอนหายใจ ศีรษะปวดตุบ นัยน์ตาล้า มือเธอสั่น ขาก็สั่น <br> นี่ไม่ใช่ครั้งแรกที่เธอแอบขับรถ",
                 "is_chippy": false,
                 "bg_url": "10",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "แต่แค่คิดถึงทาง  มืดข้างหน้า เธอรู้ว่าเธอขับต่อไม่ไหว… ",
                 "is_chippy": false,
                 "bg_url": "10",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ หมอกหนาจัง ]",
                 "is_chippy": true,
                 "bg_url": "11",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
-            }
-            ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
             {
                 "subtitle": "",
                 "is_chippy": false,
                 "bg_url": "12",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เหมือนสวรรค์เป็นใจ ในตอนนั้นเองเธอสังเกตเห็นป้ายไฟจางๆ ผ่านหมอก",
                 "is_chippy": false,
                 "bg_url": "12",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ Hotel de Me… อะไรนะ ? ]",
                 "is_chippy": true,
                 "bg_url": "12",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": " [น่าจะเป็นโรงแรมสักอย่าง พักสักหน่อยดีไหมนะ ?]",
                 "is_chippy": true,
                 "bg_url": "12",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เธอควานหากระเป๋าสตางค์ ไม่ได้เอามา <br> เธอรีบผลุนผลันหนีมาจนลืมหยิบ…",
                 "is_chippy": false,
                 "bg_url": "13",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "แต่ในกระเป๋ากระโปรงนักเรียนมีแบงค์ยู่ยี่อยู่ก้อนหนึ่ง",
                 "is_chippy": false,
                 "bg_url": "14",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ น่าจะพอสำหรับโรงแรมกระจอก ๆ 1 คืน ]",
                 "is_chippy": true,
                 "bg_url": "14",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": " โรงแรมกระจอก เหอะ พูดมาได้ เมื่อก่อนเธอและแม่นอนบ้านกระจอกกว่าโมเต็ลซะอีก ",
                 "is_chippy": false,
                 "bg_url": "14",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เธอค่อย ๆ เคลื่อนรถเลี้ยวเข้าซอยเล็ก ตรงไปหาป้ายไฟนั่น ยิ่งเข้าใกล้ก็ยิ่งเห็นชื่อชัด",
                 "is_chippy": false,
                 "bg_url": "15",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "แม้หมอกจะหนาขึ้นเรื่อย ๆ ก็ตาม ป้ายไฟสีแดงส่องสว่าง",
                 "is_chippy": false,
-                "bg_url": "15", 
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "bg_url": "15",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "",
                 "is_chippy": false,
                 "bg_url": "16",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "โฮเทล เดอ เมนเทีย …",
                 "is_chippy": false,
                 "bg_url": "17",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เมื่อเข้าใกล้ เธอจึงค่อยมองเห็นมัน …",
                 "is_chippy": false,
                 "bg_url": "17",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "อาบใต้แสงแดงสกาว คือโรงแรมหรูห้าดาว อาคารประดับด้วยปูนปั้นหรูหรา …",
                 "is_chippy": false,
                 "bg_url": "17",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "บันไดโค้งตรงหน้า บอกเธอว่า เงินยู่ยี่ในกระเป๋าไม่พอค่าห้องแน่ …",
                 "is_chippy": false,
                 "bg_url": "18",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ โรงแรมใหญ่ขนาดนี้อยู่กลางป่า… ? ]",
                 "is_chippy": true,
                 "bg_url": "18-1",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เธอรู้ว่าเงินไม่พอแน่ แต่ขายังสั่นจากเหตุการณ์เมื่อครู่ไม่หาย",
                 "is_chippy": false,
                 "bg_url": "18-1",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ เอาวะ ลองถามดู อาจจะไม่แพงอย่างที่คิดก็ได้ ]",
                 "is_chippy": true,
                 "bg_url": "19",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เธอลงจากรถ หยิบเป้นักเรียนที่ปกติเต็มแน่นด้วยโน้ตดนตรี <br> แต่ตอนนี้มีแต่ถุงเท้าเหม็นและ  เสื้อยืด ก้าวขาขึ้นบันไดหน้า",
                 "is_chippy": false,
                 "bg_url": "19",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "*ก๊อก ก๊อก ก๊อก*",
                 "is_chippy": false,
                 "bg_url": "20",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เสียงเท้ากระทบหินอ่อนดังจนหูแทบลั่นกลางป่าที่เงียบสงัด",
                 "is_chippy": false,
                 "bg_url": "21",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ เงียบเกินไปไหมนะ ? ]",
                 "is_chippy": true,
                 "bg_url": "21",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ เสียงนกในป่าหายไปไหนหมด ? ]",
                 "is_chippy": true,
                 "bg_url": "21",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เธอหูดีมาตลอดชีวิต คุณสมบัติที่ดีของนักดนตรี <br> และหูเธอบอกว่าตอนนี้ทุกอย่างเงียบเกินไป เหมือนหมอกหนาเป็นผ้าห่มคลุมร่างเธอกับโรงแรมแห่งนี้ไว้ ราวกับโลกหยุดหายใจ ให้เธอก้าวขาขึ้นบันไดโรงแรม …",
                 "is_chippy": false,
                 "bg_url": "21",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": " เหมือนหมอกหนาเป็นผ้าห่มคลุมร่างเธอกับโรงแรมแห่งนี้ไว้ <br> ราวกับโลกหยุดหายใจ ให้เธอก้าวขาขึ้นบันไดโรงแรม ",
                 "is_chippy": false,
                 "bg_url": "21",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เธอผลักประตูเข้าไปไม่เคาะ…",
                 "is_chippy": false,
                 "bg_url": "22",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[จะได้ผิงไฟอุ่น ๆ ซะที]",
                 "is_chippy": true,
                 "bg_url": "22",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ฉับพลันร่างเธอถูกปะทะด้วยลมทะเลหวีดหวิวและกลิ่นเกลือ <br> ลมแรงจนประตูหน้าปิดดังลั่น …",
                 "is_chippy": false,
                 "bg_url": "22",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "*ปัง!!!!!* …",
                 "is_chippy": false,
                 "bg_url": "23",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ชิบหาย แขกตื่นทั้งโรงแรมแล้วมั้ง]",
                 "is_chippy": true,
                 "bg_url": "24",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[กลิ่นทะเลมาจากไหน ฉันขับรถอยู่ในป่า..]",
                 "is_chippy": true,
                 "bg_url": "24",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ยังไม่ทันคิดเสร็จ เสียงหวานก้องกังวานก็ดังขึ้น…",
                 "is_chippy": false,
                 "bg_url": "24",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ ยินดีต้อนรับสู่โรงแรมหลงลืม อะไรในอดีตพาคุณมาที่นี่คะ ”",
                 "is_chippy": false,
-                "isCharactor" : true,
-                "charactor" : "พนักงานต้อนรับ",
+                "isCharactor": true,
+                "charactor": "พนักงานต้อนรับ",
                 "bg_url": "25",
-                "is_next" : false
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ โรงแรม.. หลงลืม.. อดีต.. ? ฮะ ”",
                 "is_chippy": true,
                 "bg_url": "25",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ แขกผู้เหนื่อยล้า คุณคงจะเหนื่อยจากการวิ่งหนีอดีตมาสินะคะ ”",
                 "is_chippy": false,
                 "bg_url": "25",
-                "isCharactor" : true,
-                "charactor" : "พนักงานต้อนรับ",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "พนักงานต้อนรับ",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เธอสะดุ้งโหยงกับประโยคนี้ จึงทำให้เงยหน้าขึ้นมองผู้พูดโดยอัตโนมัติ ",
                 "is_chippy": false,
                 "bg_url": "26",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "แต่แล้วการตกแต่งอันพิสดารพันลึกของสถานที่ที่เธอเพิ่งย่างเท้าเข้ามา <br>ทำให้เธอถึงกับอ้าปากค้าง  มองตั้งแต่พื้นจรดเพดาน …",
                 "is_chippy": false,
                 "bg_url": "26",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "ด้านหน้าเธอคือเคาน์เตอร์สีเขียวมรกตที่สะท้อนแสงเทียนวาววับราวเปลือกหอยมุก <br> ที่ด้านหลังเป็นโขดหินที่ประดิษฐ์ตู้แขวนกุญแจสีแดงเลือดหมู …",
                 "is_chippy": false,
                 "bg_url": "28",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "ราวแขวนกุญแจทองแดงอัดแน่นเรียงร้อยสุดสายตา",
                 "is_chippy": false,
                 "bg_url": "29",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
-            { 
+            {
                 "subtitle": "และยังมีบ่อน้ำและรูปปั้นหญิงสาวที่วางประดับไว้กลางล็อบบี้อย่างประหลาด  ",
                 "is_chippy": false,
                 "bg_url": "27",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ทุกอย่างสะท้อนแสงไฟเงาวับ เธอมองเห็นตัวเองเป็นร้อย ๆ คน <br>จ้องมองกลับมาผ่านเงาสะท้อนของทุก ๆ อย่าง ",
                 "is_chippy": false,
                 "bg_url": "27",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
             {
                 "subtitle": " ลมทะเลที่ปะทะหน้าเธอมาจากหน้าต่างทรงกลมเหมือนเรือดำน้ำ <br> แต่ขนาดใหญ่ยักษ์จรดเพดาน เปิดโล่งให้  เห็นวิวทะเลสีดำสนิทและโขดหินสีเทา <br> ท้องฟ้ามีเมฆหมอกระเรื่อเจือสีแดงอย่างผิดธรรมชาติ",
                 "is_chippy": false,
                 "bg_url": "30",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "ที่นี่คือโรงแรมอย่างไม่ต้องสงสัย <br> แต่เป็นโรงแรมที่แปลกนัก…",
                 "is_chippy": false,
                 "bg_url": "30",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "ชิปปี้มัวตื่นตะลึงกับทิวทัศน์ที่เห็นจนเมื่อหญิงสาวเอ่ยปากพูดอีกรอบ <br> เธอจึงเพิ่งนึกได้ว่ามีพนักงานต้อนรับอยู่ตรงนั้น … ",
                 "is_chippy": false,
                 "bg_url": "30",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ ตอนนี้ทางเรามีบริการพิเศษ เพียงคุณตัดสินใจเข้าพัก ความโศกเศร้าก็จะถูกลืมเลือนไป ” ",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "พนักงานต้อนรับ",
-                "is_next" : false
-            } ,
+                "isCharactor": true,
+                "charactor": "พนักงานต้อนรับ",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "เธอสะบัดหัวอย่างแรง …",
                 "is_chippy": false,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "“ อะไรนะ ”",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "นี่ฉันรถชนตายแล้วฝัน หรือสมองกระเทือน หรือนี่เป็นโรงแรมธีมแปลก ๆ <br> แต่ถึงแปลกก็เถอะ.. เธออยากพักจะแย่แล้ว …",
                 "is_chippy": false,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "“ เอ่อ…  ขอจองห้องปกติห้องหนึ่งได้ไหมคะ ”",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
-            } ,
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
+            },
             {
                 "subtitle": "“ ห้องทุกห้องมาพร้อมโอกาสที่สองของชีวิตค่ะ ”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "พนักงานต้อนรับ",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "พนักงานต้อนรับ",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ ค่ะ ”",
                 "is_chippy": true,
-                "isCharactor" : false,
-                "charactor" : "",
+                "isCharactor": false,
+                "charactor": "",
                 "bg_url": "31-2",
-                "is_next" : false
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "[ ธีมโรงแรมน่าขนลุกแฮะ ] ",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ แต่ว่า ขอเอาแค่แบบ ปกติ มีเตียง มี.. ห้องอาบน้ำ อะไรอย่างนี้ ”",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ คุณแขกเป็นกังวลเรื่องราคาหรือคะ ” ",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "พนักงานต้อนรับ",
-                "is_next" : true
-            }
-            ,
+                "isCharactor": true,
+                "charactor": "พนักงานต้อนรับ",
+                "is_next": true,
+                "duration": 0
+            },
             {
                 "subtitle": "พนักงานสาวยิ้ม  ไม่ใช่ยิ้มเย้ยหยันแบบร้านหรูดูถูกแขก แต่เป็นยิ้มอบอุ่น จริงใจ <br>เป็นครั้งแรกในวันที่มีคนยิ้มให้เธอแบบนี้ ",
                 "is_chippy": false,
                 "bg_url": "31-3",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เพิ่งสังเกตว่าเธอสวมยูนิฟอร์มสีน้ำตาลคาดโช้คเกอร์แดง <br> ที่อกติดตราตำแหน่งพร้อมชื่อ  ‘Concierge - Cain’",
                 "is_chippy": false,
                 "bg_url": "32",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ตรานั่นกระทบแสงเทียนวาววับ สะท้อนใบหน้าสกปรกของเธอ มันทำจากทองคำแท้",
                 "is_chippy": false,
                 "bg_url": "32",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ เอ่อ.. ค่ะ ฉันมี.. ”",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ ไม่ต้องเป็นกังวลไปนะคะ ที่พักของเรามีอาหาร น้ำอุ่น เตียงนุ่ม ๆ <br> และที่สำคัญคือไม่คิดราคาเป็นเงินมนุษย์ค่ะ ”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ ... ”",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ เพียงแค่คุณแขกจะเขยิบเข้ามาใกล้ ๆ ”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "[ ใครจะกล้าเข้าใกล้ พูดจาประหลาด ]",
                 "is_chippy": true,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "ในใจคิดแบบนั้น แต่ตัวขยับเข้าหารอยยิ้มอบอุ่นอัตโนมัติ …",
                 "is_chippy": false,
                 "bg_url": "31-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ แล้วโน้มตัวลงนิดนึงนะคะ ”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "",
                 "is_chippy": false,
                 "bg_url": "34",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "พนักงานยื่นมือมาปริเวณหน้าผาก เธอผงะถอยหลังทันที <br>แต่มืออ่อนนุ่มนั้นปัดหน้าผากเธออย่างนิ่มนวล และหยิบบางอย่างออกมา",
                 "is_chippy": false,
                 "bg_url": "34",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "มันดูเหมือนแก้วสีม่วงเหลือบ ราวกับเศษกระจกหรือเกล็ดปลาขนาดใหญ่",
                 "is_chippy": false,
                 "bg_url": "34",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ มันมาจากหัวฉัน ??? ”",
                 "is_chippy": true,
                 "bg_url": "34",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ มันมาจากหัวฉัน ??? ”",
                 "is_chippy": true,
                 "bg_url": "34",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ พวกเราเรียกสิ่งนี้ว่า โซล  ที่โรงแรมนี้แขกจ่ายค่าเข้าพักเพียงครั้งเดียวด้วยโซล <br> เพียงแค่ 1 โซล ก็เข้าพักได้จนกว่าความทุกข์จะมลายหายไป ”",
                 "is_chippy": false,
                 "bg_url": "34",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ นี่ฉันรถชนตายไปแล้วใช่ไหม ”",
                 "is_chippy": true,
                 "bg_url": "34",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ *หัวเราะ*  ไม่ใช่ค่ะ คุณยังมีชีวิตอยู่ แต่คุณคงจะทุกข์ใจมาก จนทำให้เจอโรงแรมแห่งนี้ แขกทุกคนเป็นแบบนี้ทั้งนั้น พวกเราเข้าใจ และจะดูแลคุณเอง”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“สัญญาว่านับตั้งแต่ก้าวเท้าเข้ามาในนี้ ไม่มีใครบนโลกตามหาคุณเจอแน่นอน <br> คุณจะลืมเรื่องร้ายและค่อย ๆ เติบโตขึ้นในฐานะคนใหม่” ”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“โรงแรมเราทำงานแบบนั้น เรามอบตัวตนและโอกาสเริ่มชีวิตใหม่ให้กับแขก ”",
                 "is_chippy": false,
                 "bg_url": "31-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "เธอพยายามอย่างหนักที่จะกลั้นน้ำตา แต่มันก็ไหลออกมาอย่างควบคุมไม่ได้ <br> คนที่เป็นแบบเธอเท่านั้นที่จะเข้าใจ ทุกคนที่เธอรักจดจำเธอในฐานะคนเลวร้ายไปแล้ว",
                 "is_chippy": false,
                 "bg_url": "36",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เธออยากให้ทุกคนลืม เธออยากลืม… อยากหนี",
                 "is_chippy": false,
                 "bg_url": "36",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ ฉันอยากเข้าพักที่นี่ ”",
                 "is_chippy": true,
                 "bg_url": "36",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ ถ้าอย่างนั้น โรงแรมก็จะขอรับโซลของคุณไปนะคะ ”",
                 "is_chippy": false,
                 "bg_url": "36",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ ค่ะ ” ",
                 "is_chippy": true,
                 "bg_url": "36",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ ดีเลย ถ้าอย่างนั้น เซ็นชื่อตรงนี้ค่ะ ”",
                 "is_chippy": false,
                 "bg_url": "37",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "มือสั่นระริก แต่เธอก็เขียนชื่อเธอลงไป… <br> <b>Chasity Coeur</b>",
                 "is_chippy": false,
                 "bg_url": "37",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ คุณชาสซิธี ”",
                 "is_chippy": false,
                 "bg_url": "38-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ เพื่อน ๆ เรียกฉันว่าชิปปี้ เรียกว่าชิปปี้ก็พอค่ะ ”",
                 "is_chippy": true,
                 "bg_url": "38-2",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "“ คุณชิปปี้ ยินดีต้อนรับสู่โรงแรมหลงลืมอย่างเป็นทางการ ”",
                 "is_chippy": false,
                 "bg_url": "38-1",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : false
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "เธอกดกระดิ่งข้างตัว",
                 "is_chippy": false,
                 "bg_url": "38-1",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : false
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 0
             },
             {
                 "subtitle": "“ เบลล์บอยของเราจะยกสัมภาระของคุณไปไว้ที่ห้อง<br> ขอให้ต่อแต่นี้คุณมีแต่ความสบายใจอยู่กับเรา คุณจะลืมทุกสิ่งแน่นอนค่ะ ”",
                 "is_chippy": false,
                 "bg_url": "38-2",
-                "isCharactor" : true,
-                "charactor" : "Cain",
-                "is_next" : true
+                "isCharactor": true,
+                "charactor": "Cain",
+                "is_next": true,
+                "duration": 0
             },
             {
                 "subtitle": "",
                 "is_chippy": false,
                 "bg_url": "black",
-                "isCharactor" : false,
-                "charactor" : "",
-                "is_next" : true
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
             }
-            
         ],
-        "end" : 
-            {
-                "text": "ถ้าเลือกได้อยากจะ <br> จำ หรือ ลืม <br> เหตุการณ์ร้ายในชีวิต",
-                "bg_url": "end-bg"
-            }
+        "end": {
+            "text": "ถ้าเลือกได้อยากจะ <br> จำ หรือ ลืม <br> เหตุการณ์ร้ายในชีวิต",
+            "bg_url": "end-bg"
+        }
     }
 ]
