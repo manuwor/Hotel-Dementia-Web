@@ -33,9 +33,16 @@
                 <h1 class="text-in-img text-in-yellow" *ngIf="isCharactor" [class.text-in-yellow]="isCharactor">
                     {{characterName}}
                 </h1>
-                <h1 class="text-in-img" innerHtml="{{text}}"></h1>
+                <ng-container *ngIf="!isCharactor && characterName == 'boldtext'">
+                    <h1 class="text-in-img" innerHtml="{{text}}"></h1>
+                </ng-container>
+                <ng-container *ngIf="characterName != 'boldtext'">
+                    <h1 class="text-in-img" innerHtml="{{text}}"></h1>
+                </ng-container>
+               
                 <img src="./assets/img/novel/next-img.png" *ngIf="isShowNext" class="button-next" (click)="nextClick()">
-                <img src="./assets/img/novel/next-img.png" *ngIf="isShowPrev" class="button-previous" (click)="prevClick()">
+                <img src="./assets/img/novel/next-img.png" *ngIf="isShowPrev" class="button-previous"
+                    (click)="prevClick()">
             </div>
 
 
@@ -44,7 +51,7 @@
         </div>
         <div class="frame-control d-flex" *ngIf="isEndCredit">
 
-            <img src="./assets/img/novel/end-credit.jpg" class="img-frame" >
+            <img src="./assets/img/novel/end-credit.jpg" class="img-frame">
         </div>
 
         <div class="frame-control d-flex" *ngIf="isEnd && !isClickCard">

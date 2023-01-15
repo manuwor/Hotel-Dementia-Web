@@ -4,6 +4,7 @@ import { GoogleAnalyticsService } from 'ngx-google-analytics';
 import NovelModel from 'src/app/model/novel-model';
 import ep1JSON from "../../../assets/json/novel-ep1.json";
 import ep2JSON from "../../../assets/json/novel-ep2.json";
+import ep3JSON from "../../../assets/json/novel-ep3.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -55,11 +56,14 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       this.EPCurrent = ep2JSON;
       this.EPTITLE = "2";
 
+    }else if (this.router.url.includes("ep-3")) {
+      this.EPCurrent = ep3JSON;
+      this.EPTITLE = "3";
+
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
     this.currentBG = this.EPCurrent[0].prefix_url + ep2JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
-    console.log(this.readIndex)
-    console.log(this.fullText.length)
+
     this.showAnimationTitle();
     this.startEvent();
     this.audio = new Audio()
