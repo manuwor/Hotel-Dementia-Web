@@ -1,0 +1,1241 @@
+[
+    {
+        "episode": "3",
+        "title": "กระจกวิเศษบอกข้าเถิดสิ่งใดจะทำให้ข้ามีความสุขเลิศในปฐพี",
+        "prefix_url": "./assets/img/novel/ep4/",
+        "desc": [
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": false,
+                "duration": 3000
+            },
+            {
+                "subtitle": "ลอย",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอกำลังลอยอยู่ ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สติที่เลือนรางสัมผัสได้ถึงความว่างเปล่าที่หวีดหวิวผ่านร่างไป ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ที่นี่ตกแต่งด้วยผนังบุกำมะหยี่สีแดงเข้มและกระเบื้องด้านสีเขียวน้ำทะเล <br> โคมไฟ ตู้โต๊ะ ถูกดีไซน์อย่างแปลกประหลาดคล้ายสัตว์ใต้ทะเล<br> หน้าตาที่เปิดโล่งอย่างอล่างฉ่างหอบไอทะเลเปียกชื้นเข้ามา ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เห็นวิวทะเลหนาวเหน็บสุดลูกหูลูกตา คลื่นแรงซัดหน้าผาที่โรงแรมตั้งอยู่เสียงดัง ครืน ครืน พื้นพรมแฉะชื้น",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ยังแปลกใจที่เปลวเทียนประดับข้างฝายังสามารถสู้ลม ให้แสงสว่างโดยไม่ดับได้",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ฟ้ามีสีแดงริ้วรำไร เธอไม่ได้นอนทั้งคืนหรือ ?",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ที่นี่ที่ไหนเหรอ ? ” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ โรงแรมหลงลืม ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ไม่ใช่ ฉันหมายถึง ฉันขับรถอยู่ในป่า แล้วจู่ ๆ ก็มาโผล่ริมทะเล ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ โรงแรมหลงลืมตั้งอยู่นอกเหนือสถานที่แหละกาลเวลา ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พูดถึงเวลา ชิปปี้หงายข้อมือดูนาฬิกา",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "นาฬิกาชี้ที่ตี 2 57 นาที",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "มันตาย ไม่รู้ว่าตายเมื่อไหร่ คงประมาณช่วงที่เธอเจอโรงแรม หรือเธออาจจะตายไปแล้วก็ได้ โลกหลังความตายซับซ้อนกว่าที่คิด",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "กริ๊ก เอี๊ยด เสียงเบลล์บอยไขกุญแจเปิดประตูห้องนอน",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เขาวางกระเป๋าทั้งหมดของเธอลงบนพื้นอย่างนุ่มนวลกว่าที่คิด เมื่อเทียบกับท่าทีไร้เยื่อใย ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ถ้าคุณแขกมีคำถามก็ถามพนักงานต้อนรับได้ ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ โอเคแล้วพรุ่งนี้.. ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ที่นี่ไม่มีกลางวัน หิวเมื่อไหร่ก็ลงไปห้องรับประทานอาหารได้ครับ ราตรีและอรุณสวัสดิ์ ขอให้ท่านลืมเรื่องร้ายในเร็ววัน ”  ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เขาปิดประตู แน่นอนว่าปิดได้นุ่มและเงียบกว่าที่คิดเช่นกัน <br> เมื่อเทียบกับคำพูดและท่าทีที่เย็นชา แต่นี่ไม่ใช่เวลาที่ชิปปี้จะเรื่องมากกับมารยาทพนักงาน",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "เธอมองไปรอบตัว ห้องนอนขนาดใหญ่",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "มีผนังสีแดงเลือดหมูและเชิงเทียนลายเปลือกหอยแบบเดียวกับที่โถงทางเดิน เตียงสี่เสาผ้าปูสีแดงดูหนานุ่ม ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โซฟาขนาดนั่งคนเดียวหนึ่งตัว ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "และโต๊ะเขียนหนังสือ แต่สิ่งที่สะดุดตาเธอที่สุด คือกระจกบานใหญ่ข้างเตียง",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้หลบตาทันที จมูกเปื้อนเลือด แก้มเปื้อนน้ำตา",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "หน้าเธอเป็นสิ่งสุดท้ายที่เธออยากจะเห็นในตอนนี้",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้คิด ก่อนจะสะบัดหัวเรียกสติ หายใจเข้าแรงๆ ก่อนจะมองไปอีกทาง",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "หน้าต่างห้องเป็นทรงกลม มองเห็นวิวทะเลและปีกโรงแรมอีกฝั่ง ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ โรงแรมเป็นรูปตัวยูหรอกหรือ? ]",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ก็นะ ใช่ว่าเธอจะเป็นสถาปนิกในเวลาปกติ แต่ตอนนี้เธออยากหาอะไรเบียงเบนความสนใจ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ มองจากข้างนอกก็คิดว่าใหญ่ แต่นี่น่าจะใหญ่กว่าที่คิดเยอะ ]",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ดูเหมือนจะมีหกชั้น ชิปปี้ก้มลงมองกุญแจห้องในมือ ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ 704 ]",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ ฉันอยู่ชั้นเจ็ดงั้นเหรอ? แต่มันมีหกชั้นเองนี่น่า นับชั้นแปลกจัง ] ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ความง่วงจู่โจมเธออย่างหนัก ชิปปี้รู้สึกเวียนหัวกระทันหัน เธอเพลีย วันนี้เป็นวันที่แย่และแปลกที่สุดในชีวิต ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอล้มตัวลงบนเตียง และผลอยหลับไปทั้งชุดฮู้ดชื้นฝน ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "แต่แล้วความทรงจำก็มีรอยร้าวและแตกกลายเป็นเศษเล็ก ๆ ละลายหายไป",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ตื่นขึ้นมาเพราะเสียงคลื่น ไม่ใช่เสียงนกหรือแสง ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ท้องฟ้ายังคงมืดและมีริ้วสีแดงเหมือนเคย ที่นี่ไม่มีกลางวัน แต่ก็ไม่ใช่กลางคืนเสียทีเดียวอย่างที่เบลล์บอยกล่าวจริง",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ จ๊อก.. ] ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ท้องร้อง ไปหาอะไรกินดีกว่า",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "อาหารเยอะแยะสุดสายตา",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ไม่เคยเห็นห้องอาหารของโรงแรมที่ไหนมีอาหารมากมายขนาดนี้มาก่อน ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธออ้าปากค้างกับความหรูหราที่เห็น แทบทุกอย่างวางในจานเงิน <br> แสงวิบวับระยับทุกจุดทำให้เธอแสบตา หัวปวดตุ้บขึ้นมา",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ห้องอาหารพอมีแขกประปราย คะเนด้วยสายตาแล้วเกือบ 20 คน <br> บ้างก็มีพนักงานประกบบ้างก็อยู่คนเดียว",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "น่าแปลกที่แขกอยู่รวมกันหลายคนขนาดนี้กลับไม่มีเสียงพูดคุยเลยแม้แต่น้อย ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "นอกจากเสียงกำชับให้ยกช้อนในมือขึ้นทานอาหารจากพนักงานที่ประกบแขกอยู่เป็นระยะ พวกเขาดู.. เหม่อลอย ?",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ในขณะที่เธอกำลังงุนงงกับบรรยากาศโดยรอบ พนักงานคนหนึ่งก็ปรากฏตัวต่อหน้าเธอ <br> ผมสีน้ำตาลอมแดง ผิวขาว ดูเป็นมิตรแต่ไม่มีอะไรโดดเด่นมากนัก",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ อรุณสวัสดิ์ ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "พนักงานโรงแรม",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พนักงานรายนั้นยิ้มให้ชิปปี้",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ส ..สวัสดี ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ฉันเอเบล จะเป็นผู้ดูแลคุณในวันนี้ ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอผายมือไปที่ป้ายสีทองที่หน้าอก ฉับพลันชิปปี้นึกได้.. เธอคือพนักงานต้อนรับเมื่อคืน",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ตอนนี้ท่านพบกับอาหารวิงเวียนศีรษะ ง่วงนอนฉับพลันบ้างหรือยังคะ ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้นึกย้อนกลับไปถึงเมื่อคืน ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ อ่า.. ก็ มีบ้างเมื่อคืน ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ บางทีแขกของเราก็เกิดเป็นลมขึ้นมาระหว่างวัน ดังนั้นดิฉันและสตาฟจะคอยเฝ้ามองคุณอยู่ตลอด.. ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แน่นอนว่าเพื่อความปลอดภัยของคุณเอง และถ้าไม่รบกวนเวลา ดิฉันขออนุญาตเช็คการตอบสนองทั่วไป คุณแขกช่วยแนะนำตัวให้ดิฉันฟังได้ไหมคะ ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เอ่อ.. ฉัน ชิปปี้.. ชาสซิธี เคอร์ อายุ 16 เรียนอยู่.. เคยเรียนอยู่ที่โรงเรียนดนตรีพรีชเชอร์ เอกเชลโล่ ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้เดินไปยังบริเวณเคาน์เตอร์ของโรงแรมที่เต็มไปด้วยอาหารนานาชาติ โดยมีอาเบลเดินประกบตามหลัง",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ใช้เวลาพิจารณาไม่นานนัก ก่อนจะคว้าจานใบใหญ่มาแล้วค่อย ๆ ไล่ตักเมนูอาหารอย่างละเล็กอย่างละน้อย ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอพยายามอย่างยิ่งที่จะแบ่งให้อาหารแต่ละชาติบนจานเธอไม่ปะปนกัน",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ โรงเรียนดนตรีพรีชเชอร์.. นั่นเป็นโรงเรียนดนตรีที่มีชื่อเสียงใช่ไหมคะ ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ .. ใช่ ฉัน.. สอบได้ เป็นนักเรียนทุน ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ และคุณเรียนเก่งไหม ชาสซิธี ? ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เรียกชิปปี้ก็พอ ฉัน… ก็พอไหว ” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ห่วยต่างหาก เธอสอบได้ด้วยโควต้านักเรียนยากจนของเขต ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "มีแค่เธอกับเด็กที่แยกกีตาร์ไฟฟ้ากับเบสไม่ออก … <br> เธอเข้ามาได้แค่เพราะ.. เธอน่าสงสารเท่านั้นแหละ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้หยุดพูดและตั้งใจตักอาหาร อาเบลเงียบไปดูเหมือนกำลังจดอะไรบางอย่าง",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ดูเหมือนคุณยังจำเรื่องเกี่ยวกับโรงเรียนได้เยอะเลยนะคะ ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ อืม ก็ลืมยากหน่อย ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ คุณชาสซิธี.. ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้ ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอยืนยัน อาเบลกระแอ่ม เธอดูไม่สบายใจนิดหน่อย ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้.. คุณมีเพื่อนสนิทไหม ? ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 2000
+            },
+            {
+                "subtitle": "“ ไม่มีหรอก ” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "ชิปปี้กระแทกจานอาหารลงบนโต๊ะ ตั้งอกตั้งใจกินไม่มองหน้าอาเบลอีกต่อไป <br> เธอเหมือนจะเข้าใจจึงหยุดถามแต่โดยดี",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้ด้านหน้าเธอเหลือเพียงแพนเค้กที่กลมอย่างเพอร์เฟค แกล้มด้วยเบค่อนที่เกรียมอย่างสวยงาม วางอยู่บนจานที่เงางาม..สะท้อนภาพใบหน้าของเธอที่ค่อยๆ.. สั่นไหวและแยกออกเป็นสอง.. คน …",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "* วูบ * ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้วิงเวียนศีรษะฉับพลัน ตามด้วยอาการคลื่นไส้ โชคดีที่นั่งอยู่เธอเลยไม่ล้มลงไป",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอง่วง ง่วงเหลือเกิน เหมือนหนังตาอยากจะปิด ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "เสียงดนตรีจากแผ่นไวนิลดังกระหึ่มไปทั้งห้องครัว เคล้ากลิ่นแพนเค้กเบค่อนที่กำลังทอดฉู่ฉ่าในกระทะ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ควันบุหรี่สลับควันทำอาหารคละคลุ้งทั่วไปหมด แม่ของเธอคาบบุหรี่ ฮัมเพลงอย่างอารมณ์ดี ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แม่ เบา ๆ เพลงหน่อย ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แต่ฮุคท่อนนี้มันสุดยอดเลยนี่คุณลูกขา ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ถึงจะทำบ่น แต่ครัวที่แสนรก แผ่นเสียงเก่า เพลงร็อคแอนด์โรลผิดยุคสมัย คือบรรยากาศอบอุ่นที่เธอคุ้นเคยทุกเช้า แม่โก๊ะกังคนนี้คือเพื่อนที่ดีที่สุดของเธอ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้มองเหตุการณ์ที่เกิดขึ้นราวกับเธอเป็นผีในห้อง ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "นี่คือยามเช้าแสนคุ้นเคยในบ้านของเธอเองแน่ แต่เธอกำลังมองมันด้วยมุมมองของคนนอก",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ วันนี้แม่จัดรายการดึก หาอะไรกินเองนะ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ได้สิ เชิญไปเปิดเพลงห่วย ๆ จนดึกให้มีความสุข ” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอหยอกแกมหัวเราะ นั่งขัดสมาธิและจัดการเบค่อนและแพนเค้กบนโต๊ะอย่างเอร็ดร่อย",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เพลงห่วย ๆ ที่รวยมาก ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เพลงของชิปจะดีกว่านั้นพันเท่า พูดเลย สักวันแม่ต้องเปิดจนหูชา ” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ จ้า จ้า หลอกแม่แกบาปนะ ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ชิปพูดจริง ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ไม่หวังเลย ฉันเป็นแม่เท่ ๆ ที่ชินกับลูกสอบตก ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แม่โยนกระทะโครมลงไปในเครื่องล้างจานแล้วขยี้หัวเธอแรงเกินไปหนึ่งที",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แม่แค่ล้อเล่น ชิปปี้รู้ แม่กับเธอหยอกกันแรงแบบนี้เสมอ แต่เธอกลับถอนหายใจแรงพร้อมกระแทกจานลงกับโต๊ะ แล้วเดินกระแทกเท้าออกไป ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้ แม่ล้อเล่นนน ” ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงแม่ลอยตามหลังมา เธอรู้ แต่ขอบตาก็อดร้อนขึ้นมาไม่ได้ เมื่อนึกถึงใบหน้าเย้ยหยันของเพื่อนร่วมชั้นเมื่อประกาศผลสอบออก",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอควรจะแค่หันกลับไปแลบลิ้นใส่แม่แล้วบอกว่า เธอก็แกล้งโกรธเหมือนกัน แต่วันนั้นเธอกลับเดินตึงตังจากไปโดยไม่พูดอะไร",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "ชิปปี้ฟื้นขึ้นมา อาเบลประคองเธออยู่ ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ฉัน… ฉันลืม ฉันควรจะพูดอะไรสักอย่าง ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ไม่เป็นไรหรอกค่ะคุณ ไม่สำคัญหรอก วันแรก ๆ คุณจะลืมเรื่องทั่ว ๆ ไปก่อน ส่วนเรื่องที่สำคัญจริง ๆ… ก็นานหน่อย ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "Abel",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ลืม.. ? “",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สายตาชิปปี้ค่อยเลื่อนจากริมฝีปากมาที่ไฝที่คอ ปกเสื้อ และตราชื่อที่หน้าอกมันยังคง เป็นทองคำวาบวับ สะท้อนดวงตาสีเฮเซลของเธอ เงาสะท้อนดวงตา.. ที่ค่อย ๆ แยกเป็นสองอีกครั้ง ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "“ไม่หวังเลย ฉันเป็นแม่เท่ ๆ ที่ชินกับลูกสอบตก”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แม่โยนกระทะโครมลงไปในเครื่องล้างจานแล้วขยี้หัวเธอแรงเกินไปหนึ่งที ชิปปี้รู้สึกได้ถึงแรงขยี้ที่เส้นผม มืออุ่นของแม่ ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ไม่ใช่ราวกับสิ ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ก็ฉัน.. อยู่ตรงนี้นี่น่า ”",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ อะไรนะ ??? ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แม่ถาม",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " เอ่อ.. ชิป ชิปก็ชินกับการเป็นคนสอบตก ฮ่า ๆๆๆ ” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้หัวเราะใส่แม่",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แม่ไม่ว่าหรอกนะที่สอบตก แค่ขอให้ที่เรียนไปน่ะ มีความสุข และไม่ทำให้ใครเดือดร้อน เข้าใจไหม ? ”",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "กลิ่นแพนเค้กและน้ำตาลไหม้ เสียงเพลงดังกังวานราวกับเธออยู่ตรงนั้น",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ไม่เดือดร้อนเท่าคนที่ทนฟังรายการแม่หรอก ​” ",
+                "is_chippy": true,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เอ๊ะ ไอ้ลูกคนนี้นี่! ”",
+                "is_chippy": false ,
+                "bg_url": "",
+                "isCharactor": true, 
+                "charactor": "แม่",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "กลิ่นบ้านแสนคุ้นเคย ดนตรีเก่า เสียงหัวเราะ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ภาพความทรงจำค่อย ๆ ร้าวและแตกออกเป็นหลายความทรงจำ",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทุกความทรงจำล้วนเป็นภาพชิปปี้กับแม่ที่หัวเราะหรือกอดกัน <br>ในครัวตอนจบบทสนทนาอย่างมีความสุข",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เศษกระจกส่องแสงเรืองรอง มีเพียงความทรงจำเดียวที่มุมของกระจก..ที่ค่อย ๆ มืดดับไป",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ความทรงจำของความจริงที่วันนั้นชิปปี้เดินหนีไป",
+                "is_chippy": false,
+                "bg_url": "",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "to-be-cont",
+                "isCharactor": false, 
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            }
+            
+            
+            
+            
+        ],
+        "end": {
+            "text": "ถ้าเลือกได้อยากจะ <br> จำ หรือ ลืม <br> เหตุการณ์ร้ายในชีวิต",
+            "bg_url": "end-bg"
+        }
+    }
+]
