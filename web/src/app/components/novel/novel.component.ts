@@ -5,6 +5,7 @@ import NovelModel from 'src/app/model/novel-model';
 import ep1JSON from "../../../assets/json/novel-ep1.json";
 import ep2JSON from "../../../assets/json/novel-ep2.json";
 import ep3JSON from "../../../assets/json/novel-ep3.json";
+import ep4JSON from "../../../assets/json/novel-ep4.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -59,6 +60,10 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     }else if (this.router.url.includes("ep-3")) {
       this.EPCurrent = ep3JSON;
       this.EPTITLE = "3";
+
+    }else if (this.router.url.includes("ep-4")) {
+      this.EPCurrent = ep4JSON;
+      this.EPTITLE = "4";
 
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
