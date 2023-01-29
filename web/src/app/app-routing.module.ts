@@ -52,6 +52,7 @@ const routes: Routes = [
     {path: 'novel-ep-2', component: NovelComponent},
     {path: 'novel-ep-3', component: NovelComponent},
     {path: 'novel-ep-4', component: NovelComponent},
+    {path: 'novel-ep-5', component: NovelComponent},
     {path: 'visual-novel', component: VisualNovelComponent},
     {path: 'esports', component: EsportsHomeComponent},
     {path: 'bosting', component: BostingHomeComponent},

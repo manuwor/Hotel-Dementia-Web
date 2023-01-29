@@ -6,6 +6,7 @@ import ep1JSON from "../../../assets/json/novel-ep1.json";
 import ep2JSON from "../../../assets/json/novel-ep2.json";
 import ep3JSON from "../../../assets/json/novel-ep3.json";
 import ep4JSON from "../../../assets/json/novel-ep4.json";
+import ep5JSON from "../../../assets/json/novel-ep5.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -57,18 +58,21 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       this.EPCurrent = ep2JSON;
       this.EPTITLE = "2";
 
-    }else if (this.router.url.includes("ep-3")) {
+    } else if (this.router.url.includes("ep-3")) {
       this.EPCurrent = ep3JSON;
       this.EPTITLE = "3";
 
-    }else if (this.router.url.includes("ep-4")) {
+    } else if (this.router.url.includes("ep-4")) {
       this.EPCurrent = ep4JSON;
       this.EPTITLE = "4";
 
+    } else if (this.router.url.includes("ep-5")) {
+      this.EPCurrent = ep5JSON;
+      this.EPTITLE = "5";
+
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
-    this.currentBG = this.EPCurrent[0].prefix_url + ep2JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
-
+    this.currentBG = this.EPCurrent[0].prefix_url + ep5JSON[0].desc[this.subtitleIndex].bg_url + ".jpg";
     this.showAnimationTitle();
     this.startEvent();
     this.audio = new Audio()
@@ -136,7 +140,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     this.audio.play();
   }
   async onClickCardRemember() {
-    this.$gaService.event('click', 'Card', 'จดจำ - '+this.EPTITLE);
+    this.$gaService.event('click', 'Card', 'จดจำ - ' + this.EPTITLE);
     this.isClickCard = true;
     await new Promise(f => {
       setTimeout(f, 1500);
@@ -150,7 +154,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     })
   }
   async onClickCardForget() {
-    this.$gaService.event('click', 'Card', 'ลืม - '+this.EPTITLE);
+    this.$gaService.event('click', 'Card', 'ลืม - ' + this.EPTITLE);
     this.isClickCard = true;
     await new Promise(f => {
       setTimeout(f, 1500);
@@ -210,9 +214,20 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   startEvent() {
-
-    if(this.subtitleIndex === 0){
+    if (this.fullText.length === 0 && this.lastindex == 0) {
+      
+      setTimeout(() => {
+        console.log("Done");
+        this.lastindex += 1;
+        this.isStop = true;
+        this.readIndex = 0;
+        this.isShowNext = true;
+        this.nextClick();
+      }, 3000)
+    }
+    if (this.subtitleIndex === 0) {
       this.isShowPrev = false;
+
     }
     if (this.readIndex < this.fullText.length) {
       setTimeout(() => {
@@ -233,12 +248,12 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       this.isStop = true;
       this.readIndex = 0;
       this.isShowNext = true;
-      if(this.subtitleIndex > 0 && this.subtitleIndex != this.EPCurrent[0].desc.length - 1){
+      if (this.subtitleIndex > 0 && this.subtitleIndex != this.EPCurrent[0].desc.length - 1) {
         this.isShowPrev = true;
-      }else{
+      } else {
         this.isShowPrev = false;
       }
-    
+
 
       // setTimeout(() => {
       //   this.nextClick();
@@ -265,12 +280,13 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
 
   clickCont() {
     this.isFadeTitle = true;
-    this.playAudio();
     new Promise(f => {
       setTimeout(f, 1500);
 
     }).then(res => {
       this.isShowTitle = true;
+      this.playAudio();
+      // this.startEvent();
 
     })
 
@@ -283,7 +299,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       this.text = "";
       this.subtitleIndex -= 1;
       this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
-      console.log("prevClick subtitleIndex : " + this.subtitleIndex )
+      console.log("prevClick subtitleIndex : " + this.subtitleIndex)
       this.isNoSubtitle = false;
       this.currentBG = this.EPCurrent[0].prefix_url + this.EPCurrent[0].desc[this.subtitleIndex].bg_url + ".jpg";
       this.startEvent();
@@ -311,7 +327,7 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
           this.isNoSubtitle = true;
           let duration = 1000;
 
-          if(this.EPCurrent[0].desc[this.subtitleIndex].duration && this.EPCurrent[0].desc[this.subtitleIndex].duration > 0){
+          if (this.EPCurrent[0].desc[this.subtitleIndex].duration && this.EPCurrent[0].desc[this.subtitleIndex].duration > 0) {
             duration = this.EPCurrent[0].desc[this.subtitleIndex].duration;
           }
           setTimeout(() => {
