@@ -7,6 +7,7 @@ import ep2JSON from "../../../assets/json/novel-ep2.json";
 import ep3JSON from "../../../assets/json/novel-ep3.json";
 import ep4JSON from "../../../assets/json/novel-ep4.json";
 import ep5JSON from "../../../assets/json/novel-ep5.json";
+import ep6JSON from "../../../assets/json/novel-ep6.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -14,7 +15,7 @@ import ep5JSON from "../../../assets/json/novel-ep5.json";
   encapsulation: ViewEncapsulation.None
 })
 export class NovelComponent implements OnInit, OnDestroy, OnChanges {
-  SPEED_COUNT_TEXT = 20;
+  SPEED_COUNT_TEXT = 0;
   isShowTitle = false;
   isTitle = false;
   isTitle2 = false;
@@ -69,6 +70,10 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     } else if (this.router.url.includes("ep-5")) {
       this.EPCurrent = ep5JSON;
       this.EPTITLE = "5";
+
+    }else if (this.router.url.includes("ep-6")) {
+      this.EPCurrent = ep6JSON;
+      this.EPTITLE = "6";
 
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
@@ -255,9 +260,9 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       }
 
 
-      // setTimeout(() => {
-      //   this.nextClick();
-      // }, 500)
+      setTimeout(() => {
+        this.nextClick();
+      }, 500)
 
     }
 
