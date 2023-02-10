@@ -15,7 +15,7 @@ import ep6JSON from "../../../assets/json/novel-ep6.json";
   encapsulation: ViewEncapsulation.None
 })
 export class NovelComponent implements OnInit, OnDestroy, OnChanges {
-  SPEED_COUNT_TEXT = 0;
+  SPEED_COUNT_TEXT = 20;
   isShowTitle = false;
   isTitle = false;
   isTitle2 = false;
@@ -260,9 +260,9 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       }
 
 
-      setTimeout(() => {
-        this.nextClick();
-      }, 500)
+      // setTimeout(() => {
+      //   this.nextClick();
+      // }, 500)
 
     }
 
