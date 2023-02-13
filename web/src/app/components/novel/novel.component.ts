@@ -8,6 +8,7 @@ import ep3JSON from "../../../assets/json/novel-ep3.json";
 import ep4JSON from "../../../assets/json/novel-ep4.json";
 import ep5JSON from "../../../assets/json/novel-ep5.json";
 import ep6JSON from "../../../assets/json/novel-ep6.json";
+import ep7JSON from "../../../assets/json/novel-ep7.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -15,7 +16,7 @@ import ep6JSON from "../../../assets/json/novel-ep6.json";
   encapsulation: ViewEncapsulation.None
 })
 export class NovelComponent implements OnInit, OnDestroy, OnChanges {
-  SPEED_COUNT_TEXT = 20;
+  SPEED_COUNT_TEXT = 0;
   isShowTitle = false;
   isTitle = false;
   isTitle2 = false;
@@ -74,6 +75,10 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     }else if (this.router.url.includes("ep-6")) {
       this.EPCurrent = ep6JSON;
       this.EPTITLE = "6";
+
+    }else if (this.router.url.includes("ep-7")) {
+      this.EPCurrent = ep7JSON;
+      this.EPTITLE = "7";
 
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
@@ -174,14 +179,23 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   }
 
   onMouseOver1() {
-    this.cardEnd1 = "./assets/img/novel/card-end-1.png";
+    if(this.EPTITLE == "7"){
+      this.cardEnd1 = "./assets/img/novel/card-end-ep7-1.png";
+    }else{
+      this.cardEnd1 = "./assets/img/novel/card-end-1.png";
+    }
+    
   }
 
   onMouseOut1() {
     this.cardEnd1 = "./assets/img/novel/card-end.png";
   }
   onMouseOver2() {
-    this.cardEnd2 = "./assets/img/novel/card-end-2.png";
+    if(this.EPTITLE == "7"){
+      this.cardEnd2 = "./assets/img/novel/card-end-ep7-2.png";
+    }else{
+      this.cardEnd2 = "./assets/img/novel/card-end-2.png";
+    }
   }
 
   onMouseOut2() {
@@ -204,9 +218,19 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
           setTimeout(f, 4000);
 
         }).then(res => {
-          this.cardEndMobile1 = "./assets/img/novel/card-end-1.png";
 
-          this.cardEndMobile2 = "./assets/img/novel/card-end-2.png";
+          if(this.EPTITLE == "7"){
+            this.cardEndMobile1 = "./assets/img/novel/card-end-ep7-1.png";
+
+            this.cardEndMobile2 = "./assets/img/novel/card-end-ep7-2.png";
+          }else{
+            this.cardEndMobile1 = "./assets/img/novel/card-end-1.png";
+
+            this.cardEndMobile2 = "./assets/img/novel/card-end-2.png";
+          }
+          
+        
+        
 
 
 
@@ -260,9 +284,9 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
       }
 
 
-      // setTimeout(() => {
-      //   this.nextClick();
-      // }, 500)
+      setTimeout(() => {
+        this.nextClick();
+      }, 500)
 
     }
 

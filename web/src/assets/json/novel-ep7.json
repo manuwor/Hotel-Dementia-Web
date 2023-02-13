@@ -1,0 +1,1291 @@
+[
+    {
+        "episode": "7",
+        "title": "ขอโทษ",
+        "prefix_url": "./assets/img/novel/ep7/",
+        "desc": [
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 2000
+            },
+            {
+                "subtitle": "ดวงตาสีเขียวเย็นชาของมิเกล่าค่อย ๆ เลือนรางหายไป <br> กลายเป็นดวงตาไร้วิญญาณบนใบหน้าอันบิดเบี้ยวในห้องน้ำ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สัมผัสของนิ้วมือและเท้าที่เย็นเยียบจนชา และเสียงหัวใจเต้นโครมครามพาชิปปี้กลับมาสู่ปัจจุบัน ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้ เธออยู่ที่โรงแรมหลงลืม ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้ เธอกำลังประจันหน้ากับศพ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ศพที่เมื่อกี้ ยังมีชีวิต แต่ถูกอะไรบางอย่างฆ่าตาย ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอ กำลังอยู่ในอันตราย ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอตั้งสติ ค่อย ๆ ก้มลงเอาหูจรดทางเดินใต้ประตูห้องน้ำแล้วตั้งใจฟังเสียงฝีเท้า",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ดูเหมือนจะไม่มีใครเลยสักคน โถงทางเดินที่เงียบกว่าที่คิด ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ถอดรองเท้าหนังทั้งสองข้างออก วางซ่อนใต้ซิงค์ห้องน้ำ มันรังแต่จะทำให้เธอเดินเสียงดัง",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้กลั้นหายใจแง้มประตู แล้วกึ่งวิ่งกึ่งย่องด้วยเท้าเปล่าไปตามทางเดินหินอ่อนเย็นเฉียบ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โชคดีที่ผังอาาครของลองสเตย์จะเหมือนฝั่งปกติแทบทุกประการแค่สลับข้าง <br> ดังนั้นเธอมั่นใจว่าถ้าถ้าเดินไปจนสุดทางเดินอีกด้าน ก็จะเจอประตูให้กลับไปฝั่งปกติได้ ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[เสียงดนตรีคลาสสิค…] ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ เพลงมาจากไหนวะ ” ",
+                "is_chippy": true,
+                "bg_url": "3-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงดนตรีคลาสสิคของนักดนตรีที่เธอจำชื่อไม่ได้แว่วดังเข้าหู <br> ชิปปี้เลี้ยวโค้งที่ควรจะเป็นบันได แต่กลับพบห้องบอลล์รูมแทน ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ห้องบอลล์รูมที่ฝั่งปกติมีเปียโนและกระจกรูปราชินีหิมะ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ มันไม่ควรจะอยู่ตรงนี้นิ.. ”",
+                "is_chippy": true,
+                "bg_url": "3-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ กรี๊ดดดดดดดดดดดดดดดดด ” ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": true,
+                "charactor": "?",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงกรีดร้องนั้นทำให้หัวใจชิปปี้กระตุกวูบ เพราะมันไม่ใช่เสียงกรีดร้องด้วยความตื่นเต้นแน่ ๆ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "นั่นเป็นเสียงแผดร้องที่เต็มไปด้วยความกลัว หัวใจเธอเริ่มเต้นรัวด้วยความหวาดระแวง",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สัญชาตญาณบอกเธอว่าต้องมีอะไรบางอย่างแน่ ๆ  <br> เธอค่อย ๆ แง้มประตูอย่างเบาที่สุดเท่าที่คน ๆ หนึ่งจะทำได้ .",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ประตูห้องบอลล์รูมเปิดออกอย่างช้า ๆ ภายในอัดแน่นไปด้วยผู้คน <br>ประเมินด้วยสายตาแล้วไม่น่าต่ำกว่าสองร้อยคน",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สิ่งแรกที่ผ่านเข้าประสาทสัมผัสของเธอคือ <br>เสียงกรีดร้องดังโหยหวนเต็มไปหมดราวกับว่าเสียงจากภายในกักเก็บไว้ไม่อยู่อีกต่อไป ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ที่กลางห้องบอลล์รูม แทนที่โคมไฟระย้าใหญ่คือเตาเผาขนาดยักษ์และสิ่งที่ดูเหมือนกระจกทรงโดม ทำจากเกล็ดกระจกหกเหลี่ยมจำนวนมาก",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เปลวเพลิงสีฟ้าอมเขียวลุกโชน กลืนกินร่างของผู้คนในชุดเต้นรำเต็มยศ ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พวกเขาจับคู่กันเริงระบำด้วยใบหน้ารื่นรมย์ไร้วิญญาณ ทั้งหญิงและชาย <br> พากันเต้นรำพาตัวเองลงไปในเปลวเพลิง",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ร่างที่ร่วงหล่นกำลังมอดไหม้ ส่งเสียงกรีดร้องเหนือมนุษย์ที่ดูจะไม่มีใครแยแส",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สัตว์ประหลาด.. หรือยักษ์ร่างสูง 5-6 เมตรหลายตัว <br> ถือเหล็กเขี่ยไฟและร่างที่กำลังหลอมละลายเหล่านั้นไปมา ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พวกผู้สำราญ.. พวกเขาเต้นรำลงไปในกองไฟสีฟ้า ที่ใต้เตาปฏิกรณ์มีท่อลำเลียงน้ำสีฟ้าเรืองรอง ที่ชิปปี้มั่นใจว่าละลายออกมาจากศพ เข้าไปสู่เบ้าหลอมรูปหกเหลี่ยมจำนวนมาก ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "บนเวทีมีคนอีกประมาณสามร้อยคนที่นอนสุมอยู่เป็นกอง ไม่ต่างจากเศษเนื้อเหลือทิ้งในโรงงาน",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทุกคนตรงนั้นไม่มีชีวิตแล้ว นั่นคือกองศพขนาดมหึมาที่ตั้งตระหง่านอยู่กลางเวทีข้าง ๆ แกรนด์เปียโนที่เต็มไปด้วยคราบเลือด ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ตกใจจนทำอะไรไม่ถูก ร่างกายของเธอสั่นเทาจนทรุดลงไปกับพื้น ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ร่างเล็กค่อย ๆ ถอยหลังออกมาอย่างคนเสียหลัก",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โชคดีหรือโชคร้ายไม่รู้ที่ทุกคนกำลังง่วนกับการไล่ฆ่ากัน ไม่มีใครรับรู้การเปิดประตูของเธอ",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " [ เรื่องบ้าอะไรวะเนี่ย ]",
+                "is_chippy": true,
+                "bg_url": "4-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอรีบยึดตัวเองกับกำแพงที่อยู่ใกล้ ๆ และรีบวิ่งหนีไปอีกชั้นหนึ่งอย่างไม่คิดหน้าคิดหลัง แม้ว่ามือจะยังคงสั่นด้วยความหวาดกลัว ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ในหัวคิดว่าตอนนี้มีเพียงทางเดียวที่จะออกไปจากที่นี่ได้ นั่นคือ <br> การรอให้ใครสักคนออกไปแล้วเธอก็แอบติดรถเข็นคันโตออกไปอีกครั้ง ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เพราะประตูหนักจนไม่สามารถพังออกไปได้เองแน่ ๆ <br> หรือไม่ก็ต้องหาทางออกอื่น… ที่เธอก็ไม่รู้ว่ามีอยู่หรือเปล่า ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ยืนพิงกำแพงหวังจะพักเหนื่อย <br> หลังจากที่วิ่งห่างออกจากห้องบอลล์รูมมาไกลคนละฟาก",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอก็หันมาเจอว่าข้าง ๆ ถังดับเพลิงมีแผนผังของโรงแรมแต่ละชั้นติดอยู่ตรงกำแพง",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "จากการพยายามทำความเข้าใจแผนผังที่แปะอยู่ในระยะเวลาอันสั้น",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอพบว่าจุดเชื่อมระหว่างลองสเตย์กับโรงแรมฟากนู้นอยู่ที่ชั้น 5 ส่วนห้องบอลล์รูมอยู่ที่ชั้น 1",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "อาการเวียนหัวเริ่มโจมตีชิปปี้หลังจากที่หัวโล่งสบายมาหลายชั่วโมง เธอเริ่มนึกอะไรไม่ออก",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ปัญหาตอนนี้ไม่ใช่ว่าเธอไม่รู้ทาง ปัญหาตอนนี้คือ เธอก็ไม่รู้จะไปที่ไหนต่อ <br> เพราะเธอไม่รู้ว่าการที่มีเห็นคนเธออยู่ฟากนี้จะเป็นอย่างไร",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แต่มั่นใจได้เลยว่าไม่ใช่เรื่องดีแน่ ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ด้วยความไม่รู้จะไปไหน  <br>คนสิ้นคิดแบบเธอเลยตัดสินใจจะเดินไปที่สระว่ายน้ำ ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอใช้ตรรกะแบบโง่เง่าว่าสระว่ายน้ำโรงแรมฝั่งที่เธออยู่ไม่ค่อยมีคนในช่วงเวลานี้สักเท่าไร ดังนั้น สระว่ายน้ำฟากนี้ก็น่าจะไม่มีคนเหมือนกัน ",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ฟังดูไม่ได้ความ แต่นั่นคือสิ่งที่ดีที่สุดที่เธอจะนึกออก ",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ภาพบนแผนผังระบุไว้ว่าสระว่ายน้ำอยู่ที่ชั้น 3",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้เธอเลยกำลังหาทางขึ้นไปชั้นบนโดยไม่ต้องเจอะเจอผู้คน <br> และทางหนีไฟคงเป็นคำตอบที่ดีที่สุด",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "บันไดหนีไฟทั้งมืดและเงียบ มีเพียงแสงสีเขียว ๆ จากป้ายทางหนีไฟเป็นต้นกำเนิดแสง ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอค่อย ๆ เกาะราวบันไดและเดินจากชั้น 1 ขึ้นไปชั้น 3 อย่างระมัดระวัง",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เมื่อเปิดประตูหนีไฟออกมา เธอก็เริ่มสัมผัสได้ถึงไอเย็นจากน้ำในสระ อย่างที่คิดไว้ ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ที่นี่ไม่มีคนเลย แต่นอกจากไม่มีคนแล้ว <br> สภาพโดยรอบยังดูรกร้างจนเหมือนว่าไม่มีใครเหยียบที่นี่มาไม่ต่ำกว่า 2 เดือน <br> ดูแล้วผิดกับสภาพชั้นอื่น ๆ ของโรงแรมโดยสิ้นเชิง",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอเดินช้า ๆ เพื่อสำรวจรอบสระว่ายน้ำจนทั่ว ในสระเต็มไปด้วยตะไคร่เขียวน่ารังเกียจ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สภาพของมันฟ้องว่าไร้การดูแล <br>แม้กระทั่งเก้าอี้ที่ควรจะเป็นเก้าอี้สำหรับพักผ่อนหย่อนใจก็เก่าทรุดโทรมไม่ต่างกัน",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "นี่ยังไม่นับคราบเลือดตรงมุมสระที่ชวนให้เธอคลื่นไส้อีกรอบ ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตึก ๆ ตึก ๆ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ได้ยินเสียงก้าวขาดังมาจากที่ค่อนข้างไกล เธอหันไปหาต้นเสียงแล้วเดาเอาว่า <br> มีใครกำลังเดินมาจากทางบันไดหนีไฟ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอรีบมองหาที่ซ่อน ก่อนจะพบว่ามีห้องเก็บของที่น่าจะเป็นที่หลบภัยฉุกเฉินให้กับเธอได้ ",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอรีบเปิดประตูและเดินเข้าไปซ่อนในห้องนั้น",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โชคไม่ดีที่ห้องนี้ดันมืดไม่แพ้ทางหนีไฟเมื่อสักครู่เลย",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ครั้นจะเปิดไฟก็กลัวแสงจะลอดผ่านประตูจนถูกจับได้ว่ามีคนอยู่ในนี้ เอาเถอะ <br> นี่มันสถานการณ์เฉพาะหน้า",
+                "is_chippy": false,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ยืนอยู่ในนั้นได้ประมาณสามสิบวินาที ชิปปี้ก็เพิ่งรู้ตัวว่าห้องเก็บของแห่งนี้เหม็นกลิ่นคลอรีนจนฉุนกึ้ก ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ก็แหงล่ะ มันเป็นห้องเก็บของบริเวณสระว่ายน้ำ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พอเริ่มจะปรับตัวจนคุ้นชินกับความมืด ก็สังเกตเห็นว่ารอบ ๆ <br> ห้องนี้มีแต่ขวดบรรจุของเหลวหน้าตาไม่คุ้น",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอเดาเอาว่าเป็นน้ำยาสำหรับทำความสะอาดและดูแลสระว่ายน้ำ (และดูจากสภาพแล้ว ก็ไม่มีใครใช้งานขวดพวกนี้มานานมากแล้วเช่นกัน)",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ห้องเก็บของแห่งนี้ยังเต็มไปด้วยห่วงยาง และโฟมบอร์ดช่วยว่ายน้ำหลากสี หลากทรง <br> ชิดกำแพงมีตู้ขนาดใหญ่ที่มีชุดคลุมอาบน้ำสีขาวแขวนเรียงกันเต็มไปหมด",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงฝีเท้าเข้ามาใกล้ขึ้นเรื่อย ๆ ตามด้วยเสียงเปิดประตูทางหนีไฟ มีใครสักคนมาเยือนสระว่ายน้ำแน่ แม้ไม่รู้ว่าจะมาด้วยเหตุผลใด ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "คนข้างนอกนั่นเดินสำรวจรอบสระว่ายน้ำอยู่พักใหญ่ ก่อนจะค่อย ๆ เดินจากไป .",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "นั่นคือการคาดเดาสถานการณ์จากเสียงล้วน ๆ เพราะชิปปี้ไม่เห็นอะไรทั้งนั้น <br> ห้องนี้ไม่มีรูให้แอบส่อง และเธอก็มัวแต่นั่งภาวนาขอให้รอดออกไปจากห้องเก็บของได้ ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอนั่งนิ่งอยู่ครู่ใหญ่หลังจากที่เสียงฝีเท้านั้นก็หายไป <br> หลังจากนั้นก็ค่อย ๆ แง้มประตูห้องเก็บของเพื่อดูให้แน่ใจว่าไม่มีใครอยู่แล้วจริง ๆ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอหันกลับมาเปิดสวิตช์ไฟในห้องเก็บของ ก่อนจะรู้สึกเสียวสันหลังวูบ <br> เมื่อเห็นหัวของใครก็ไม่รู้โผล่มาจากโต๊ะข้างหลังในห้องเก็บของที่เธออยู่",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เจ้าของหัวที่โผล่มาจากโต๊ะค่อย ๆ หันมาทางเธอ ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ลีโอ! ” ",
+                "is_chippy": true,
+                "bg_url": "7-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สีหน้าของชิปปี้คลายความกังวลลงไปนิดหน่อย",
+                "is_chippy": false,
+                "bg_url": "7-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เด็กหนุ่มเจ้าของชื่อมองหน้าเธออย่างเหม่อลอย ก่อนจะหันหน้าเข้าหากำแพงกลับไปตามเดิม",
+                "is_chippy": false,
+                "bg_url": "7-l",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ด้วยความไม่เข้าใจในสถานการณ์ ชิปปี้จึงค่อย ๆ <br>เดินไปหาลีโอที่นั่งอยู่ตรงใต้โต๊ะอย่างกล้า ๆ กลัว ๆ ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พอได้เห็นลีโอในระยะประชิด <br> เธอถึงค้นพบความจริงที่ว่าสภาพลีโอในตอนนี้ไม่ต่างอะไรกับผีดิบซอมบี้ที่ไร้ซึ่งวิญญาณ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ดวงตาเขาสะโหลสะเหลราวกับชีวิตนี้ไม่รู้จักห้วงนิทรา <br> เขากำเข็มฉีดยาอยู่ในมือแน่น มีรอยเข็มทั่วแขน",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "จริงอยู่ที่ว่าสายตาเขาจ้องมาที่ชิปปี้ แต่ก็เหมือนไม่เห็นชิปปี้อยู่ในนั้น",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ลีโอ... ”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้? ”",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "น้ำเสียงของลีโอแหบพร่าจนเกือบจะไม่มีเสียงออกมาอยู่แล้ว ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ มันเกิดอะไรขึ้น ทำไมที่นี่เป็นแบบนี้ ”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ขิปปี้นั่งยองลงไปเพื่อให้อยู่ในระดับเดียวกับสายตาลีโอ <br> สายตาจริงจังเฝ้ารอคำตอบอย่างคาดหวัง",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ฉันไม่รู้...ที่นี่...คนฆ่ากัน... ” ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ลีโอยังคงดูเหม่อลอย แม้เขาจะตอบคำถามของชิปปี้อยู่ก็ตาม ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ทำไมเธออยู่ในสภาพแบบนี้ ”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ที่ใช้คำว่า ‘สภาพแบบนี้’ เพราะในความทรงจำอันน้อยนิดของชิปปี้",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ลีโอเป็นหนุ่มผมยาวเจ้าสำอาง ปอยผมเซ็ตอย่างดี <br> เสื้อผ้าเครื่องประดับเข้ากันไปหมดตั้งแต่หัวจรดเท้า แต่ตอนนี้เขาแทบจะกลายเป็นคนละคน ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ตั้งแต่อยู่ที่นี่…ก็ค่อย ๆ กลายเป็นแบบนี้ ” ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แล้วทำไมเธอมาอยู่ที่นี่”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ตอนแรก…เขาให้เลือกว่าจะมาหรือไม่มา แต่ผมเลือกที่จะมา ” ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ผม..ก..กลัว ”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ลีโอหันมามองหน้าชิปปี้ด้วยสายตาที่เต็มไปด้วยความหวาดกลัว",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ทุกวันที่คุณอยู่ในห้องพัก จะมีคนลากคุณไปห้องบอลล์รูม... ผมไม่อยากไป ”",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้รับรู้ถึงความหวาดกลัวที่สอดแทรกออกมาผ่านร่างกายที่สั่นเทา ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอแตะที่หลังมือของลีโอแล้วค่อย ๆ ลูบเพื่อปลอบประโลมเขา ทั้ง ๆ <br>ที่ในใจของเธอเองก็สั่นกลัวไม่แพ้กัน",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ นี่เป็นเหตุผลที่ต้องมีห้องเผาศพชั้นล่างหรือเปล่า ” ",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ถาม แต่ดูเหมือนว่าลีโอหลุดอยู่ในหัวของตัวเอง <br> เขาไม่ได้ตอบคำถามนั้นกับชิปปี้ แต่กลับพูดอย่างอื่นออกมาแทน ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ลองสเตย์ไม่เหมือนที่คิดไว้เลย ” ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ไม่รู้จะทำอะไรได้อีก เธอลูบมือของลีโอเบา ๆ เพื่อปลอบประโลม ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แต่ดูเหมือนมันแทบจะไม่ได้ช่วยลีโอแต่อย่างใด <br> ชิปปี้เลยพยายามเรียกความมั่นใจของตัวเอง ก่อนจะหันไปบอกอีกคนว่า ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ฉันจะพาเธอออกไปจากที่นี่ ” ",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ มันไม่มีประโยชน์หรอก... ” ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "น้ำเสียงเขาดูเหมือนคนที่กำลังหมดแรงลงไปทุกวินาที <br> ชิปปี้เพิ่งสังเกตเห็นใบหน้าและร่างกายที่ซูบผอมของลีโอ เขาคงไม่ได้กินข้าวมาสักพักใหญ่แล้ว",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ การจะเข้าออกที่นี่ได้ นายท่านจะเป็นคนคุม เข้ามาแล้ว...ออกไม่ได้ ” .",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สายตาลีโอเบิกโพลงด้วยความกลัวด้วยภาพจินตนาการของสิ่งที่เขากำลังเล่า ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ แต่นี่ไง ฉันเข้ามาได้ ”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ชี้หน้าตัวเองแล้วยิ้มให้ลีโอเล็กน้อย <br>สายตาเธอเปี่ยมไปด้วยความหวังแม้จะยังมีความกลัวเจือปนอยู่ในนั้นไม่น้อย",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ที่นี่มีทางออกทางเดียว มันยากมากที่จะไปไหนรอด... ไม่เคยมีใครทำได้ ” ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้วางมือทั้งสองข้างของตัวเองลงบนไหล่ของลีโอ เธอสบสายตาเขาอย่างจริงจัง",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เราจะมาลองดูกันสักตั้ง ”",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ลีโอไม่ได้ตอบอะไรและความหวาดกลัวของเขาก็ยังคงไม่เปลี่ยนไป",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แต่ก่อนอื่น เธอรู้ไหมว่านายท่านเขาอยู่ที่ไหน ” ",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ถาม",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ นายท่านมา ๆ หาย ๆ อยู่ตลอด คาดเดาได้ยาก แต่ทุก ๆ เช้าและทุก ๆ คืนจะมีพนักงานเดิน ตามมาเช็กทุกห้องนอน พวกนี้ก็น่ากลัว... กินคนได้ไม่ต่างกับนายท่าน ” ",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้รู้สึกถึงขนที่ลุกขึ้นมาทั่วร่างกายตอนได้ยินคำว่า ‘กินคนได้’ <br> เธอยัอนกลับไปนึกถึงห้องเผาศพที่เธอเข้าไปมาเมื่อสักครู่ ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "\" แล้วทำไมเธอมาซ่อนอยู่นี่ มันปลอดภัยหรอ \" ",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ผมไม่รู้… ”",
+                "is_chippy": false,
+                "bg_url": "7-lc",
+                "isCharactor": true,
+                "charactor": "Leo",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "\" แล้ว... \" ",
+                "is_chippy": true,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตึก ๆ ตึก ๆ ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ยังไม่ทันจะได้ถามคำถามถัดไป ชิปปี้ก็ได้ยินเสียงฝีเท้าจากระยะไกลอีกครั้ง เธอรีบเงียบปากทันที ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แล้วหันไปมองสวิตช์ไฟ แสงไฟจ้าขนาดนี้ ถ้าใครเข้ามาเห็น เธอต้องไม่รอดแน่ ๆ",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอรีบวิ่งไปปิดสวิตช์ไฟและล็อกประตูก่อนจะนึกได้ว่านั่นเป็นการกระทำที่โง่เง่า",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เพราะถ้าคนข้างนอกสังเกตเห็นว่าจู่ ๆ ไฟในนี้ก็ดับ ผลลัพธ์ก็คงซวยไม่แพ้กัน <br>แต่ไม่มีเวลาจะแก้อะไรแล้ว",
+                "is_chippy": false,
+                "bg_url": "7-cl",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอรีบมุดหลบตรงใต้โต๊ะ นั่งอยู่ข้าง ๆ ลีโอ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตึก ๆ ตึก ๆ ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "‘คนข้างนอก’ นั่นเข้ามาประชิดห้องเก็บของเรื่อย ๆ ก่อนที่เท้าของเขาจะหยุดกึกตรงหน้าประตู ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แอดดด ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงไขกุญแจและเปิดประตูห้องเก็บของฟ้องความไม่รีบร้อนของคนมาใหม่ <br>ช่างขัดกับความรู้สึกภายในใจของชิปปี้ตอนนี้ ",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้เธอมองไม่เห็นด้วยซ้ำว่าใครเดินเข้ามา ระหว่างที่ยังซ่อนอยู่ใต้โต๊ะจึงพยายามหายใจให้เงียบที่สุดเท่าที่จะเป็นได้",
+                "is_chippy": false,
+                "bg_url": "7-all",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ชิปปี้ คุณอยู่ในนี้ ”",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": true,
+                "charactor": "?",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงเข้มดังขึ้นมาในห้องที่เงียบงัน เธอสะดุ้งเฮือก",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " [ ซวยล่ะ... ]",
+                "is_chippy": true,
+                "bg_url": "7-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้หลับตาปี๋ เธอไม่อยากรับรู้ว่าต่อจากวินาทีนี้จะเกิดอะไรขึ้นเป็นสิ่งต่อไป",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เจ้าของเสียงเข้มนั่นเดินมาทางโต๊ะเธอ เธอซวยแน่ ๆ ชิปปี้กุมมือภาวนาขอร้องสิ่งศักดิ์สิทธิ์ ให้ช่วยเธอด้วย ทั้ง ๆ ที่ก่อนหน้านี้ไม่เคยทำมาก่อนในชีวิต ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ร่างนั้นหยุดนิ่ง ยืนประจันหน้ากับชิปปี้ที่นั่งอยู่ใต้โต๊ะ ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ค่อย ๆ เงยหน้ามองจากท่อนล่างขึ้นบน <br> เขาใส่กางเกงสแล็คขายาวสีน้ำตาลและรองเท้าที่ดูเข้าคู่กัน ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ เบลล์บอย... “ ",
+                "is_chippy": true,
+                "bg_url": "7-b",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "to-be-cont",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            }
+        ],
+        "end": {
+            "text": "ถ้าเพื่อนของคุณตก <br>อยู่ในปัญหาคุณจะเลือก <br> ช่วยเหลือ หรือ ทอดทิ้ง",
+            "bg_url": "end-bg"
+        }
+    }
+]
