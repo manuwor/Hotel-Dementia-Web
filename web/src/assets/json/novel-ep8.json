@@ -1,0 +1,1624 @@
+[
+    {
+        "episode": "8",
+        "title": "วิ่งหนี",
+        "prefix_url": "./assets/img/novel/ep8/",
+        "desc": [
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 2000
+            },
+            {
+                "subtitle": "“ เบลล์บอย... “",
+                "is_chippy": true,
+                "bg_url": "1-b",
+                "isCharactor": true,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้เงยหน้าไปเห็นว่าคนที่เพิ่งเดินเข้ามาในห้องอุปกรณ์ว่ายน้ำไม่ใช่ใครที่ไหน นอกจากพนักงานคนที่เธอคุ้นหน้าคุ้นตาเป็นอย่างดี ",
+                "is_chippy": false,
+                "bg_url": "1-b",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ คุณมาทำอะไรที่นี่ “",
+                "is_chippy": false,
+                "bg_url": "1-b",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สายตาของเบลล์บอยยังคงคาดเดาไม่ได้ น้ำเสียงก็เช่นกัน",
+                "is_chippy": false,
+                "bg_url": "1-b",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เขาดูไม่มีความตกใจเลยแม้แต่นิดเดียว กระทั่งความโมโหก็ไม่ถูกส่งผ่านออกมาในประโยคเมื่อครู่ ",
+                "is_chippy": false,
+                "bg_url": "1-b",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอ กำลังอยู่ในอันตราย",
+                "is_chippy": false,
+                "bg_url": "1-b",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เอ่อ... “ ",
+                "is_chippy": true,
+                "bg_url": "1-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้หันหน้าไปมองทางลีโออย่างลุกลี้ลุกลน ",
+                "is_chippy": false,
+                "bg_url": "1-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้เบลล์บอยกำลังมองเธอกับลีโอสลับไปสลับมา เช่นเคย เขาดูไม่ได้ตกใจกับสภาพของลีโอแม้แต่นิดเดียว",
+                "is_chippy": false,
+                "bg_url": "1-b",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ฉันหลงเข้ามา “",
+                "is_chippy": true,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้รีบตอบกลับไปทันควัน",
+                "is_chippy": false,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ หลง? ผมไม่แน่ใจว่าการเอาตัวเองเข้ารถเข็นเรียกว่าหลงนะ? ”",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ชะงักไปทันทีที่รู้ว่าตนถูกจับได้คาหนังคาเขา",
+                "is_chippy": false,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สายตาเด็กเกเรของเธอเหลือบไปเห็นว่าที่ลูกบิดประตูห้องนี้มีพวงกุญแจที่ห้อยคาอยู่ตรงที่ไข และหน้าตามันเหมือนกับของที่พนักงานคนเข็นรถมีเป๊ะ ๆ ",
+                "is_chippy": false,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอค่อนข้างมั่นใจว่าต้องมีกุญแจอย่างน้อยหนึ่งดอกในนั้นที่สามารถเปิดประตูเชื่อมที่ชั้น 5",
+                "is_chippy": false,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ ฉันจะได้กลับไปฝั่งนั้นเสียที... ]",
+                "is_chippy": true,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ สรุปแล้วทำไมคุณถึงมาอยู่ที่นี่ี่ ”",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยเรียกสติให้ชิปปี้กลับมาอยู่ในบทสนทนา ",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ระหว่างนั้นเขาก็หันไปเป่าฝุ่นที่เกาะอยู่ตามตู้เก็บของอย่างไร้อารมณ์ และหยิบของออกมาจัดเก็บให้เป็นระเบียบไปพลาง ๆ",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ฉันอยากมาเจอลีโอ ”",
+                "is_chippy": true,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยนิ่งไปกับคำตอบของเธอ ท่าทางดูเหมือนกำลังคิดอะไรบางอย่าง",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แล้วรู้ใช่ไหมว่าคุณไม่ควรอยู่ที่นี่ี่ี่ ”",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยหันมาหาชิปปี้ด้วยสายตาจริงจัง ",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ทำไมล่ะ ฉันจะเป็นเหมือนพวกคนในบอลล์รูมหรือยั… ”",
+                "is_chippy": true,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้รีบหยุดคำพูดของตัวเองทันทีที่นึกขึ้นได้ว่าไม่น่าให้อีกฝ่ายรู้เลยว่าตนไปเจออะไรมาบ้าง ",
+                "is_chippy": false,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ อ๋อ เห็นบอลล์รูมแล้วด้วยสินะ ”",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ ปากพาซวยชัด ๆ… ]",
+                "is_chippy": true,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แปลว่านายรู้เรื่องทั้งหมดอยู่แล้ว... ”",
+                "is_chippy": true,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ อื้ม รู้สิ ผมอยู่ที่นี่มานานแล้วนะ ”",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้เสียวสันหลังวาบขึ้นมากับคำตอบดังกล่าว เธอน่าจะซวยเข้าแล้ว จึงแอบยื่นนิ้วไปสะกิดที่แผ่นหลังของลีโอหวังจะส่งสัญญาณให้อีกคนรู้",
+                "is_chippy": false,
+                "bg_url": "1-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ จะว่าไปก็คงอยู่ที่นี่มาประมาณร้อยปีบนโลกมนุษย์ได้แล้วมั้ง... ”",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ คนแบบคุณไม่ใช่คนแรกหรอกชิปปี้ ประมาณ 8 ปีที่แล้วก็เคยมี ” ",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ในขณะเดียวกันกับที่เบลล์บอยกำลังพูดและจัดข้าวของไปด้วย",
+                "is_chippy": false,
+                "bg_url": "1-bc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ขิปปี้ก็หันไปส่งสายตาให้ลีโอหวังจะสื่อสารว่า ‘เดี๋ยวเราจะวิ่งหนีออกไปกัน’ ",
+                "is_chippy": false,
+                "bg_url": "1-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แต่ดูเหมือนว่าลีโอไม่เข้าใจแม้แต่นิดเดียว เพราะมีแต่ความงุนงงปรากฏในสายตา",
+                "is_chippy": false,
+                "bg_url": "1-l",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " เธอจึงไม่รีรออะไรอีกต่อไป รีบกระชากแขนลีโอให้วิ่งไปด้วยกัน แล้วคว้าเอากุญแจออกมาจากที่ไข ",
+                "is_chippy": false,
+                "bg_url": "1-c",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แผนการเดียวในหัวที่มีตอนนี้คือ วิ่งหนีขึ้นไปอีก 2 ชั้นด้วยบันไดหนีไฟ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "จากห้องเก็บของแห่งนั้น ผ่านสระว่ายน้ำ เข้าสู่บริเวณบันไดหนีไฟอย่างรวดเร็ว ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "การวิ่งหนีด้วยความเร็วสุดแรงเกิด แต่ต้องพยายามรั้งให้คนที่ไม่มีเรี่ยวไม่มีแรง มาด้วยกันนั้นเป็นเรื่องยากลำบาก",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แต่ถึงลีโอจะถ่วงน้ำหนักเธอนิดหน่อย ก็ยังไม่มีใครที่เสียหลัก",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ในขณะที่เด็กทั้งสองคนกำลังวิ่งหนีขึ้นตามทางบันไดหนีไฟ ชิปปี้ก็หันไปมองข้างหลังของตัวเอง",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แต่ก็ไม่เห็นวี่แววของเบลล์บอยที่เดินตามมาเลย เธอแอบดีใจเล็กน้อย และรู้ตัวอีกทีก็เห็นป้ายบอกชั้นที่ระบุเลข 5 ไว้บนนั้นแล้ว ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " ปั่ก",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอพยายามจะดันประตูหนีไฟที่ไม่ควรจะเปิดยากออกไป แต่กลับไม่ได้ผล",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ลีโอที่ดูเหมือนจะเริ่มมีสติขึ้นมาบ้างก็ช่วยเธอดันอีกแรง แต่ก็ไม่มีอะไรต่างออกไป",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " ชิปปี้กับลีโอจึงตัดสินใจวิ่งขึ้นไปอีกชั้นแล้วทำเหมือนเดิม แต่ประตูชั้น 6 ก็ยังเปิดไม่ออกไม่ต่างอะไรกับประตูชั้น 5 ",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทันใดนั้น พื้นในเท้าชิปปี้สั่นด้วยแรงเดินของอะไรบางอย่าง",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โชคร้ายที่ประตูหนีไฟนี้สุดที่ชั้น 6 นั่นแปลว่าทั้งคู่มาถึงทางตันจนได้ ชิปปี้พยายามมองซ้ายมองขวา แต่ก็ไม่มีทางออกใด",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ในตอนนั้นเอง เหนือหัวทั้งสองปรากฏเงาดำใหญ่ ผู้มาเยือนคือสัตว์ยักษ์แบบเดียวกับในบอลล์รูม",
+                "is_chippy": false,
+                "bg_url": "2",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "มันเป็นสิ่งมีชีวิตรูปร่างคล้ายมนุษย์ แต่หน้าตาเหมือนกับสัตว์ป่าหลากหลายชนิดผสมกัน ผิวหนังตะปุ่มตะป่ำ และมาพร้อมหางขนาดใหญ่",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทั้งตัวเป็นสีดำราวกับเกิดมาเพื่อปกปิดสีของเลือดที่จะติดตามตัว ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ลีโอทรุดลงไปนั่งคาพื้นบันไดเรียบร้อย <br> ชิปปี้ที่ตอนแรกยืนตัวเกร็งอยู่ชิดมุมห้องหันไปพยายามจะดันประตูให้เปิดอีกครั้ง ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ไม่มีประโยชน์หรอก ”",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": true,
+                "charactor": "ปีศาจ",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "คำพูดนั้นจากปากของปีศาจชวนให้ตกใจอยู่ไม่น้อย <br> เนื่องจากไม่คาดคิดว่าสิ่งมีชีวิตหน้าตารูปร่างแบบนี้จะยังพูดภาษาเดียวกันกับเธอ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ท่าทางแบบนี้คงมาจากโรงแรมฟากนู้นสิท่า ”",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": true,
+                "charactor": "ปีศาจ",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ปีศาจหันมามองทางชิปปี้ด้วยสายตาเย็นยะเยือกไม่แพ้กับน้ำเสียงที่เปล่งออกมา",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ล... ลองสเตย์นี่มันเป็นอะไรกันแน่! ”",
+                "is_chippy": true,
+                "bg_url": "4",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ลองสเตย์เป็นอะไรงั้นหรอ... ”",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": true,
+                "charactor": "ปีศาจ",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ปีศาจตนนั้นเดินเข้ามาประชิดตัวชิปปี้กับลีโอมากขึ้นเรื่อย ๆ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เป็นที่สำหรับผู้ลืมความทุกข์ก่อนหน้าทุกเรื่องยังไงล่ะ ”",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": true,
+                "charactor": "ปีศาจ",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ในที่สุด ปีศาจตนนั้นก็หยุดอยู่ตรงหน้าเธอ",
+                "is_chippy": false,
+                "bg_url": "3",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ดวงตาที่ปูดโปนจ้องมองชิปปี้ ก่อนจะผินสายตาไปที่ลีโอเด็กหนุ่มสภาพร่อแร่ก้มหน้า และกอดเข่าตัวเองด้วยความหวาดกลัวถึงขีดสุด",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ไม่ทันให้ตั้งตัว ปีศาจตนนั้นก็คว้าลีโอขึ้นไปอยู่ในมือขนาดมโหฬารของมัน",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ก่อนจะงับหัวของลีโอเข้าไปแล้วคายออกมา ของเหลวสีฟ้าอมเขียวพุ่งกระจายไปทั่วห้อง",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "และเมื่อเศษของเหลวกระเด็นมาโดนหน้าและเข้าตาเธอ ความคาวคลุ้งและอุ่นก็ทำให้ชิปปี้รู้ว่า มันคือ เลือด.. เลือดของลีโอ",
+                "is_chippy": false,
+                "bg_url": "5",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "หัวที่ขาดสะบั้นกลิ้งมาอยู่ตรงหน้า สายตาของคนตายยังคงเบิกโพลง เลือดสีเขียวกระเซ็นเป็นจังหวะจากบั้นคอ ราวกล้ามเนื้อยังไม่ตายดี",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "และนั่นเป็นฟางเส้นสุดท้าย ชิปปี้หวาดกลัวจนร้องไห้ตัวสั่น ในขณะที่ปีศาจยังคงเคี้ยวชิ้นส่วนอื่น ๆ ของร่างกายลีโออยู่โดยไม่รู้สึกรู้สาอะไรสักนิด",
+                "is_chippy": false,
+                "bg_url": "6",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ลีโอ... ฉันขอโทษ ” ",
+                "is_chippy": true,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แม้ว่าเสียงพูดของเธอจะแผ่วเบา แต่เสียงร้องไห้ของเธอดังลั่นไปทั่วทั้งบันไดหนีไฟ ",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "คำขอโทษของเด็กสาวที่นั่งตัวสั่นอยู่ตรงมุมบันไดดังก้อง ",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ใบหน้าเต็มไปด้วยคราบน้ำตาที่รินไหลออกมาจากการเห็นเพื่อนกลายเป็นเพียงซากมนุษย์ที่จมกองเลือด และถูกกัดจนสะบั้นเป็นส่วน ๆ",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เมอร์ซี่คงจะเสียดาย… ",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": true,
+                "charactor": "ปีศาจ",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สัตว์ประหลาดพ่นลมหายใจเน่าเหม็นออกขณะกลืนชิ้นส่วนสุดท้ายของร่างลีโอ",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ความหวังที่จะออกไปจากที่นี่เริ่มสลายไปกับตา เธอเริ่มไม่แน่ใจว่าการอยู่รอดมีประโยชน์อะไร",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอมีที่นี่เพื่อหนีความทุกข์ หนีทุกเรื่องที่เลวร้ายเพื่อจะเป็นผู้สำราญ แต่สุดท้าย.. นี่คือชะตากรรมของเธอ  และแขกทุกคนหรือ",
+                "is_chippy": false,
+                "bg_url": "6-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " ทันใดนั้น ไฟทุกดวงในบริเวณบันไดหนีไฟก็ดับลง",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้... ” ",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงเรียกชื่อเธอมาจากด้านบนพร้อมแสงสลัวสีฟ้า",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยยื่นมืออกมาจากช่องระบายอากาศเหนือหัว เขาเพยิดหน้าเป็นสัญญาณว่างจะดึงตัวเธอขึ้นไป",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ เร็วเข้า! มีเวลาไม่มาก ”",
+                "is_chippy": true,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอเพิ่งสังเกตว่าสัตว์ประหลาดตัวนั้นแน่นิ่งไป แววตาที่เคยกระหายเลือดไร้วิญญาณคล้ายลูกแก้วใส  เห็นเท่านั้นก็เพียงพอ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธอรีบคว้ามือของเบลล์บอยและยกตัวเองขึ้นไปบนปล่องระบายอากาศที่เขาอยู่ ",
+                "is_chippy": false,
+                "bg_url": "7",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แสงจากตะเกียงทำให้เธอสังเกตเห็นใบหน้าและท่าทางของเบลล์บอยที่ชี้นิ้วไปข้างหน้า เพื่อบอกว่าให้ค่อย ๆ คลานตามเขามา คนไม่รู้ทิศทางก็ทำตามคำสั่งแต่โดยดี",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ทำไมเมื่อกี๊... ” ",
+                "is_chippy": true,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยรีบเอานิ้วชี้จุ๊ปาก ส่งสัญญาณเตือนให้ชิปปี้เบาเสียงตัวเองลง <br> ชิปปี้เลยสะดุ้งและเงียบไป",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้รู้สึกเหมือนกับว่าตัวเองเป็นหนูที่ติดอยู่ในเขาวงกต ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบื้องหน้ามีเพียงเส้นทางอันแสนมืดมิดจนไม่เห็นที่สิ้นสุด เธอไม่รู้เลยว่ากำลังคลานไปที่ไหนกันแน่ นอกจากแสงตะเกียงแล้วก็ไม่มีต้นกำเนิดแสงใดอีกเลย",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทางเดินนี้แคบและมันบีบให้เธอต้องคลานตามหลังเบลล์บอยเท่านั้น",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ นี่… ถามอะไรหน่อยสิ ”",
+                "is_chippy": true,
+                "bg_url": "8-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "คราวนี้ชิปปี้ใช้สุ้มเสียงอย่างรู้สถานการณ์มากขึ้น ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ครับ ”",
+                "is_chippy": false,
+                "bg_url": "8-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ไม่เห็นสีหน้าของเบลล์บอยตอนที่พูดคำนี้ออกมา แต่ก็พอเดาได้ว่าเขาไม่ได้ติดขัดอะไร",
+                "is_chippy": false,
+                "bg_url": "8-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ นี่คุณช่วยฉันอยู่หรอ ”",
+                "is_chippy": true,
+                "bg_url": "8-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยเงียบไป ",
+                "is_chippy": false,
+                "bg_url": "8-bc",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แล้วคุณคิดว่ายังไงล่ะ ”",
+                "is_chippy": false,
+                "bg_url": "8-bc",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ก็คิดว่าช่วยนั่นแหละ แต่ไม่เข้าใจว่าทำไม ”",
+                "is_chippy": true,
+                "bg_url": "8-cb",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทั้งคู่ยังคงคลานไปข้างหน้าเรื่อย ๆ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้เริ่มรู้สึกถึงอาการปวดเมื่อยที่คืบคลานเข้ามาในร่างกายตัวเอง",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ คุณช่วยฉันทำไมหรอ... ”",
+                "is_chippy": true,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยหยุดชะงักไปทันทีที่ได้ยินคำถามนั้น ทำเอาเธอที่อยู่ข้างหลังก็ชะงักตามไปด้วย",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เขาเงียบไม่ตอบอะไร ก่อนจะคลานไปข้างหน้าต่อ ดูเหมือนว่าทางข้างหน้าจะไม่ใช่ทางตรงอีกต่อไป",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เรากำลังจะต้องเลี้ยวขวานะ ระวังขอบ ” ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยพูดเหมือนกับไม่ได้ยินคำถามก่อนหน้านี้ ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "การที่ได้รับฟังคำตอบเป็นความเงียบไม่ได้ทำให้คนอย่างชิปปี้พอใจเท่าไรนัก ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทันใดนั้น จู่ ๆ ชิปปี้ก็เริ่มได้ยินเสียงตุ้บ ๆ ในหัวราวกับว่าหัวของเธอกำลังจะระเบิดออกมาเป็นเสี่ยง ๆ หัวใจเธอเต้นถี่ขึ้น อาการหอบรุนแรงขึ้น",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ อีก...นาน…ไหม ”",
+                "is_chippy": true,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยเริ่มจับสังเกตได้ถึงอาการผิดปกติของชิปปี้",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เดี๋ยวนะ อีกไม่นานเราใกล้จะได้ออกจากรูระบายอากาศนี่ละ ”",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้พยายามประคับประคองตัวเองให้คลานต่อไป เธอรู้สึกเหนื่อยและหงุดหงิดเหมือนคนที่พร้อมจะหมดสติได้ทุกเมื่อ ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "หากช่องระบายอากาศนี้สามารถนอนยืดได้อย่างสบาย เธอคงจะล้มพับลงไปแล้วแบบไม่รอฟังคำตอบจากเบลล์บอย ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "พอเบลล์บอยไม่ตอบคำถามว่าเขาช่วยเธอทำไม เธอก็เริ่มไม่แน่ใจจริง ๆ แล้วว่าเขากำลังช่วยเธอ หรือเปล่า หรือนี่เป็นแค่แผนการลวงเพื่อเอาเธอไปฆ่าอีกที่เธอไว้ใจเขาได้จริง ๆ หรือ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ภาพคนตายที่เธอเห็นมาตลอดวันยังคงหลอกหลอนและวนเวียนไปมาในหัวเธอ ขนแขนเธอลุกชัน หัวใจเต้นแรง เธอต้องการจะทำลายปล่องนี้และทุกอย่างรอบตัว",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตอนนี้เบลล์บอยเดินมาถึงช่องที่เขาตั้งใจจะพาชิปปี้ออกมา แน่นอนว่ามันล็อกด้วยตะปูจากภายนอก ",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยได้เตรียมเอาไขควงติดมาด้วยแล้ว เขายื่นมือออกไปผ่านช่องยาว ๆ แล้วพยายามจะใช้ไขควง ไขตะปูให้หลวมขึ้นทั้ง 4 มุมเพื่อดันกรอบเหล็กนี้ออกไป",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "สิ่งเดียวที่ชิปปี้รับรู้ได้ตอนนี้คือ เสียงลมหายใจหอบดังของตัวเอง จึงไม่แน่ใจว่าคนข้างหน้ากำลังทำอะไรอยู่",
+                "is_chippy": false,
+                "bg_url": "8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โชคดีที่ช่องระบายอากาศตรงนี้กว้างพอให้เขายื่นมือออกมาไขตะปูออกได้ เขาจึงปลดฝาเหล็กนี้ออกไปได้ในระยะเวลาไม่นานนัก ",
+                "is_chippy": false,
+                "bg_url": " 8",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ห้องที่เบลล์บอยพาชิปปี้ออกมา เป็นห้องเก็บอุปกรณ์ทำความสะอาดของพนักงานแม่บ้าน",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "มันเต็มไปด้วยอุปกรณ์คุ้นหน้าคุ้นตา อย่างไม้ถูพื้น น้ำยาถูพื้น ถังน้ำ ไม้กวาด และอ่างล้างจาน",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "แสงไฟขาวจ้าในห้องนี้ทำให้เบลล์บอยเห็นใบหน้าอันซีดเผือดของชิปปี้อย่างชัดเจน เขาตกใจมาก ",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ดูเหมือนคนจะหมดแรงอยู่รอมร่อ เบลล์บอยเลยเลื่อนเอากล่องใหญ่ ๆ สูง ๆ มารองเพื่อให้ชิปปี้ลงมาจากช่องระบายอากาศได้สะดวกขึ้น",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยยื่นมือออกไปให้ชิปปี้เกาะ แต่เธอตบแขนแขนออกไปก่อนจะล้มไปที่พื้น",
+                "is_chippy": false,
+                "bg_url": "1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยลากเธอลงจากปล่องมาวางบนพื้นและพาเธอเข้าลิฟต์ไป",
+                "is_chippy": false,
+                "bg_url": "9",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " ทันทีที่ประตูลิฟต์เปิดออกมันก็เผยให้เห็นห้องครัวขนาดใหญ่",
+                "is_chippy": false,
+                "bg_url": "10",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ห้องครัวนี้เต็มไปด้วยอุปกรณ์ที่ดูเหมือนครัวทำอาหารปกติทั่วไป ",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ความแปลกเดียวที่มีก็แค่เรื่องที่ตอนนี้ไม่มีใครอยู่ในนี้สักคน  แสงไฟที่ใช้ในห้องคือไฟขาว",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เมื่อบวกกับของมีคมที่เรียงรายตามกำแพงกลับกลายเป็นชวนให้ชิปปี้รู้สึกหลอนแบบแปลก ๆ นั่นอาจเป็นผลพวงจากการเห็นคนตายมากเกินไปในวันเดียว",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ ..หยิบมีดสิ ]",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor": true,
+                "charactor": "?",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เสียงหญิงสาวปริศนาดังขึ้นในหัว ชิปปี้ไม่เคยได้ยินเสียงเธอมาก่อน แต่กลับคุ้นเคยปละหลาด",
+                "is_chippy": false,
+                "bg_url": "11",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยรีบเปิดประตูสตาฟฟ์ที่อยู่มุมห้องอีกฝั่งหนึ่งเข้าไป สิ่งที่อยู่ในห้องนั้นคือ บันไดลงไปอีกชั้นหนึ่ง",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[ ..หยิบมีดสิ.. ชาสิธี.. ]",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "?",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ใครน่ะ.. ”",
+                "is_chippy": true,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ถโอดครวญถาม หัวเธอปวดราวจะแตกออก เหงือแตกพลั่ก ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ผมเอง เร็ว เอาแขนคล้องคอผม ”",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยกลับมาอีกครั้ง ยกแขนชิปปี้ขึ้นพาดคอ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " ชั้นล่างถัดลงไปจากห้องครัวเป็นชั้นใต้ดิน ถึงจะเงียบเชียบและดูเหมือนไม่ค่อยมีใครใช้งาน",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ตลอดระยะเวลาที่เธออยู่โรงแรม เธอไม่เคยรับรู้ถึงการมีอยู่ของชั้นใต้ดินนี้มาก่อน ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยกำลังจะวิ่ง แต่เมื่อหันมาสบตาชิปปี้ เขาก็อุทานขึ้น",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้ คุณดื่ม โซล เข้าไปเหรอ!? ” ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ โซล ?... ” ",
+                "is_chippy": true,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "[  ..อย่าไปฟัง.. ] ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "?",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เลือด น่ะ คุณดื่ม เลือด ของคนในฝั่งนี้ไปรึเปล่า เลือดผู้สำราญน่ะ!?!?”",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ป.. เปล่า ฉัน.. ” ",
+                "is_chippy": true,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ทันใดนั้น สายตาชิปปี้แขละเบลล์บอยหันไปที่คราบเลือดที่หน้าเธอ ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เลือดลีโอเข้าตา.. ”",
+                "is_chippy": true,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ชิปปี้ ให้ตายสิโว้ย! ”",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยสบถ เป็นครั้งแรกที่มาดนิ่งขรึมของเขาเปลี่ยนแปลงไป",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เขานิ่งไปครู่หนึ่งเหมือนใช้ความคิด ก่อนจะยกแขนชิปปี้พาดบ่าอีกครั้ง",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เกาะให้แน่น เราจะไปจากที่นี่กัน ”",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้พยักหน้า เธอยังคงได้ยินเสียงหญิงสาวในหัวใกล้ ๆ ราวกับเธอยืนอยู่ที่ใดซักแห่งในห้องนี้",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยพาเธอปีนลงบันไดอย่างทุลักทุเล เขาปล่อยเธอลงที่พื้นก่อนจะปีนกลับไปปิดประตูลับ ชิปปี้มองไปรอบตัว",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "บนเพดานสีมืดทึมมีเส้นสีแดงสว่างขนาดไม่เล็กคดโค้งและยาวไปตามทางเดิน ดูเหมือนว่าเส้นสีแดงนั้นจะต่อกับท่ออะไรบางอย่างเรียงรายอยู่ตามผนัง ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " “ ที่นี่คือที่ไหนกัน ”",
+                "is_chippy": true,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ถามด้วยน้ำเสียงอ่อนแรง",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": " เบลล์บอยเงียบคิดไปอีกครั้ง",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ นั่นคือ ไลฟ์ ชีวิต เลือด ของผู้หลงลืม ”",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยไม่หันหน้ากลับมามองหน้าชิปปี้เลยสักแอะ",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ส่วนสิ่งที่เข้าตาคุณ คือ โซล  เลือดของผู้สำราญ ”",
+                "is_chippy": false,
+                "bg_url": "13",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้อ่านไม่ออกเลยว่าเขาพูดด้วยความรู้สึกอะไรอยู่เมื่อเห็นแต่แผ่นหลังเช่นนี้",
+                "is_chippy": false,
+                "bg_url": "13",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ความเจ็บปวดทำให้มนุษย์เรามีชีวิต.. ทำให้เราจดจำความผิดพลาด เรียนรู้ที่จะอ่อนโยน.. ทำให้เราไม่เป็นปิศาจ.. ” ",
+                "is_chippy": false,
+                "bg_url": "13",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ถ้าเราลืมทุกความทุกข์ ไร้ซึ่งความรู้สึกผิดบาป เราก็จะเป็นแค่ปีศาจที่ตะกรามกินโลก ส่วนสิ่งที่เข้าตาคุณ สิ่งที่คุณเห็นในบอลล์รูม คือ โซล ”",
+                "is_chippy": false,
+                "bg_url": "13",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ วิญญาณที่ไร้ความรู้สึกของผู้คน เมอร์ซี่..​โรงแรมนี้ ต้องการสิ่งนั้น ”",
+                "is_chippy": false,
+                "bg_url": "13",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ คุณ…บอกเรื่องพวกนี้ แล้วคุณจะไม่เป็นอะไรหรอ… ”",
+                "is_chippy": true,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ดูเหมือนว่าคำถามแต่ละคำถามของชิปปี้จะเหมือนหมัดหนักที่ต่อยเบลล์บอยเข้าอย่างจัง",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ เอาตรง ๆ คือผมก็ไม่รู้หรอก ”",
+                "is_chippy": false,
+                "bg_url": "12",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เบลล์บอยถูลากถูกังชิปปี้มาจนถึงหลุมปลายทางเดิน กลิ่นไอทะเลลอยปะทะจมูกพร้อมลมหนาวกรรโชกแรง",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ผมอยู่ที่นี่มานานเกินไป นานเกินกว่าจะเปลี่ยนแปลงอะไรได้ ”",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ แต่ผมก็หวัง หวังว่าเหล่าผู้หลงลืมที่ผมช่วยไว้ จะมีบางคนกลับมาช่วยพวกเราที่ติดอยู่ในโรงแรมช่วยเปลี่ยน.. ช่วยหยุดเมอร์ซี่ได้ ”",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เขาตะโกนแข่งกับเสียงทะเล",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ นายจะทำอะไร ” ",
+                "is_chippy": true,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้ตะโกนกึ่งกรีดร้องเมื่ออ้อมแขนที่พยุงเธอไว้คลายลง และร่างเธอถูกห้อยใกล้ปากหลุมจนน่ากลัว",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "“ ผมจะช่วยคุณ สัญญานะว่าจะพยายามกลับมา ”",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": true,
+                "charactor": "Bellboy",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "โดยไม่รอคำตอบหรือคำถาม เบลล์บอยปล่อยร่างชิปปี้ลงไปในหลุม",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "เธออ้าปากเพื่อกรีดร้องแต่น้ำเย็นเฉียบทะลักเข้ามาอัดเต็มปากและจมูกแทน",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "ชิปปี้รู้สึกถึงอะไรบางอย่างที่เย็นกว่าน้ำทะเลไหลออกไปจากตาเธอ กระแสน้ำดูดร่างชิปปี้ให้จมลึกลงไปโดยไม่มีโอกาสหายใจหรือตะเกียดตะกาย ",
+                "is_chippy": false,
+                "bg_url": "14",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 0
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "black",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "before-end-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "to-be-cont",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            },
+            {
+                "subtitle": "",
+                "is_chippy": false,
+                "bg_url": "end-season-1",
+                "isCharactor": false,
+                "charactor": "",
+                "is_next": true,
+                "duration": 3000
+            }
+        ],
+        "end": {
+            "text": "ถ้าคุณเป็น  Bellboy <br> คุณจะเลือก <br> ช่วยชิปปี้ หรือ ทิ้งชิปปี้",
+            "bg_url": "end-bg"
+        }
+    }
+]

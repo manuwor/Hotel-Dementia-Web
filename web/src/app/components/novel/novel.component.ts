@@ -9,6 +9,7 @@ import ep4JSON from "../../../assets/json/novel-ep4.json";
 import ep5JSON from "../../../assets/json/novel-ep5.json";
 import ep6JSON from "../../../assets/json/novel-ep6.json";
 import ep7JSON from "../../../assets/json/novel-ep7.json";
+import ep8JSON from "../../../assets/json/novel-ep8.json";
 @Component({
   selector: 'app-novel',
   templateUrl: './novel.component.html',
@@ -79,6 +80,10 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
     }else if (this.router.url.includes("ep-7")) {
       this.EPCurrent = ep7JSON;
       this.EPTITLE = "7";
+
+    }else if (this.router.url.includes("ep-8")) {
+      this.EPCurrent = ep8JSON;
+      this.EPTITLE = "8";
 
     }
     this.fullText = this.EPCurrent[0].desc[this.subtitleIndex].subtitle
@@ -181,7 +186,10 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   onMouseOver1() {
     if(this.EPTITLE == "7"){
       this.cardEnd1 = "./assets/img/novel/card-end-ep7-1.png";
-    }else{
+    }else if(this.EPTITLE == "8"){
+      this.cardEnd1 = "./assets/img/novel/card-end-ep8-1.png";
+    }
+    else{
       this.cardEnd1 = "./assets/img/novel/card-end-1.png";
     }
     
@@ -193,7 +201,10 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
   onMouseOver2() {
     if(this.EPTITLE == "7"){
       this.cardEnd2 = "./assets/img/novel/card-end-ep7-2.png";
-    }else{
+    }else if(this.EPTITLE == "8"){
+      this.cardEnd2 = "./assets/img/novel/card-end-ep8-2.png";
+    }
+    else{
       this.cardEnd2 = "./assets/img/novel/card-end-2.png";
     }
   }
@@ -223,7 +234,12 @@ export class NovelComponent implements OnInit, OnDestroy, OnChanges {
             this.cardEndMobile1 = "./assets/img/novel/card-end-ep7-1.png";
 
             this.cardEndMobile2 = "./assets/img/novel/card-end-ep7-2.png";
-          }else{
+          }if(this.EPTITLE == "8"){
+            this.cardEndMobile1 = "./assets/img/novel/card-end-ep8-1.png";
+
+            this.cardEndMobile2 = "./assets/img/novel/card-end-ep8-2.png";
+          }
+          else{
             this.cardEndMobile1 = "./assets/img/novel/card-end-1.png";
 
             this.cardEndMobile2 = "./assets/img/novel/card-end-2.png";
